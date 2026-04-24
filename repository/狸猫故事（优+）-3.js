@@ -1,0 +1,93 @@
+// @name 狸猫故事（优+）
+// @version 2025.09.22
+// @author converted
+// @url https://www.limaogushi.com/
+// @enabled true
+// @tags 小说,书源,converted
+// @description // Error: 童话故事为主
+// @description //2025.1.21by.◎辞晨◎
+// @description api=[];
+// @description api[0]=`story`
+// @description api[1]=`book`
+// @description api[2]=`audio`
+
+const LEGADO_SOURCE = {
+  "bookSourceComment": "// Error: 童话故事为主\n\n//2025.1.21by.◎辞晨◎\napi=[];\napi[0]=`story`\napi[1]=`book`\napi[2]=`audio`\nv=String(source.getVariable());\nvar v=v.match(/^\\d+$/)?v:0;\nresult=api[v]",
+  "bookSourceGroup": "小说 书源",
+  "bookSourceName": "狸猫故事（优+）",
+  "bookSourceType": 0,
+  "bookSourceUrl": "https://www.limaogushi.com/",
+  "customButton": false,
+  "customOrder": 100,
+  "enabled": true,
+  "enabledCookieJar": true,
+  "enabledExplore": true,
+  "eventListener": false,
+  "exploreUrl": "@js:\nsort=[];\npush=(title,url,type1,type2)=>sort.push({\n\t\ttitle: title,\n\t\turl: url,\n\t\tstyle: {\n\t\t\t\tlayout_flexGrow: type1,\n\t\t\t\tlayout_flexBasisPercent: type2\n\t\t\t}\n\t});\tD=org.jsoup.Jsoup.parse(java.ajax(\"https://www.limaogushi.com/\"))\nD.select(\"#topnav li\").forEach(n=>{\n\tli=n.select(\"li>a\")\n\tpush(li.text(),li.attr(\"href\"),1,1)\n\tn.select(\"p>a\").forEach(t=>{\n\t\tpush(t.text(),`${t.attr(\"href\")}/page/{{page}}`,1,0.25)\t\n\t\t})\n\t})\nJSON.stringify(sort)",
+  "header": "{\"User-Agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0\"}",
+  "lastUpdateTime": 1758567638737,
+  "loginUi": "[  \n    {\n    \tname: \"配置接口\",\n    \ttype: \"button\",\n    \taction: \"java.toast('点击下面按钮即可设置')\"\n    \t},\n    \t{\n    \t\tname: \"当前接口\",\n    \t\ttype: \"button\",\n    \t\taction: \"java.toast('当前接口:'+source.getVariable())\"\n    \t\t},\n    \t\t{\n        name: \"搜索方式0：文字故事🌸\",\n        type: \"button\",\n        action: \"source.setVariable(0);java.toast('成功设置文字故事')\"\n       },\n    \t {\n        name: \"搜索方式1：绘本故事📖\",\n        type: \"button\",\n        action: \"source.setVariable(1);java.toast('成功设置绘本故事')\"\n      },\n      {\n        name: \"搜索方式2：有声故事👂🏻\",\n        type: \"button\",\n        action: \"source.setVariable(2);java.toast('成功设置有声故事')\"\n      }\n        ]",
+  "loginUrl": "function login(){}",
+  "respondTime": 183251,
+  "ruleBookInfo": {
+    "coverUrl": "img",
+    "init": "<js>\n$ = java.getString(\".infoWen@html\");\nn = 0; \nv = String(book.getVariable(\"custom\"));\nx = v.match(/^\\d+$/)? v : n;\nx = parseInt(x) < $.length? x : n;\njava.toast(x);\n\nimg = java.getString('[property=\"og:image\"]@content');\n\nif (v == 1) {\n  bookUrlz = java.getString('source@src');\n} else if(v==0){\n  bookUrlz = baseUrl;\n}\n\nintro = \"&nbsp;&nbsp;简介：\" + java.getString('[property=\"og:description\"]@content') + \"\\n当前源链: \" + bookUrlz+\"\\n文本简介:🔺'+0+'🔻\"+baseUrl+\n\"\\n音频链接:🔺'+1+'🔻\"+java.getString('source@src');\ndata = {\n  intro: intro,\n  img: img,\n  bookUrl: bookUrlz\n};\n\nJSON.stringify(data);\n</js>\n",
+    "intro": "intro",
+    "tocUrl": "bookUrl"
+  },
+  "ruleContent": {
+    "content": "@js:\nif(baseUrl.match(/huiben/)){\tpic=java.getString('img!0:1:-1@data-src');\n//java.log(pic)\n\teval(pic);\n\tpic=pic.split('\\n').map(x=>\n\t`<img src=\"${x}\">`\n\t).join('\\n');;\n\tresult=pic\n\t}else if(baseUrl.match(/audio/)){\n\t\tresult=baseUrl\n\t\t}else if(baseUrl.match(/ys/)){\n\t\t\tresult=result.match(/text = `([\\s\\S]+)`/)[1];\n\t\t\t\t}else{\nlet pi=java.getString('class.infoWen@html');\nresult=pi\n}\nresult",
+    "imageStyle": "FULL",
+    "replaceRegex": "##绘本是.*故事网.*|上一篇.*|下一篇.*",
+    "title": ".t-t@h1@text"
+  },
+  "ruleExplore": {},
+  "ruleSearch": {
+    "author": "span.-1@text##编辑：",
+    "bookList": "#ppluck@li",
+    "bookUrl": "a.0@href",
+    "coverUrl": "img.0@src",
+    "intro": "span@text",
+    "kind": "{{@@a.-1@text}},{{@@span.-2@text##时间：}}",
+    "name": "a.0@text<js>java.put('name',result)</js>"
+  },
+  "ruleToc": {
+    "chapterList": "<js>\nlet list = [];\nif (baseUrl.match(/audio/)) {\n  book.type = 32;\n  java.toast('已自动开启听书模式');\n} else if (baseUrl.match(/huiben/)) {\n  book.type = 64;\n  java.toast('已自动开启漫画模式');\n} else if (baseUrl.match(/g/)) {\n  book.type = 8;\n  java.toast('已自动开启小说模式');\n}\nlet obj = {\n  text: java.get('name'), \n  href:baseUrl\n};\nlist.push(obj);\nlist\n</js>",
+    "chapterName": "text",
+    "chapterUrl": "href"
+  },
+  "searchUrl": "https://www.limaogushi.com/search?type={{eval(String(source.bookSourceComment))}}&kw={{key}}&page={{page}}",
+  "weight": 0
+};
+
+async function search(keyword, page) {
+  legado.log('[search] converted source requires manual migration: ' + LEGADO_SOURCE.bookSourceName);
+  return [];
+}
+
+async function bookInfo(bookUrl) {
+  legado.log('[bookInfo] converted source requires manual migration: ' + LEGADO_SOURCE.bookSourceName);
+  return {
+    name: LEGADO_SOURCE.bookSourceName || '',
+    author: '',
+    bookUrl: bookUrl,
+    tocUrl: bookUrl,
+    coverUrl: '',
+    intro: LEGADO_SOURCE.bookSourceComment || ''
+  };
+}
+
+async function chapterList(tocUrl) {
+  legado.log('[chapterList] converted source requires manual migration: ' + LEGADO_SOURCE.bookSourceName);
+  return [];
+}
+
+async function chapterContent(chapterUrl) {
+  legado.log('[chapterContent] converted source requires manual migration: ' + LEGADO_SOURCE.bookSourceName);
+  return '';
+}
+
+async function explore(page, category) {
+  legado.log('[explore] converted source requires manual migration: ' + LEGADO_SOURCE.bookSourceName);
+  return [];
+}

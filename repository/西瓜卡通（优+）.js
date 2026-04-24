@@ -1,0 +1,77 @@
+// @name 西瓜卡通（优+）
+// @version 2025.12.28
+// @author converted
+// @url https://cn.xgcartoon.com
+// @enabled true
+// @tags 影视,书源,类型4,converted
+
+const LEGADO_SOURCE = {
+  "bookSourceGroup": "影视 书源",
+  "bookSourceName": "西瓜卡通（优+）",
+  "bookSourceType": 4,
+  "bookSourceUrl": "https://cn.xgcartoon.com",
+  "customButton": false,
+  "customOrder": 277,
+  "enabled": true,
+  "enabledCookieJar": true,
+  "enabledExplore": true,
+  "eventListener": false,
+  "header": "{\n\"User-Agent\":\"Mozilla/5.0 (Android 14; Mobile; rv:120.0) Gecko/120.0 Firefox/120.0\"\n}",
+  "lastUpdateTime": 1766914860733,
+  "respondTime": 180000,
+  "ruleBookInfo": {
+    "intro": ".detail-right__desc@p@text##　　"
+  },
+  "ruleContent": {
+    "content": "#video_content@iframe@src\n@js:\nif(book.durChapterIndex==chapter.index){\n\t\tjava.startBrowser(result,title)\n\t\tjava.toast('正在加载视频\\n视频加载较慢，请耐心等待')\n}\n'【刷新正文】播放\\n✅直链:\\n'+result"
+  },
+  "ruleExplore": {},
+  "ruleSearch": {
+    "bookList": ".topic-list-item",
+    "bookUrl": "a.0@href",
+    "coverUrl": "amp-img@src",
+    "kind": ".tag@text",
+    "name": ".mb12.-1@text",
+    "wordCount": "{{\"🍉西瓜卡通\"}}"
+  },
+  "ruleToc": {
+    "chapterList": "<js>\nfunction $(rule){\n\treturn java.getElements(rule);\n}\nvar tab_name=\"\",v_list=[];\n//获取所有线路❗️\ntab=$('.detail-right__volumes@.row')\nfor(i=0;i<tab.length;i++){\n\t//获取播放列表❗️\n\tlist=$('.detail-right__volumes')[i]\n\tlist=list.select('.row>div')\n for(j in list){\n\t\t //获取播放链接和标题\n\t\t if(String(list[j]).match(/volume-title/)){\n\t\t \t  volume_name=`${list[j].text()}`\n\t\t \t  v_list.push(JSON.stringify({\n\t\t\t   name:volume_name,href:'',volume:true\n\t\t   }))\n\t\t }else{\n\t\t \t  text=list[j].text();\n\t\t   url=list[j].select('a').attr('href');\n\t\t   v_list.push(JSON.stringify({\n\t\t\t   name:text,href:url,volume:false\n\t\t   }))\n\t\t }\n\t }\n}\nv_list\n</js>",
+    "chapterName": "$.name",
+    "chapterUrl": "$.href",
+    "isVolume": "$.volume"
+  },
+  "searchUrl": "/search?q={{key}}",
+  "weight": 0
+};
+
+async function search(keyword, page) {
+  legado.log('[search] converted source requires manual migration: ' + LEGADO_SOURCE.bookSourceName);
+  return [];
+}
+
+async function bookInfo(bookUrl) {
+  legado.log('[bookInfo] converted source requires manual migration: ' + LEGADO_SOURCE.bookSourceName);
+  return {
+    name: LEGADO_SOURCE.bookSourceName || '',
+    author: '',
+    bookUrl: bookUrl,
+    tocUrl: bookUrl,
+    coverUrl: '',
+    intro: LEGADO_SOURCE.bookSourceComment || ''
+  };
+}
+
+async function chapterList(tocUrl) {
+  legado.log('[chapterList] converted source requires manual migration: ' + LEGADO_SOURCE.bookSourceName);
+  return [];
+}
+
+async function chapterContent(chapterUrl) {
+  legado.log('[chapterContent] converted source requires manual migration: ' + LEGADO_SOURCE.bookSourceName);
+  return '';
+}
+
+async function explore(page, category) {
+  legado.log('[explore] converted source requires manual migration: ' + LEGADO_SOURCE.bookSourceName);
+  return [];
+}

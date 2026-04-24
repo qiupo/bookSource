@@ -1,0 +1,74 @@
+// @name 百度图片（优）
+// @version 2025.10.02
+// @author converted
+// @url https://image.baidu.com
+// @enabled true
+// @tags 特殊,书源,小说,converted
+// @description error:org.mozilla.javascript.EvaluatorException: unterminated string literal (<Unknown source>#12) in <Unknown source> at line number 12
+
+const LEGADO_SOURCE = {
+  "bookSourceComment": "error:org.mozilla.javascript.EvaluatorException: unterminated string literal (<Unknown source>#12) in <Unknown source> at line number 12\n",
+  "bookSourceGroup": "特殊 书源",
+  "bookSourceName": "百度图片（优）",
+  "bookSourceType": 0,
+  "bookSourceUrl": "https://image.baidu.com#guaner",
+  "customButton": false,
+  "customOrder": 349,
+  "enabled": true,
+  "enabledCookieJar": false,
+  "enabledExplore": true,
+  "eventListener": false,
+  "lastUpdateTime": 1759385371804,
+  "respondTime": 1723,
+  "ruleBookInfo": {},
+  "ruleContent": {
+    "content": "@get:{id2}@js:\nimgurl=result;\nimg2=java.get('id');\nhtml='<img src=\"'+imgurl+'\">\\n图片地址1：'+imgurl+'\\n'+'<img src=\"'+img2+'\">\\n图片地址2：'+img2"
+  },
+  "ruleExplore": {},
+  "ruleSearch": {
+    "bookList": "@js:list=[{title:decodeURIComponent(baseUrl.match(/word=(.*)/)[1]),url:baseUrl,img:\"https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=1105349167,1082680177&fm=11&gp=0.jpg\"}]",
+    "bookUrl": "url",
+    "coverUrl": "img",
+    "name": "title"
+  },
+  "ruleToc": {
+    "chapterList": "<js>result.match(/flip.setData\\('imgData',( [\\s\\S]+?,\\{\\}\\]\\})\\)\\;/)[1];\n</js>$.data[*]",
+    "chapterName": "$.fromPageTitle@put:{id:$.objURL,id2:$.thumbURL}##</*strong>",
+    "chapterUrl": "https://www.baidu.com/s?wd={{$.fromPageTitle}}",
+    "nextTocUrl": "id.page@tag.a!-1@href"
+  },
+  "searchUrl": "https://image.baidu.com/search/flip?tn=baiduimage&ipn=r&ct=201326592&cl=2&lm=-1&st=-1&fm=result&fr=&sf=1&fmq=1582615702295_R&pv=&ic=0&nc=1&z=&hd=&latest=&copyright=&se=1&showtab=0&fb=0&width=0&height=0&face=0&istype=2&ie=utf-8&ctd=1582615702296%5E00_1665X948&sid=&word={{key}}",
+  "weight": 0
+};
+
+async function search(keyword, page) {
+  legado.log('[search] converted source requires manual migration: ' + LEGADO_SOURCE.bookSourceName);
+  return [];
+}
+
+async function bookInfo(bookUrl) {
+  legado.log('[bookInfo] converted source requires manual migration: ' + LEGADO_SOURCE.bookSourceName);
+  return {
+    name: LEGADO_SOURCE.bookSourceName || '',
+    author: '',
+    bookUrl: bookUrl,
+    tocUrl: bookUrl,
+    coverUrl: '',
+    intro: LEGADO_SOURCE.bookSourceComment || ''
+  };
+}
+
+async function chapterList(tocUrl) {
+  legado.log('[chapterList] converted source requires manual migration: ' + LEGADO_SOURCE.bookSourceName);
+  return [];
+}
+
+async function chapterContent(chapterUrl) {
+  legado.log('[chapterContent] converted source requires manual migration: ' + LEGADO_SOURCE.bookSourceName);
+  return '';
+}
+
+async function explore(page, category) {
+  legado.log('[explore] converted source requires manual migration: ' + LEGADO_SOURCE.bookSourceName);
+  return [];
+}

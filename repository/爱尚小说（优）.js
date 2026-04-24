@@ -1,0 +1,79 @@
+// @name 爱尚小说（优）
+// @version 2025.09.22
+// @author converted
+// @url http://www.23hh.la/
+// @enabled true
+// @tags 小说,书源,converted
+// @description // Error: 搜索失效
+
+const LEGADO_SOURCE = {
+  "bookSourceComment": "// Error: 搜索失效",
+  "bookSourceGroup": "小说 书源",
+  "bookSourceName": "爱尚小说（优）",
+  "bookSourceType": 0,
+  "bookSourceUrl": "http://www.23hh.la/",
+  "customButton": false,
+  "customOrder": 180,
+  "enabled": true,
+  "enabledCookieJar": false,
+  "enabledExplore": true,
+  "eventListener": false,
+  "lastUpdateTime": 1758571348489,
+  "respondTime": 180168,
+  "ruleBookInfo": {
+    "coverUrl": "class.book_info@class.pic@tag.img.0@src",
+    "intro": "class.book_info@class.bookinfo_intro@textNodes"
+  },
+  "ruleContent": {
+    "content": "id.htmlContent@textNodes"
+  },
+  "ruleExplore": {},
+  "ruleSearch": {
+    "author": "class.c_row@tag.span.3@text||id.info@tag.span.0@text",
+    "bookList": "class.book_info||class.box@tag.div!0",
+    "bookUrl": "class.c_row@tag.span.0@tag.a.0@href",
+    "coverUrl": "class.c_row@tag.a.0@tag.img.0@src||class.pic@tag.img.0@src",
+    "kind": "class.c_row@tag.span.5@text||",
+    "lastChapter": "class.c_row@tag.span.13@tag.a.0@text||id.info@tag.a.4@text",
+    "name": "class.c_row@tag.span.0@tag.a.0@text||id.info@tag.h1.0@text"
+  },
+  "ruleToc": {
+    "chapterList": "class.book_list@tag.li@tag.a",
+    "chapterName": "text",
+    "chapterUrl": "href"
+  },
+  "searchUrl": "http://www.23hh.la/modules/article/search.php,{\n  \"charset\": \"gbk\",\n  \"method\": \"POST\",\n  \"body\": \"searchkey={{key}}&action=login\"\n}",
+  "weight": 0
+};
+
+async function search(keyword, page) {
+  legado.log('[search] converted source requires manual migration: ' + LEGADO_SOURCE.bookSourceName);
+  return [];
+}
+
+async function bookInfo(bookUrl) {
+  legado.log('[bookInfo] converted source requires manual migration: ' + LEGADO_SOURCE.bookSourceName);
+  return {
+    name: LEGADO_SOURCE.bookSourceName || '',
+    author: '',
+    bookUrl: bookUrl,
+    tocUrl: bookUrl,
+    coverUrl: '',
+    intro: LEGADO_SOURCE.bookSourceComment || ''
+  };
+}
+
+async function chapterList(tocUrl) {
+  legado.log('[chapterList] converted source requires manual migration: ' + LEGADO_SOURCE.bookSourceName);
+  return [];
+}
+
+async function chapterContent(chapterUrl) {
+  legado.log('[chapterContent] converted source requires manual migration: ' + LEGADO_SOURCE.bookSourceName);
+  return '';
+}
+
+async function explore(page, category) {
+  legado.log('[explore] converted source requires manual migration: ' + LEGADO_SOURCE.bookSourceName);
+  return [];
+}

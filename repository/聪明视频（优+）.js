@@ -1,0 +1,86 @@
+// @name 聪明视频（优+）
+// @version 2025.12.28
+// @author converted
+// @url https://shasha.one
+// @enabled true
+// @tags 影视,书源,类型4,converted
+// @description 同源:
+// @description https://shasha.skin
+// @description https://ptt.co
+
+const LEGADO_SOURCE = {
+  "bookSourceComment": "同源: \n  https://shasha.skin\n  https://ptt.co",
+  "bookSourceGroup": "影视 书源",
+  "bookSourceName": "聪明视频（优+）",
+  "bookSourceType": 4,
+  "bookSourceUrl": "https://shasha.one",
+  "customButton": false,
+  "customOrder": 279,
+  "enabled": true,
+  "enabledCookieJar": true,
+  "enabledExplore": true,
+  "eventListener": false,
+  "exploreUrl": "@js:\nsort=[];\npush=(title,url,type1,type2)=>\n\tsort.push({\n\ttitle: title,\n\turl: url,\n\tstyle: {\n\t\tlayout_flexGrow: type1,\n\t\tlayout_flexBasisPercent: type2\n\t}\n});\n\narea1=[\"中\",\"港\",\"美\",\"日\",\"韩\"];\narea1_id=[\"2\",\"5\",\"6\",\"18\",\"17\"];\nkind1=[\"伦理\",\"动作\",\"喜剧\",\"科幻\",\"恐怖\",\"犯罪\",\"战争\",\"动漫\",\"剧情\",\"纪录\",\"悬疑\",\"动画\",\"其他\"];\nkind1_id=[\"33\",\"5\",\"6\",\"8\",\"9\",\"10\",\"11\",\"12\",\"13\",\"30\",\"34\",\"35\",\"48\"];\n\npush('🚫动漫🚫','',1,1)\narea2=[\"中\",\"日\"];\narea2_id=[\"26\",\"86\"];\nfor(j=0;j<area2.length;j++){\n\tvar title=area2[j];\n\tvar url=`/p/4/c/${area2_id[j]}?page={{page}}`\n\tpush(title,url,1,0.12)\n}\n\npush('🚫剧集🚫','',1,1)\narea2_id=[\"19\",\"20\",\"22\",\"83\",\"82\"];\nfor(j=0;j<area1.length;j++){\n\tvar title=area1[j];\n\tvar url=`/p/3/c/${area2_id[j]}?page={{page}}`\n\tpush(title,url,1,0.12)\n}\n\npush('🚫综艺🚫','',1,1)\narea3_id=[\"15\",\"88\",\"18\",\"90\",\"91\"];\nfor(j=0;j<area1.length;j++){\n\tvar title=area1[j];\n\tvar url=`/p/4/c/${area3_id[j]}?page={{page}}`\n\tpush(title,url,1,0.12)\n}\npush('🚫短剧🚫','',1,1)\narea4=[\"爽剧\",\"言情\",\"穿越\",\"悬疑\",\"古装\",\"都市\",\"甜宠\",\"恋爱\"];\narea4_id=[\"67\",\"68\",\"70\",\"71\",\"73\",\"80\",\"84\",\"85\"];\nfor(j=0;j<area4.length;j++){\n\tvar title=area4[j];\n\tvar url=`/p/3/c/${area4_id[j]}?page={{page}}`\n\tpush(title,url,1,0.2)\n}\n\npush('🚫电影(每行为1类)🚫','',1,1)\nfor(i=0;i<kind1.length;i++){\n\t push(kind1[i],`/p/1/c/${kind1_id[i]}?page={{page}}`,1,0.16)\n\t for(j=0;j<area1.length;j++){\n\t \t var title=area1[j];\n\t \t var url=`/p/1/c/${kind1_id[i]}?area_id=${area1_id[j]}&page={{page}}`\n\t\t push(title,url,1,0.12)\n\t }\n}\n\njava.log(JSON.stringify(sort))",
+  "header": "{\n\"User-Agent\":\"Mozilla/5.0 (Android 14; Mobile; rv:120.0) Gecko/120.0 Firefox/120.0\"\n}",
+  "lastUpdateTime": 1766914869157,
+  "respondTime": 180000,
+  "ruleBookInfo": {
+    "author": ".container-fluid>a@text##\\n##,",
+    "intro": ".container-fluid>p.0@text",
+    "tocUrl": ".position-relative@href"
+  },
+  "ruleContent": {
+    "content": ".container-fluid@script.0@all\n@js:\njx=\"https://jx.2s0.cn/player/?url=\"\n$=JSON.parse(result.match(/{.*}/)[0])\nresult=jx+$.contentUrl\n\nif(book.durChapterIndex==chapter.index){\n\t\tjava.startBrowser(result,title)\n\t\tjava.toast('正在加载视频\\n视频加载较慢，请耐心等待')\n\t}\n'【刷新正文】播放\\n✅直链:\\n'+$.contentUrl"
+  },
+  "ruleExplore": {},
+  "ruleSearch": {
+    "bookList": ".card",
+    "bookUrl": "a.0@href",
+    "checkKeyWord": "我的妈妈我的家",
+    "coverUrl": "img@src",
+    "kind": "{{@@.badge.0@text}}\n{{@@.badge-success@text##共.+集}}",
+    "lastChapter": ".badge-success@text##(共.+集)|.*##$1",
+    "name": ".lines@text",
+    "wordCount": "{{\"🎬傻傻网\"}}"
+  },
+  "ruleToc": {
+    "chapterList": "<js>\nfunction $(rule){\n\treturn java.getElements(rule);\n}\nvar tab_name=\"\",v_list=[];\n//获取所有线路❗️\ntab=$('.nav-tabs@li')\nfor(i=0;i<tab.length;i++){\n\t//获取播放列表❗️\n\tlist=$('.mb-2.1')[0]\n\tif(list==undefined){\n\t\ttab_name=`${tab[i].select('a').attr('title')} (1)`;\n\t\ttext=tab[i].text();\n\t\turl=tab[i].select('a').attr('href');\n\t\tv_list.push(JSON.stringify({\n\t\t\tname:text,\n\t\t\thref:url,\n\t\t\ttab:tab_name\n\t\t}))\n\t}else{\n\t\tlen=list.select('a').length;\n\t\turl=tab[i].select('a').attr('href');\n\t\tv_id=url.match(/^\\/(\\d+)/)[1];\n\t\ttab_id=url.match(/\\/(\\d+)$/)[1];\n\t\ttab_name=`${tab[i].select('a').attr('title')} (${len})`;\n\t\tfor(j=1;j<=len;j++){\n\t\t\tv_list.push(JSON.stringify({\n\t\t\t\tname:j,\n\t\t\t\thref:`/${v_id}/${j}/${tab_id}`,\n\t\t\t\ttab:tab_name\n\t\t\t}))\n\t\t}\n\t}\n}\nv_list\n</js>",
+    "chapterName": "$.name",
+    "chapterUrl": "$.href",
+    "updateTime": "$.tab"
+  },
+  "searchUrl": "/q/{{key}}?page={{page}}",
+  "weight": 0
+};
+
+async function search(keyword, page) {
+  legado.log('[search] converted source requires manual migration: ' + LEGADO_SOURCE.bookSourceName);
+  return [];
+}
+
+async function bookInfo(bookUrl) {
+  legado.log('[bookInfo] converted source requires manual migration: ' + LEGADO_SOURCE.bookSourceName);
+  return {
+    name: LEGADO_SOURCE.bookSourceName || '',
+    author: '',
+    bookUrl: bookUrl,
+    tocUrl: bookUrl,
+    coverUrl: '',
+    intro: LEGADO_SOURCE.bookSourceComment || ''
+  };
+}
+
+async function chapterList(tocUrl) {
+  legado.log('[chapterList] converted source requires manual migration: ' + LEGADO_SOURCE.bookSourceName);
+  return [];
+}
+
+async function chapterContent(chapterUrl) {
+  legado.log('[chapterContent] converted source requires manual migration: ' + LEGADO_SOURCE.bookSourceName);
+  return '';
+}
+
+async function explore(page, category) {
+  legado.log('[explore] converted source requires manual migration: ' + LEGADO_SOURCE.bookSourceName);
+  return [];
+}

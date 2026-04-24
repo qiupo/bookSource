@@ -1,0 +1,88 @@
+// @name 漫漫漫画
+// @version 2025.10.03
+// @author converted
+// @url https://www.manmanapp.com
+// @enabled true
+// @tags 正版漫画,书源,图片,converted
+
+const LEGADO_SOURCE = {
+  "bookSourceGroup": "正版漫画 书源",
+  "bookSourceName": "漫漫漫画",
+  "bookSourceType": 2,
+  "bookSourceUrl": "https://www.manmanapp.com",
+  "bookUrlPattern": "https://www.manmanapp.com/comic-\\d+.html",
+  "customButton": false,
+  "customOrder": 459,
+  "enabled": true,
+  "enabledCookieJar": true,
+  "enabledExplore": true,
+  "eventListener": false,
+  "exploreUrl": "全部::/comic/category_{{page}}.html\n兄弟情::/comic/category-5_{{page}}.html\n恋爱::/comic/category-4_{{page}}.html\n都市::/comic/category-18_{{page}}.html\n霸总::/comic/category-9_{{page}}.html\n校园::/comic/category-8_{{page}}.html\n古风::/comic/category-7_{{page}}.html\n搞笑::/comic/category-6_{{page}}.html\n暖萌::/comic/category-10_{{page}}.html\n日常::/comic/category-12_{{page}}.html\n奇幻::/comic/category-13_{{page}}.html\n悬疑::/comic/category-15_{{page}}.html\n仙侠::/comic/category-16_{{page}}.html\n热血::/comic/category-17_{{page}}.html\n恐怖::/comic/category-19_{{page}}.html\n",
+  "lastUpdateTime": 1759505101697,
+  "respondTime": 3111,
+  "ruleBookInfo": {
+    "author": "class.describe_title@a@text",
+    "coverUrl": "class.pic@img@src",
+    "intro": "class.supplement@text",
+    "kind": "{{book.kind}},{{@@class.type@text}}##类型：",
+    "lastChapter": "class.comic_list@tag.li.0@h4@img@src&&class.comic_list@tag.li.0@h3@text##.*book_ic.*?\\n##🔒",
+    "name": "class.title.0@ownText",
+    "tocUrl": "https://www.manmanapp.com/works/comic-list-ajax.html,{\n\"method\": \"POST\",\n\"body\": \"id={{java.put('page',1);result=baseUrl.match(/(\\d+)\\.html/)[1];java.put('id',result)}}&sort=1&page=1\"}"
+  },
+  "ruleContent": {
+    "content": "class.man_img@html",
+    "imageStyle": "FULL"
+  },
+  "ruleExplore": {},
+  "ruleSearch": {
+    "author": "class.subtitle@text",
+    "bookList": "class.classification",
+    "bookUrl": "tag.a.0@href",
+    "coverUrl": "img@src",
+    "intro": "class.text@text",
+    "kind": "❤️{{@@class.supplement@ownText}}",
+    "name": "class.title@text"
+  },
+  "ruleToc": {
+    "chapterList": "$.data",
+    "chapterName": "$.title",
+    "chapterUrl": "https://www.manmanapp.com/comic/detail-{{$.id}}.html",
+    "isVip": "@js:'{{$.is_read}}'=='0'?'1':''",
+    "nextTocUrl": "@js:\ncode='{{$.code}}';\nif(code=='1'){\npage=java.get('page');\npage=parseInt(page)+1;\njava.put('page',page);\nid=java.get('id');\nurl='https://www.manmanapp.com/works/comic-list-ajax.html,';\nbody='id='+id+'&sort=1&page='+page;\npost={\n\"method\": \"POST\",\n\"body\":String(body)\n}\nresult=url+JSON.stringify(post);\n}",
+    "updateTime": "$.publish_time"
+  },
+  "searchUrl": "https://www.manmanapp.com/search/word-{{key}}.html",
+  "weight": 0
+};
+
+async function search(keyword, page) {
+  legado.log('[search] converted source requires manual migration: ' + LEGADO_SOURCE.bookSourceName);
+  return [];
+}
+
+async function bookInfo(bookUrl) {
+  legado.log('[bookInfo] converted source requires manual migration: ' + LEGADO_SOURCE.bookSourceName);
+  return {
+    name: LEGADO_SOURCE.bookSourceName || '',
+    author: '',
+    bookUrl: bookUrl,
+    tocUrl: bookUrl,
+    coverUrl: '',
+    intro: LEGADO_SOURCE.bookSourceComment || ''
+  };
+}
+
+async function chapterList(tocUrl) {
+  legado.log('[chapterList] converted source requires manual migration: ' + LEGADO_SOURCE.bookSourceName);
+  return [];
+}
+
+async function chapterContent(chapterUrl) {
+  legado.log('[chapterContent] converted source requires manual migration: ' + LEGADO_SOURCE.bookSourceName);
+  return '';
+}
+
+async function explore(page, category) {
+  legado.log('[explore] converted source requires manual migration: ' + LEGADO_SOURCE.bookSourceName);
+  return [];
+}

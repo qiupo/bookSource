@@ -1,0 +1,88 @@
+// @name 爱上听书（优）
+// @version 2025.10.03
+// @author converted
+// @url https://www.230ts.net/
+// @enabled true
+// @tags 听书,书源,音频,converted
+// @description 仅发现
+
+const LEGADO_SOURCE = {
+  "bookSourceComment": "仅发现",
+  "bookSourceGroup": "听书 书源",
+  "bookSourceName": "爱上听书（优）",
+  "bookSourceType": 1,
+  "bookSourceUrl": "https://www.230ts.net/",
+  "bookUrlPattern": "http://www.23ts.com/tingshu/\\d+",
+  "customButton": false,
+  "customOrder": 306,
+  "enabled": true,
+  "enabledCookieJar": false,
+  "enabledExplore": true,
+  "eventListener": false,
+  "exploreUrl": "玄幻有声::/sort/xuanhuan/{{page}}.html\n灵异有声::/sort/lingyi/{{page}}.html\n都市有声::/sort/dushi/{{page}}.html\n军事有声::/sort/junshi/{{page}}.html\n职场有声::/sort/tongren/{{page}}.html\n网游竞技::/sort/jingji/{{page}}.html\n长篇短评::/sort/pingshu/{{page}}.html",
+  "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36\"\n}",
+  "lastUpdateTime": 1759513963830,
+  "respondTime": 188395,
+  "ruleBookInfo": {
+    "author": "class.book-info@tag.dd.3@text##演播：",
+    "coverUrl": "class.book-img@img@src",
+    "intro": "class.book-des@text",
+    "kind": "class.book-info@tag.dd.1@a@text&&\nclass.book-info@tag.dd.2@a@text&&\nclass.book-info@tag.dd.5@text##时间：",
+    "lastChapter": "class.book-info@tag.dd.4@text##状态：|更至",
+    "name": "class.book-info@tag.dt@h1@text##有声小说"
+  },
+  "ruleContent": {
+    "content": "<js>result</js>",
+    "sourceRegex": ".*\\.(mp3|m4a).*"
+  },
+  "ruleExplore": {},
+  "ruleSearch": {
+    "author": "class.list-book-cs@tag.span.1@text##演播：",
+    "bookList": "class.list-works@li",
+    "bookUrl": "class.list-book-dt@tag.a@href",
+    "coverUrl": "img@data-original",
+    "intro": "class.list-book-des@text",
+    "kind": "class.list-book-cs@tag.span.0@text&&\nclass.list-book-cs@tag.span.3@text",
+    "lastChapter": "class.list-book-cs@tag.span.2@a@text",
+    "name": "class.list-book-dt@a@text"
+  },
+  "ruleToc": {
+    "chapterList": "class.playlist@tag.li",
+    "chapterName": "tag.a@text",
+    "chapterUrl": "tag.a@href@js:'https://www.230ts.net'+result+',{webView:“true”}'"
+  },
+  "searchUrl": "https://www.230ts.net/search.html?searchtype=name&searchword={{key}}&page={{page}}",
+  "weight": 0
+};
+
+async function search(keyword, page) {
+  legado.log('[search] converted source requires manual migration: ' + LEGADO_SOURCE.bookSourceName);
+  return [];
+}
+
+async function bookInfo(bookUrl) {
+  legado.log('[bookInfo] converted source requires manual migration: ' + LEGADO_SOURCE.bookSourceName);
+  return {
+    name: LEGADO_SOURCE.bookSourceName || '',
+    author: '',
+    bookUrl: bookUrl,
+    tocUrl: bookUrl,
+    coverUrl: '',
+    intro: LEGADO_SOURCE.bookSourceComment || ''
+  };
+}
+
+async function chapterList(tocUrl) {
+  legado.log('[chapterList] converted source requires manual migration: ' + LEGADO_SOURCE.bookSourceName);
+  return [];
+}
+
+async function chapterContent(chapterUrl) {
+  legado.log('[chapterContent] converted source requires manual migration: ' + LEGADO_SOURCE.bookSourceName);
+  return '';
+}
+
+async function explore(page, category) {
+  legado.log('[explore] converted source requires manual migration: ' + LEGADO_SOURCE.bookSourceName);
+  return [];
+}

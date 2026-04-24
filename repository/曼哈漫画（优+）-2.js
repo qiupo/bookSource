@@ -1,0 +1,85 @@
+// @name 曼哈漫画（优+）
+// @version 2025.10.04
+// @author converted
+// @url https://www.mangabz.com
+// @enabled true
+// @tags 漫画,书源,图片,converted
+// @description //2025.2.5 By Buding
+
+const LEGADO_SOURCE = {
+  "bookSourceComment": "//2025.2.5 By Buding",
+  "bookSourceGroup": "漫画 书源",
+  "bookSourceName": "曼哈漫画（优+）",
+  "bookSourceType": 2,
+  "bookSourceUrl": "https://www.mangabz.com",
+  "customButton": false,
+  "customOrder": 246,
+  "enabled": true,
+  "enabledCookieJar": true,
+  "enabledExplore": true,
+  "eventListener": false,
+  "exploreUrl": "[\n  {\n    \"title\": \"排行\",\n    \"url\": \"/manga-rank/\",\n    \"style\": {\n      \"layout_flexGrow\": 1,\n      \"layout_flexBasisPercent\": 1\n    }\n  },\n  {\n    \"title\": \"分类\",\n    \"url\": \"/manga-list/\",\n    \"style\": {\n      \"layout_flexGrow\": 1,\n      \"layout_flexBasisPercent\": 1\n    }\n  },\n  {\n    \"title\": \"热血\",\n    \"url\": \"/manga-list-31-0-0/\",\n    \"style\": {\n      \"layout_flexGrow\": 1,\n      \"layout_flexBasisPercent\": 0.25\n    }\n  },\n  {\n    \"title\": \"恋爱\",\n    \"url\": \"/manga-list-26-0-0/\",\n    \"style\": {\n      \"layout_flexGrow\": 1,\n      \"layout_flexBasisPercent\": 0.25\n    }\n  },\n  {\n    \"title\": \"校园\",\n    \"url\": \"/manga-list-1-0-0/\",\n    \"style\": {\n      \"layout_flexGrow\": 1,\n      \"layout_flexBasisPercent\": 0.25\n    }\n  },\n  {\n    \"title\": \"冒险\",\n    \"url\": \"/manga-list-2-0-0/\",\n    \"style\": {\n      \"layout_flexGrow\": 1,\n      \"layout_flexBasisPercent\": 0.25\n    }\n  },\n  {\n    \"title\": \"科幻\",\n    \"url\": \"/manga-list-25-0-0/\",\n    \"style\": {\n      \"layout_flexGrow\": 1,\n      \"layout_flexBasisPercent\": 0.25\n    }\n  },\n  {\n    \"title\": \"生活\",\n    \"url\": \"/manga-list-11-0-0/\",\n    \"style\": {\n      \"layout_flexGrow\": 1,\n      \"layout_flexBasisPercent\": 0.25\n    }\n  },\n  {\n    \"title\": \"悬疑\",\n    \"url\": \"/manga-list-17-0-0/\",\n    \"style\": {\n      \"layout_flexGrow\": 1,\n      \"layout_flexBasisPercent\": 0.25\n    }\n  },\n  {\n    \"title\": \"魔法\",\n    \"url\": \"/manga-list-15-0-0/\",\n    \"style\": {\n      \"layout_flexGrow\": 1,\n      \"layout_flexBasisPercent\": 0.25\n    }\n  },\n  {\n    \"title\": \"运动\",\n    \"url\": \"/manga-list-34-0-0/\",\n    \"style\": {\n      \"layout_flexGrow\": 1,\n      \"layout_flexBasisPercent\": 0.25\n    }\n  }\n]",
+  "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Linux; Android 8.0.0; MI 5s Plus Build/OPR1.170623.032; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/131.0.0.0 Mobile Safari/537.36\",\"Referer\":\"https://www.mangabz.com\"\n}",
+  "lastUpdateTime": 1759572966205,
+  "respondTime": 180000,
+  "ruleBookInfo": {
+    "author": "p.1@span.0@text",
+    "coverUrl": "img.0@src",
+    "init": "<js>java.t2s(result)</js>",
+    "intro": "p.2@text",
+    "kind": "p.1@span!0:1:2@text&&.detail-list-left@text",
+    "name": "p.0@text"
+  },
+  "ruleContent": {
+    "content": "@js:\nres=result.match(/(eval.*\\)\\))\\n/)[1];\neval(String(res));\nnewImgs.map(x=>'<img src=\"'+x+'\">').join(\"\\n\")"
+  },
+  "ruleExplore": {},
+  "ruleSearch": {
+    "author": ".manga-item-subtitle.0@text##作者：",
+    "bookList": "<js>java.t2s(result)</js>\n.manga-list@a||.manga-i-list-item",
+    "bookUrl": "a@href",
+    "coverUrl": "img@src",
+    "intro": "p.3@text||.manga-i-list-subtitle@text",
+    "kind": "p.2@text##题材：",
+    "name": "p.0@text"
+  },
+  "ruleToc": {
+    "chapterList": "-.detail-list-item@a",
+    "chapterName": "text<js>java.t2s(result)</js>",
+    "chapterUrl": "href"
+  },
+  "searchUrl": "https://www.mangabz.com/search?title={{key}}",
+  "weight": 0
+};
+
+async function search(keyword, page) {
+  legado.log('[search] converted source requires manual migration: ' + LEGADO_SOURCE.bookSourceName);
+  return [];
+}
+
+async function bookInfo(bookUrl) {
+  legado.log('[bookInfo] converted source requires manual migration: ' + LEGADO_SOURCE.bookSourceName);
+  return {
+    name: LEGADO_SOURCE.bookSourceName || '',
+    author: '',
+    bookUrl: bookUrl,
+    tocUrl: bookUrl,
+    coverUrl: '',
+    intro: LEGADO_SOURCE.bookSourceComment || ''
+  };
+}
+
+async function chapterList(tocUrl) {
+  legado.log('[chapterList] converted source requires manual migration: ' + LEGADO_SOURCE.bookSourceName);
+  return [];
+}
+
+async function chapterContent(chapterUrl) {
+  legado.log('[chapterContent] converted source requires manual migration: ' + LEGADO_SOURCE.bookSourceName);
+  return '';
+}
+
+async function explore(page, category) {
+  legado.log('[explore] converted source requires manual migration: ' + LEGADO_SOURCE.bookSourceName);
+  return [];
+}

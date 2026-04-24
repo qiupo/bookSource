@@ -1,0 +1,93 @@
+// @name 八一中文（优）
+// @version 2026.02.26
+// @author converted
+// @url https://www.blxs.info/
+// @enabled true
+// @tags 小说,书源,converted
+// @description // Error: Connection reset
+
+const LEGADO_SOURCE = {
+  "bookSourceComment": "// Error: Connection reset",
+  "bookSourceGroup": "小说 书源",
+  "bookSourceName": "八一中文（优）",
+  "bookSourceType": 0,
+  "bookSourceUrl": "https://www.blxs.info/",
+  "customButton": false,
+  "customOrder": 165,
+  "enabled": true,
+  "enabledCookieJar": false,
+  "enabledExplore": true,
+  "eventListener": false,
+  "exploreUrl": "@js:s=[];t=[-1,1,.476,.298,.215,.165,.131];push=(t,u,x,y)=>s.push({title:t,url:u,style:{layout_flexBasisPercent:x,layout_flexGrow:0}});[[\"玄幻\",\"xuanhuan\"],[\"修真\",\"xiuzhen\"],[\"都市\",\"dushi\"],[\"穿越\",\"chuanyue\"],[\"网游\",\"wangyou\"],[\"科幻\",\"kehuan\"],[\"其他\",\"qita\"]].map(([s,r],i)=>push(s,`/${r}xiaoshuo/${i+1}_{{page}}.html`,t[3]));JSON.stringify(s);",
+  "lastUpdateTime": 1772085755817,
+  "respondTime": 196464,
+  "ruleBookInfo": {
+    "author": "#info p[0]@text",
+    "coverUrl": "img@src",
+    "init": ".box_con,#list",
+    "intro": "#info p[2]@text&&#intro@text",
+    "lastChapter": "#list a[0]@text",
+    "name": "h1@text"
+  },
+  "ruleContent": {
+    "content": "#content@html"
+  },
+  "ruleExplore": {
+    "author": ".s5@text",
+    "bookList": ".l li",
+    "bookUrl": "a[0]@href",
+    "coverUrl": "a[0]@href##(\\d+(/\\d+))##/files/article/image/$1$2s.jpg###",
+    "kind": ".s3@textNodes##\\(|\\)",
+    "lastChapter": ".s3 a@text",
+    "name": ".s2 a@text"
+  },
+  "ruleSearch": {
+    "author": "td[2]@text",
+    "bookList": "#nr",
+    "bookUrl": "a@href",
+    "checkKeyWord": "明克街",
+    "coverUrl": "a@href##(\\d+(/\\d+))##/files/article/image/$1$2s.jpg###",
+    "kind": "td[5,4,3]@text",
+    "lastChapter": "td[1]@text",
+    "name": "td[0]@text"
+  },
+  "ruleToc": {
+    "chapterList": "#list a",
+    "chapterName": "text",
+    "chapterUrl": "href"
+  },
+  "searchUrl": "/modules/article/search.php,{\"method\":\"post\",\"body\":\"searchkey={{key}}&searchtype=articlename\"}",
+  "weight": 0
+};
+
+async function search(keyword, page) {
+  legado.log('[search] converted source requires manual migration: ' + LEGADO_SOURCE.bookSourceName);
+  return [];
+}
+
+async function bookInfo(bookUrl) {
+  legado.log('[bookInfo] converted source requires manual migration: ' + LEGADO_SOURCE.bookSourceName);
+  return {
+    name: LEGADO_SOURCE.bookSourceName || '',
+    author: '',
+    bookUrl: bookUrl,
+    tocUrl: bookUrl,
+    coverUrl: '',
+    intro: LEGADO_SOURCE.bookSourceComment || ''
+  };
+}
+
+async function chapterList(tocUrl) {
+  legado.log('[chapterList] converted source requires manual migration: ' + LEGADO_SOURCE.bookSourceName);
+  return [];
+}
+
+async function chapterContent(chapterUrl) {
+  legado.log('[chapterContent] converted source requires manual migration: ' + LEGADO_SOURCE.bookSourceName);
+  return '';
+}
+
+async function explore(page, category) {
+  legado.log('[explore] converted source requires manual migration: ' + LEGADO_SOURCE.bookSourceName);
+  return [];
+}

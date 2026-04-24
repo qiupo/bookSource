@@ -1,0 +1,88 @@
+// @name 猫耳听书（优）
+// @version 2025.10.03
+// @author converted
+// @url https://www.missevan.com
+// @enabled true
+// @tags 听书,书源,音频,converted
+
+const LEGADO_SOURCE = {
+  "bookSourceGroup": "听书 书源",
+  "bookSourceName": "猫耳听书（优）",
+  "bookSourceType": 1,
+  "bookSourceUrl": "https://www.missevan.com#活力宝",
+  "customButton": false,
+  "customOrder": 302,
+  "enabled": true,
+  "enabledCookieJar": false,
+  "enabledExplore": true,
+  "eventListener": false,
+  "lastUpdateTime": 1759498246471,
+  "respondTime": 5690,
+  "ruleBookInfo": {
+    "canReName": "1",
+    "intro": "class.intro-content@html||class.intro@html||$.info.sound.intro",
+    "kind": "class.detail-count@text&&class.detail-newest@text&&class.detail-author@text&&class.detail-type@text&&class.detail-tags@text##���ͣ�|��ǩ����|��ǩ��",
+    "name": "class.drama-name@text",
+    "tocUrl": "@js:\nhref = java.getString(\"@@class.drama-name@href\");\nif(baseUrl.match(/dramaapi|mdrama/) || href!=\"\"){\nid = baseUrl.match(/drama_id=(\\d+)/)?baseUrl.match(/(\\d+)/)[1]:href.match(/(\\d+)/)[1]\nresult='https://www.missevan.com/dramaapi/getdrama?drama_id='+id\n}else if(baseUrl.match(/player/)){\n\tresult='https://www.missevan.com/sound/getsound?soundid='+baseUrl.match(/(\\d+)/)[1]\n\t}"
+  },
+  "ruleContent": {
+    "content": "$.info.sound.soundurl_128||$.info.sound.soundurl"
+  },
+  "ruleExplore": {
+    "author": "class.video-auther@a@text",
+    "bookList": "class.video-box-inner",
+    "bookUrl": "tag.a.0@href##$##,{\"webView\":true}",
+    "coverUrl": "img@src",
+    "lastChapter": "class.video-time@text##����ʱ��.",
+    "name": "class.video-play-icon@title"
+  },
+  "ruleSearch": {
+    "author": "$.username||$.author",
+    "bookList": "<js>\nkey=java.get('key');\npage=java.get('page');\n\n//������������\njson=[];json2=[];\n\n//�ж�json���Ƿ����б�\nif(JSON.parse(result).info.Datas){\njson=JSON.parse(result).info.Datas;}\n\n//���ص�������ҳ�沢תΪjson\njson1=JSON.parse(java.ajax('https://www.missevan.com/sound/getsearch?s='+key+'&type=3&page_size=10&p='+page));\n\n//�ж�json���Ƿ����б�\nif(json1.info.Datas){\njson2=json1.info.Datas\n}\n\n//�缯�����б��뵥�������б�ƴ��\nlist=json.concat(json2);\n\nresult=JSON.stringify(list)\n</js>\n$.[*]",
+    "bookUrl": "<js>\nid=String(result).match(/id=(\\d+)/)[1];\nif(!String(result).match(/catalog_name/)){\nresult='https://www.missevan.com/sound/getsound?soundid='+id\n}else{result='https://www.missevan.com/dramaapi/getdrama?drama_id='+id}\n</js>",
+    "coverUrl": "$.front_cover||$.cover",
+    "intro": "$.abstract",
+    "kind": "{$.type_name},{$.catalog_name}##\\{.*?\\}",
+    "lastChapter": "$.newest",
+    "name": "$.soundstr||$.name"
+  },
+  "ruleToc": {
+    "chapterList": "<js>'['+result+']'</js>\n$..info.episodes.episode[*]||$..info.episodes.music[*]||$.[*]",
+    "chapterName": "$.name||$.info.sound.soundstr",
+    "chapterUrl": "https://www.missevan.com/sound/getsound?soundid={{$.sound_id||$.info.sound.id}}"
+  },
+  "searchUrl": "https://www.missevan.com/dramaapi/search?s={{key}}&page={{page}}\n@js:java.put('key',key);java.put('page',page);result",
+  "weight": 0
+};
+
+async function search(keyword, page) {
+  legado.log('[search] converted source requires manual migration: ' + LEGADO_SOURCE.bookSourceName);
+  return [];
+}
+
+async function bookInfo(bookUrl) {
+  legado.log('[bookInfo] converted source requires manual migration: ' + LEGADO_SOURCE.bookSourceName);
+  return {
+    name: LEGADO_SOURCE.bookSourceName || '',
+    author: '',
+    bookUrl: bookUrl,
+    tocUrl: bookUrl,
+    coverUrl: '',
+    intro: LEGADO_SOURCE.bookSourceComment || ''
+  };
+}
+
+async function chapterList(tocUrl) {
+  legado.log('[chapterList] converted source requires manual migration: ' + LEGADO_SOURCE.bookSourceName);
+  return [];
+}
+
+async function chapterContent(chapterUrl) {
+  legado.log('[chapterContent] converted source requires manual migration: ' + LEGADO_SOURCE.bookSourceName);
+  return '';
+}
+
+async function explore(page, category) {
+  legado.log('[explore] converted source requires manual migration: ' + LEGADO_SOURCE.bookSourceName);
+  return [];
+}

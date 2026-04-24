@@ -1,0 +1,78 @@
+// @name 榴莲影视（优）
+// @version 2025.12.28
+// @author converted
+// @url https://66yy.net
+// @enabled true
+// @tags 影视,书源,类型4,converted
+
+const LEGADO_SOURCE = {
+  "bookSourceGroup": "影视 书源",
+  "bookSourceName": "榴莲影视（优）",
+  "bookSourceType": 4,
+  "bookSourceUrl": "https://66yy.net",
+  "customButton": false,
+  "customOrder": 282,
+  "enabled": true,
+  "enabledCookieJar": true,
+  "enabledExplore": true,
+  "eventListener": false,
+  "header": "{\n\t\"User-Agent\":\"Mozilla/5.0 (Linux; U; Android 11; zh-CN; PCAM00 Build/RKQ1.201217.002) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/100.0.4896.58 UCBrowser/16.4.4.1295 Mobile Safari/537.36 MQQBrowser/14.6 SogouMSE/14.6\"\n\t}",
+  "lastUpdateTime": 1766914879826,
+  "respondTime": 1022,
+  "ruleBookInfo": {},
+  "ruleContent": {
+    "content": "class.myui-player__video@script.0@all##.*url\":\"(.*)\",\"url_next\":.*from\":\"(.*)\",\"server.*##$1_$2\n@js:\nres=result.match(/(.*)_(.*)/)\nurl=res[1].replace(/\\\\/g,'')\nif(res[2]==\"wjm3u8\"){\nresult=\"https://jx.wujinkk.com/dplayer/?url=\"+url\n}else if(res[2]==\"bjm3u8\"){\nresult=\"https://zy.aoxtv.com/m3u8.php?url=\"+url\n}else if(res[2]==\"tkm3u8\"){\nresult=\"https://jx.huishij.com/yun/?url=\"+url\n}else{\nresult=\"https://jx.bozrc.com:4433/player/?url=\"+url\n}\nif(book.durChapterIndex==chapter.index){\n\t\tjava.startBrowser(result,title)\n\t\tjava.toast('正在加载视频\\n视频加载较慢，请耐心等待')\n\t}\n'<p>【刷新正文】播放\\n✅直链:\\n'+result"
+  },
+  "ruleExplore": {},
+  "ruleSearch": {
+    "author": "class.detail@p.1@ownText",
+    "bookList": "class.myui-vodlist__media@li",
+    "bookUrl": "a.0@href",
+    "coverUrl": "a@data-original@src",
+    "intro": "p.3@ownText",
+    "kind": "p.2@text##(分类|地区|年份)：##,",
+    "lastChapter": "class.pic-text@text",
+    "name": "class.title@text",
+    "wordCount": "class.pic-tag@text"
+  },
+  "ruleToc": {
+    "chapterList": "<js>\nall=\"\"\n\n//线路个数\nlen=java.getElements('class.nav-tabs[0]@li').length\n\nfor(i=1;i<=len;i++){\n\t\n\t//获取线路名称\nfrom=java.getElements('class.nav-tabs[0]@li')[i-1].text()\n\n//获取线路的播放列表\nres=java.getElements('class.myui-content__list')[i-1]\n\n//把线路名称插入列表里，在更新时间那里显示\nres=JSON.stringify(res).replace(/<\\/a>/g,'<p>'+'🎬'+from+'</p></a>')\n\nall+=JSON.parse(res)\n}\nall\n</js>\nclass.myui-content__list@li@a",
+    "chapterName": "ownText",
+    "chapterUrl": "href",
+    "updateTime": "p@text"
+  },
+  "searchUrl": "/vodsearch/-------------.html?wd={{key}}&submit=",
+  "weight": 0
+};
+
+async function search(keyword, page) {
+  legado.log('[search] converted source requires manual migration: ' + LEGADO_SOURCE.bookSourceName);
+  return [];
+}
+
+async function bookInfo(bookUrl) {
+  legado.log('[bookInfo] converted source requires manual migration: ' + LEGADO_SOURCE.bookSourceName);
+  return {
+    name: LEGADO_SOURCE.bookSourceName || '',
+    author: '',
+    bookUrl: bookUrl,
+    tocUrl: bookUrl,
+    coverUrl: '',
+    intro: LEGADO_SOURCE.bookSourceComment || ''
+  };
+}
+
+async function chapterList(tocUrl) {
+  legado.log('[chapterList] converted source requires manual migration: ' + LEGADO_SOURCE.bookSourceName);
+  return [];
+}
+
+async function chapterContent(chapterUrl) {
+  legado.log('[chapterContent] converted source requires manual migration: ' + LEGADO_SOURCE.bookSourceName);
+  return '';
+}
+
+async function explore(page, category) {
+  legado.log('[explore] converted source requires manual migration: ' + LEGADO_SOURCE.bookSourceName);
+  return [];
+}

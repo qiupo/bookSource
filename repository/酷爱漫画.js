@@ -1,0 +1,81 @@
+// @name 酷爱漫画
+// @version 2025.10.02
+// @author converted
+// @url https://www.kuimh.com
+// @enabled true
+// @tags 正版漫画,书源,图片,converted
+
+const LEGADO_SOURCE = {
+  "bookSourceGroup": "正版漫画 书源",
+  "bookSourceName": "酷爱漫画",
+  "bookSourceType": 2,
+  "bookSourceUrl": "https://www.kuimh.com#♤Haxc",
+  "customButton": false,
+  "customOrder": 457,
+  "enabled": true,
+  "enabledCookieJar": true,
+  "enabledExplore": true,
+  "eventListener": false,
+  "exploreUrl": "连载::https://www.kuimh.com/booklist?end=0&page={{page}}\n完结::https://www.kuimh.com/booklist?end=1&page={{page}}\n恋爱::https://www.kuimh.com/booklist?tag=恋爱&area=-1&end=0&page={{page}}\n国产::https://www.kuimh.com/booklist?tag=%E5%85%A8%E9%83%A8&area=1&end=0&page={{page}}\n日本::https://www.kuimh.com/booklist?tag=%E5%85%A8%E9%83%A8&area=2&end=0&page={{page}}\n欧美::https://www.kuimh.com/booklist?tag=%E5%85%A8%E9%83%A8&area=5&end=0&page={{page}}",
+  "lastUpdateTime": 1759431230810,
+  "loginUrl": "https://www.kuimh.com/login.html",
+  "respondTime": 3745,
+  "ruleBookInfo": {
+    "author": "class.info.0@tag.p.1@text##作者：",
+    "coverUrl": "class.banner_detail_bg@src",
+    "intro": "class.content@text",
+    "kind": "class.block.3@a@text",
+    "name": "tag.h1@text"
+  },
+  "ruleContent": {
+    "content": ".comicpage@html##\\\"https:\\/\\/static.aiquanjian.com\\/static\\/images\\/grey.gif\\\" data-echo=",
+    "imageStyle": "FULL"
+  },
+  "ruleExplore": {},
+  "ruleSearch": {
+    "bookList": "class.mh-item",
+    "bookUrl": "tag.a@href",
+    "coverUrl": "tag.p@style@js:result.match(/\\((.*?)\\)/)[1]",
+    "lastChapter": "class.chapter@tag.a@text",
+    "name": "tag.a@title"
+  },
+  "ruleToc": {
+    "chapterList": "id.detail-list-select@li@tag.a.-1",
+    "chapterName": "text",
+    "chapterUrl": "href"
+  },
+  "searchUrl": "https://www.kuimh.com/search?keyword={{key}}",
+  "weight": 64
+};
+
+async function search(keyword, page) {
+  legado.log('[search] converted source requires manual migration: ' + LEGADO_SOURCE.bookSourceName);
+  return [];
+}
+
+async function bookInfo(bookUrl) {
+  legado.log('[bookInfo] converted source requires manual migration: ' + LEGADO_SOURCE.bookSourceName);
+  return {
+    name: LEGADO_SOURCE.bookSourceName || '',
+    author: '',
+    bookUrl: bookUrl,
+    tocUrl: bookUrl,
+    coverUrl: '',
+    intro: LEGADO_SOURCE.bookSourceComment || ''
+  };
+}
+
+async function chapterList(tocUrl) {
+  legado.log('[chapterList] converted source requires manual migration: ' + LEGADO_SOURCE.bookSourceName);
+  return [];
+}
+
+async function chapterContent(chapterUrl) {
+  legado.log('[chapterContent] converted source requires manual migration: ' + LEGADO_SOURCE.bookSourceName);
+  return '';
+}
+
+async function explore(page, category) {
+  legado.log('[explore] converted source requires manual migration: ' + LEGADO_SOURCE.bookSourceName);
+  return [];
+}

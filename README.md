@@ -5,6 +5,14 @@
 
 本项目用于把旧版阅读/Legado 的 `book.json` 书源集合转换为 Legado Tauri 社区书源仓库结构。
 
+本仓库只保存转换工具和公开发布产物；原始 `book.json` 与中间目录 `booksources/` 不提交到仓库。
+
+当前公开 raw 前缀：
+
+```text
+https://raw.githubusercontent.com/qiupo/bookSource/main
+```
+
 生成后的公开仓库目录符合 Legado Tauri 文档约定：根目录只包含 `*.js` 书源文件和 `repository.json` 索引文件。
 
 ## 目录结构
@@ -41,7 +49,7 @@ python3 scripts/convert_book_json.py --input book.json --output booksources
 python3 scripts/prepare_public_repository.py \
   --source-dir booksources \
   --repository-dir repository \
-  --base-url https://raw.githubusercontent.com/your/repo/main \
+  --base-url https://raw.githubusercontent.com/qiupo/bookSource/main \
   --name "我的社区书源仓库"
 ```
 
@@ -96,7 +104,7 @@ Validated 459 sources
 ```bash
 python3 scripts/generate_repository.py \
   --dir repository \
-  --base-url https://raw.githubusercontent.com/your/repo/main \
+  --base-url https://raw.githubusercontent.com/qiupo/bookSource/main \
   --output repository/repository.json \
   --name "我的社区书源仓库"
 ```
@@ -121,27 +129,28 @@ python3 scripts/generate_repository.py \
 
 ## 发布到 GitHub
 
-1. 创建公开仓库。
-2. 将 `repository/` 目录中的文件放到公开仓库根目录。
-3. 使用真实 raw 地址重新生成索引。
+1. 创建或使用当前公开仓库：`https://github.com/qiupo/bookSource`。
+2. 仓库提交转换工具、README 和 `repository/` 发布产物。
+3. 不提交原始 `book.json` 与中间目录 `booksources/`。
+4. 使用真实 raw 地址重新生成索引。
 
-例如你的仓库是：
+例如当前仓库是：
 
 ```text
-https://github.com/example/legado-sources
+https://github.com/qiupo/bookSource
 ```
 
 那么 raw 前缀通常是：
 
 ```text
-https://raw.githubusercontent.com/example/legado-sources/main
+https://raw.githubusercontent.com/qiupo/bookSource/main
 ```
 
 重新生成：
 
 ```bash
 python3 scripts/prepare_public_repository.py \
-  --base-url https://raw.githubusercontent.com/example/legado-sources/main \
+  --base-url https://raw.githubusercontent.com/qiupo/bookSource/main \
   --name "我的社区书源仓库"
 ```
 
@@ -167,7 +176,8 @@ python3 scripts/check_outputs.py --booksources-dir booksources --repository-dir 
 ## 注意事项
 
 - `repository/` 是发布产物目录，根目录应只保留 `*.js` 和 `repository.json`。
-- `booksources/` 是可编辑目录，适合后续逐个优化书源逻辑。
+- `book.json` 是原始数据文件，不提交到公开仓库。
+- `booksources/` 是中间可编辑目录，默认不提交到公开仓库。
 - 每次修改 `booksources/*.js` 后，都应重新运行 `prepare_public_repository.py`。
-- 发布前必须把 `--base-url` 改为真实公开 raw 地址。
+- 发布前必须确认 `--base-url` 为 `https://raw.githubusercontent.com/qiupo/bookSource/main`。
 - 当前转换会保留旧规则，但不会自动保证每个书源在 Legado Tauri 中可直接搜索和阅读。
