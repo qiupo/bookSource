@@ -32,6 +32,19 @@ def check(booksources_dir, repository_dir):
         expected_suffix = f"/{quote(repository_dir.name)}/{quote(file_name)}"
         if not str(item.get("downloadUrl", "")).endswith(expected_suffix):
             raise SystemExit(f"downloadUrl does not reference repository directory and encoded file name: {file_name}")
+        content = (repository_dir / file_name).read_text(encoding="utf-8")
+        required_fragments = [
+            "function createLegacyRuntime(source)",
+            "const legacyRuntime = createLegacyRuntime(LEGADO_SOURCE);",
+            "return await legacyRuntime.search(keyword, page);",
+            "return await legacyRuntime.bookInfo(bookUrl);",
+            "return await legacyRuntime.chapterList(tocUrl);",
+            "return await legacyRuntime.chapterContent(chapterUrl);",
+            "return await legacyRuntime.explore(page, category);",
+        ]
+        for fragment in required_fragments:
+            if fragment not in content:
+                raise SystemExit(f"missing legacy runtime fragment in {file_name}: {fragment}")
 
     print(f"Validated {len(repository_sources)} sources")
     return len(repository_sources)

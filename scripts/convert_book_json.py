@@ -12,8 +12,32 @@ TYPE_NAMES = {
     3: "文件",
 }
 
+TAURI_TYPES = {
+    2: "comic",
+    4: "video",
+}
+
 INVALID_FILENAME = re.compile(r'[\\/:*?"<>|\n\r\t]+')
 HTTP_URL = re.compile(r'https?://[^\s#，,]+')
+
+FEATURE_PATTERNS = {
+    "js": re.compile(r"@js:|<js>", re.I),
+    "java.ajax": re.compile(r"\bjava\.ajax(All)?\b", re.I),
+    "java.base64": re.compile(r"\bjava\.base64", re.I),
+    "java.md5": re.compile(r"\bjava\.md5", re.I),
+    "cache": re.compile(r"\bcache\.", re.I),
+    "cookie": re.compile(r"\bcookie\.", re.I),
+    "source": re.compile(r"\bsource\.", re.I),
+    "jsonpath": re.compile(r"@json:|\$\.", re.I),
+    "css": re.compile(r"@css:", re.I),
+    "xpath": re.compile(r"@XPath:|//", re.I),
+}
+
+UNSUPPORTED_PATTERNS = {
+    "webView": re.compile(r"webView|webJs", re.I),
+    "Android Java package": re.compile(r"Packages\.|JavaImporter", re.I),
+    "crypto/signature": re.compile(r"javax\.crypto|MessageDigest|xGorgon|sign_key|Crypto", re.I),
+}
 
 
 def clean_text(value):
@@ -109,51 +133,75 @@ def metadata_lines(source):
         f"// @version {version}",
         f"// @author {author}",
         f"// @url {url}",
+    ]
+    tauri_type = TAURI_TYPES.get(source.get("bookSourceType"))
+    if tauri_type:
+        lines.append(f"// @type {tauri_type}")
+    lines.extend([
         f"// @enabled {enabled}",
         f"// @tags {','.join(tags)}",
-    ]
+    ])
     for line in description_lines(source.get("bookSourceComment")):
         lines.append(f"// @description {line}")
     return lines
 
 
+def analyze_compatibility(source, file_name):
+    text = json.dumps(source, ensure_ascii=False)
+    features = [name for name, pattern in FEATURE_PATTERNS.items() if pattern.search(text)]
+    media_feature = {1: "audio", 2: "comic", 4: "video"}.get(source.get("bookSourceType"))
+    if media_feature and media_feature not in features:
+        features.append(media_feature)
+    unsupported = [name for name, pattern in UNSUPPORTED_PATTERNS.items() if pattern.search(text)]
+    if unsupported:
+        level = "manual"
+    elif "js" in features or any(name.startswith("java.") for name in features):
+        level = "partial"
+    else:
+        level = "high"
+    return {
+        "name": clean_text(source.get("bookSourceName")) or Path(file_name).stem,
+        "fileName": file_name,
+        "level": level,
+        "features": features,
+        "unsupported": unsupported,
+    }
+
+
+def runtime_template():
+    return Path(__file__).with_name("legacy_runtime.js").read_text(encoding="utf-8")
+
+
 def render_source(source):
     metadata = "\n".join(metadata_lines(source))
     payload = js_string(source)
+    runtime = runtime_template()
     return f"""{metadata}
 
 const LEGADO_SOURCE = {payload};
 
+{runtime}
+
+const legacyRuntime = createLegacyRuntime(LEGADO_SOURCE);
+
 async function search(keyword, page) {{
-  legado.log('[search] converted source requires manual migration: ' + LEGADO_SOURCE.bookSourceName);
-  return [];
+  return await legacyRuntime.search(keyword, page);
 }}
 
 async function bookInfo(bookUrl) {{
-  legado.log('[bookInfo] converted source requires manual migration: ' + LEGADO_SOURCE.bookSourceName);
-  return {{
-    name: LEGADO_SOURCE.bookSourceName || '',
-    author: '',
-    bookUrl: bookUrl,
-    tocUrl: bookUrl,
-    coverUrl: '',
-    intro: LEGADO_SOURCE.bookSourceComment || ''
-  }};
+  return await legacyRuntime.bookInfo(bookUrl);
 }}
 
 async function chapterList(tocUrl) {{
-  legado.log('[chapterList] converted source requires manual migration: ' + LEGADO_SOURCE.bookSourceName);
-  return [];
+  return await legacyRuntime.chapterList(tocUrl);
 }}
 
 async function chapterContent(chapterUrl) {{
-  legado.log('[chapterContent] converted source requires manual migration: ' + LEGADO_SOURCE.bookSourceName);
-  return '';
+  return await legacyRuntime.chapterContent(chapterUrl);
 }}
 
 async function explore(page, category) {{
-  legado.log('[explore] converted source requires manual migration: ' + LEGADO_SOURCE.bookSourceName);
-  return [];
+  return await legacyRuntime.explore(page, category);
 }}
 """
 
@@ -173,6 +221,7 @@ def convert(input_path, output_dir):
     output_dir.mkdir(parents=True, exist_ok=True)
     used = set()
     written = []
+    reports = []
     for index, source in enumerate(sources, start=1):
         if not isinstance(source, dict):
             continue
@@ -181,6 +230,11 @@ def convert(input_path, output_dir):
         path = output_dir / filename
         path.write_text(render_source(source), encoding="utf-8")
         written.append(path)
+        reports.append(analyze_compatibility(source, filename))
+    (output_dir / "compatibility-report.json").write_text(
+        json.dumps(reports, ensure_ascii=False, indent=2) + "\n",
+        encoding="utf-8",
+    )
     return written
 
 

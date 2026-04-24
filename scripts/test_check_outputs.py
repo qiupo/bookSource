@@ -13,8 +13,18 @@ def test_check_accepts_matching_booksources_repository_and_index():
         repository = root / 'repository'
         booksources.mkdir()
         repository.mkdir()
-        (booksources / '示例.js').write_text('// @name 示例\n', encoding='utf-8')
-        (repository / '示例.js').write_text('// @name 示例\n', encoding='utf-8')
+        valid_js = '''
+const LEGADO_SOURCE = {};
+function createLegacyRuntime(source) { return {}; }
+const legacyRuntime = createLegacyRuntime(LEGADO_SOURCE);
+async function search(keyword, page) { return await legacyRuntime.search(keyword, page); }
+async function bookInfo(bookUrl) { return await legacyRuntime.bookInfo(bookUrl); }
+async function chapterList(tocUrl) { return await legacyRuntime.chapterList(tocUrl); }
+async function chapterContent(chapterUrl) { return await legacyRuntime.chapterContent(chapterUrl); }
+async function explore(page, category) { return await legacyRuntime.explore(page, category); }
+'''
+        (booksources / '示例.js').write_text(valid_js, encoding='utf-8')
+        (repository / '示例.js').write_text(valid_js, encoding='utf-8')
         (repository / 'repository.json').write_text(json.dumps({
             'sources': [{
                 'name': '示例',
@@ -49,7 +59,40 @@ def test_check_rejects_mismatched_files():
             raise AssertionError('check should fail')
 
 
+def test_check_rejects_placeholder_generated_source():
+    with tempfile.TemporaryDirectory() as tmp:
+        root = Path(tmp)
+        booksources = root / 'booksources'
+        repository = root / 'repository'
+        booksources.mkdir()
+        repository.mkdir()
+        placeholder = """
+async function search(keyword, page) {
+  legado.log('[search] converted source requires manual migration');
+  return [];
+}
+"""
+        (booksources / 'bad.js').write_text(placeholder, encoding='utf-8')
+        (repository / 'bad.js').write_text(placeholder, encoding='utf-8')
+        (repository / 'repository.json').write_text(json.dumps({
+            'sources': [{
+                'name': 'bad', 'version': '1.0.0', 'url': 'https://example.com',
+                'fileName': 'bad.js',
+                'downloadUrl': 'https://raw.githubusercontent.com/user/repo/refs/heads/master/repository/bad.js',
+                'fileSize': len(placeholder), 'updatedAt': '2026-04-24T00:00:00Z'
+            }]
+        }), encoding='utf-8')
+
+        try:
+            check(booksources, repository)
+        except SystemExit as exc:
+            assert 'legacy runtime' in str(exc)
+        else:
+            raise AssertionError('check should fail')
+
+
 if __name__ == '__main__':
     test_check_accepts_matching_booksources_repository_and_index()
     test_check_rejects_mismatched_files()
+    test_check_rejects_placeholder_generated_source()
     print('output validator tests passed')
