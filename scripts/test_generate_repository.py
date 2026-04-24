@@ -44,7 +44,7 @@ def test_generate_writes_repository_json_with_encoded_download_url():
         output = repository_dir / 'repository.json'
         source.write_text('// @name 示例\n// @url https://example.com\n// @tags 示例,小说\n', encoding='utf-8')
 
-        payload = generate(repository_dir, 'https://raw.githubusercontent.com/user/repo/main', output, '测试仓库', '1.0.0', 'repository')
+        payload = generate(repository_dir, 'https://raw.githubusercontent.com/user/repo/refs/heads/master', output, '测试仓库', '1.0.0', 'repository')
 
         saved = json.loads(output.read_text(encoding='utf-8'))
         assert saved == payload
@@ -53,7 +53,7 @@ def test_generate_writes_repository_json_with_encoded_download_url():
         assert len(saved['sources']) == 1
         item = saved['sources'][0]
         assert item['fileName'] == '示例 书源.js'
-        assert item['downloadUrl'].endswith('/repository/%E7%A4%BA%E4%BE%8B%20%E4%B9%A6%E6%BA%90.js')
+        assert item['downloadUrl'] == 'https://raw.githubusercontent.com/user/repo/refs/heads/master/repository/%E7%A4%BA%E4%BE%8B%20%E4%B9%A6%E6%BA%90.js'
         assert item['fileSize'] == source.stat().st_size
 
 

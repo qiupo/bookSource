@@ -10,13 +10,13 @@
 当前公开 raw 前缀：
 
 ```text
-https://raw.githubusercontent.com/qiupo/bookSource/main
+https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master
 ```
 
 书源文件下载地址会自动生成在 `repository/` 目录下，例如：
 
 ```text
-https://raw.githubusercontent.com/qiupo/bookSource/main/repository/示例书源.js
+https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/示例书源.js
 ```
 
 生成后的公开仓库目录符合 Legado Tauri 文档约定：根目录只包含 `*.js` 书源文件和 `repository.json` 索引文件。
@@ -55,7 +55,7 @@ python3 scripts/convert_book_json.py --input book.json --output booksources
 python3 scripts/prepare_public_repository.py \
   --source-dir booksources \
   --repository-dir repository \
-  --base-url https://raw.githubusercontent.com/qiupo/bookSource/main \
+  --base-url https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master \
   --name "我的社区书源仓库"
 ```
 
@@ -110,7 +110,7 @@ Validated 459 sources
 ```bash
 python3 scripts/generate_repository.py \
   --dir repository \
-  --base-url https://raw.githubusercontent.com/qiupo/bookSource/main \
+  --base-url https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master \
   --output repository/repository.json \
   --name "我的社区书源仓库"
 ```
@@ -149,7 +149,7 @@ https://github.com/qiupo/bookSource
 那么 raw 前缀通常是：
 
 ```text
-https://raw.githubusercontent.com/qiupo/bookSource/main
+https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master
 ```
 
 生成的 `downloadUrl` 会自动拼接 `repository/` 路径层级。
@@ -158,7 +158,7 @@ https://raw.githubusercontent.com/qiupo/bookSource/main
 
 ```bash
 python3 scripts/prepare_public_repository.py \
-  --base-url https://raw.githubusercontent.com/qiupo/bookSource/main \
+  --base-url https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master \
   --name "我的社区书源仓库"
 ```
 
@@ -187,5 +187,5 @@ python3 scripts/check_outputs.py --booksources-dir booksources --repository-dir 
 - `book.json` 是原始数据文件，不提交到公开仓库。
 - `booksources/` 是中间可编辑目录，默认不提交到公开仓库。
 - 每次修改 `booksources/*.js` 后，都应重新运行 `prepare_public_repository.py`。
-- 发布前必须确认 `--base-url` 为 `https://raw.githubusercontent.com/qiupo/bookSource/main`。
+- 发布前必须确认 `--base-url` 为 `https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master`。
 - 当前转换会保留旧规则，但不会自动保证每个书源在 Legado Tauri 中可直接搜索和阅读。

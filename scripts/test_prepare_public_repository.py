@@ -16,7 +16,7 @@ def test_rebuild_copies_js_only_and_generates_index():
         repository_dir.mkdir()
         (repository_dir / 'old.js').write_text('old', encoding='utf-8')
 
-        copied, indexed = rebuild(source_dir, repository_dir, 'https://raw.githubusercontent.com/user/repo/main', '测试仓库', '1.0.0')
+        copied, indexed = rebuild(source_dir, repository_dir, 'https://raw.githubusercontent.com/user/repo/refs/heads/master', '测试仓库', '1.0.0')
 
         assert copied == 1
         assert indexed == 1
@@ -24,6 +24,7 @@ def test_rebuild_copies_js_only_and_generates_index():
         assert (repository_dir / 'repository.json').exists()
         assert not (repository_dir / 'old.js').exists()
         assert not (repository_dir / 'note.txt').exists()
+        assert 'refs/heads/master/repository/' in (repository_dir / 'repository.json').read_text(encoding='utf-8')
 
 
 if __name__ == '__main__':

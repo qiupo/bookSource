@@ -21,7 +21,7 @@ def test_check_accepts_matching_booksources_repository_and_index():
                 'version': '1.0.0',
                 'url': 'https://example.com',
                 'fileName': '示例.js',
-                'downloadUrl': 'https://raw.githubusercontent.com/user/repo/main/repository/%E7%A4%BA%E4%BE%8B.js',
+                'downloadUrl': 'https://raw.githubusercontent.com/user/repo/refs/heads/master/repository/%E7%A4%BA%E4%BE%8B.js',
                 'fileSize': 12,
                 'updatedAt': '2026-04-24T00:00:00Z',
             }]
