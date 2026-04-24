@@ -1,7 +1,7 @@
 {
   "name": "我的社区书源仓库",
   "version": "1.0.0",
-  "updatedAt": "2026-04-24T09:06:16Z",
+  "updatedAt": "2026-04-24T10:58:57Z",
   "sources": [
     {
       "name": "七点小说",
@@ -20,8 +20,8 @@
       "enabled": true,
       "fileName": "七点小说.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E4%B8%83%E7%82%B9%E5%B0%8F%E8%AF%B4.js",
-      "fileSize": 25445,
-      "updatedAt": "2026-04-24T09:06:16Z"
+      "fileSize": 27354,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "七猫小说（优++）",
@@ -39,8 +39,8 @@
       "enabled": true,
       "fileName": "七猫小说（优++）-2.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E4%B8%83%E7%8C%AB%E5%B0%8F%E8%AF%B4%EF%BC%88%E4%BC%98%2B%2B%EF%BC%89-2.js",
-      "fileSize": 40261,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 42170,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "七猫小说（优++）",
@@ -58,8 +58,8 @@
       "enabled": true,
       "fileName": "七猫小说（优++）-3.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E4%B8%83%E7%8C%AB%E5%B0%8F%E8%AF%B4%EF%BC%88%E4%BC%98%2B%2B%EF%BC%89-3.js",
-      "fileSize": 42780,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 44689,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "七猫小说（优++）",
@@ -77,8 +77,8 @@
       "enabled": true,
       "fileName": "七猫小说（优++）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E4%B8%83%E7%8C%AB%E5%B0%8F%E8%AF%B4%EF%BC%88%E4%BC%98%2B%2B%EF%BC%89.js",
-      "fileSize": 41864,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 43773,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "七猫小说（优+）",
@@ -96,8 +96,8 @@
       "enabled": true,
       "fileName": "七猫小说（优+）-2.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E4%B8%83%E7%8C%AB%E5%B0%8F%E8%AF%B4%EF%BC%88%E4%BC%98%2B%EF%BC%89-2.js",
-      "fileSize": 35854,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 37763,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "七猫小说（优+）",
@@ -115,8 +115,8 @@
       "enabled": true,
       "fileName": "七猫小说（优+）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E4%B8%83%E7%8C%AB%E5%B0%8F%E8%AF%B4%EF%BC%88%E4%BC%98%2B%EF%BC%89.js",
-      "fileSize": 42721,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 44630,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "七百小说（优+）",
@@ -134,8 +134,8 @@
       "enabled": true,
       "fileName": "七百小说（优+）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E4%B8%83%E7%99%BE%E5%B0%8F%E8%AF%B4%EF%BC%88%E4%BC%98%2B%EF%BC%89.js",
-      "fileSize": 22373,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 24282,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "万通蜡笔（优）",
@@ -153,8 +153,8 @@
       "enabled": true,
       "fileName": "万通蜡笔（优）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E4%B8%87%E9%80%9A%E8%9C%A1%E7%AC%94%EF%BC%88%E4%BC%98%EF%BC%89.js",
-      "fileSize": 22598,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 24507,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "三七小说（优+）",
@@ -172,8 +172,8 @@
       "enabled": true,
       "fileName": "三七小说（优+）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E4%B8%89%E4%B8%83%E5%B0%8F%E8%AF%B4%EF%BC%88%E4%BC%98%2B%EF%BC%89.js",
-      "fileSize": 27897,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 29806,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "三五中文（优）",
@@ -191,8 +191,8 @@
       "enabled": true,
       "fileName": "三五中文（优）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E4%B8%89%E4%BA%94%E4%B8%AD%E6%96%87%EF%BC%88%E4%BC%98%EF%BC%89.js",
-      "fileSize": 19833,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 21742,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "三叉小说（优）",
@@ -210,8 +210,8 @@
       "enabled": true,
       "fileName": "三叉小说（优）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E4%B8%89%E5%8F%89%E5%B0%8F%E8%AF%B4%EF%BC%88%E4%BC%98%EF%BC%89.js",
-      "fileSize": 23058,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 24967,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "个性说网（优+）",
@@ -230,8 +230,8 @@
       "enabled": true,
       "fileName": "个性说网（优+）-2.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E4%B8%AA%E6%80%A7%E8%AF%B4%E7%BD%91%EF%BC%88%E4%BC%98%2B%EF%BC%89-2.js",
-      "fileSize": 32575,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 34484,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "个性说网（优+）",
@@ -250,8 +250,8 @@
       "enabled": true,
       "fileName": "个性说网（优+）-3.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E4%B8%AA%E6%80%A7%E8%AF%B4%E7%BD%91%EF%BC%88%E4%BC%98%2B%EF%BC%89-3.js",
-      "fileSize": 32582,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 34491,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "个性说网（优+）",
@@ -270,8 +270,8 @@
       "enabled": true,
       "fileName": "个性说网（优+）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E4%B8%AA%E6%80%A7%E8%AF%B4%E7%BD%91%EF%BC%88%E4%BC%98%2B%EF%BC%89.js",
-      "fileSize": 31185,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 33094,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "中华典藏（优+）",
@@ -289,8 +289,8 @@
       "enabled": true,
       "fileName": "中华典藏（优+）-2.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E4%B8%AD%E5%8D%8E%E5%85%B8%E8%97%8F%EF%BC%88%E4%BC%98%2B%EF%BC%89-2.js",
-      "fileSize": 25586,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 27495,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "中华典藏（优+）",
@@ -308,8 +308,8 @@
       "enabled": true,
       "fileName": "中华典藏（优+）-3.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E4%B8%AD%E5%8D%8E%E5%85%B8%E8%97%8F%EF%BC%88%E4%BC%98%2B%EF%BC%89-3.js",
-      "fileSize": 21128,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 23037,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "中华典藏（优+）",
@@ -327,8 +327,8 @@
       "enabled": true,
       "fileName": "中华典藏（优+）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E4%B8%AD%E5%8D%8E%E5%85%B8%E8%97%8F%EF%BC%88%E4%BC%98%2B%EF%BC%89.js",
-      "fileSize": 28227,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 30136,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "中华诗词（优+）",
@@ -346,8 +346,8 @@
       "enabled": true,
       "fileName": "中华诗词（优+）-2.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E4%B8%AD%E5%8D%8E%E8%AF%97%E8%AF%8D%EF%BC%88%E4%BC%98%2B%EF%BC%89-2.js",
-      "fileSize": 21193,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 23102,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "中华诗词（优+）",
@@ -365,8 +365,8 @@
       "enabled": true,
       "fileName": "中华诗词（优+）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E4%B8%AD%E5%8D%8E%E8%AF%97%E8%AF%8D%EF%BC%88%E4%BC%98%2B%EF%BC%89.js",
-      "fileSize": 21051,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 22960,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "中小说网",
@@ -385,8 +385,8 @@
       "enabled": true,
       "fileName": "中小说网.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E4%B8%AD%E5%B0%8F%E8%AF%B4%E7%BD%91.js",
-      "fileSize": 19888,
-      "updatedAt": "2026-04-24T09:06:16Z"
+      "fileSize": 21797,
+      "updatedAt": "2026-04-24T10:58:57Z"
     },
     {
       "name": "中文万维（优+）",
@@ -404,8 +404,8 @@
       "enabled": true,
       "fileName": "中文万维（优+）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E4%B8%AD%E6%96%87%E4%B8%87%E7%BB%B4%EF%BC%88%E4%BC%98%2B%EF%BC%89.js",
-      "fileSize": 27876,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 29785,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "中文书城（优+）",
@@ -423,8 +423,8 @@
       "enabled": true,
       "fileName": "中文书城（优+）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E4%B8%AD%E6%96%87%E4%B9%A6%E5%9F%8E%EF%BC%88%E4%BC%98%2B%EF%BC%89.js",
-      "fileSize": 27424,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 29333,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "中文看书（优）",
@@ -442,8 +442,8 @@
       "enabled": true,
       "fileName": "中文看书（优）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E4%B8%AD%E6%96%87%E7%9C%8B%E4%B9%A6%EF%BC%88%E4%BC%98%EF%BC%89.js",
-      "fileSize": 21043,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 22952,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "乐乎文章（优）",
@@ -462,8 +462,8 @@
       "enabled": true,
       "fileName": "乐乎文章（优）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E4%B9%90%E4%B9%8E%E6%96%87%E7%AB%A0%EF%BC%88%E4%BC%98%EF%BC%89.js",
-      "fileSize": 31806,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 33715,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "乐文阁网（优）",
@@ -481,8 +481,8 @@
       "enabled": true,
       "fileName": "乐文阁网（优）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E4%B9%90%E6%96%87%E9%98%81%E7%BD%91%EF%BC%88%E4%BC%98%EF%BC%89.js",
-      "fileSize": 21271,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 23180,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "九怀小说",
@@ -501,8 +501,8 @@
       "enabled": true,
       "fileName": "九怀小说.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E4%B9%9D%E6%80%80%E5%B0%8F%E8%AF%B4.js",
-      "fileSize": 25844,
-      "updatedAt": "2026-04-24T09:06:16Z"
+      "fileSize": 27753,
+      "updatedAt": "2026-04-24T10:58:57Z"
     },
     {
       "name": "九怀文学",
@@ -521,8 +521,8 @@
       "enabled": true,
       "fileName": "九怀文学.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E4%B9%9D%E6%80%80%E6%96%87%E5%AD%A6.js",
-      "fileSize": 25993,
-      "updatedAt": "2026-04-24T09:06:16Z"
+      "fileSize": 27902,
+      "updatedAt": "2026-04-24T10:58:57Z"
     },
     {
       "name": "九酷音乐（优）",
@@ -541,8 +541,8 @@
       "enabled": true,
       "fileName": "九酷音乐（优）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E4%B9%9D%E9%85%B7%E9%9F%B3%E4%B9%90%EF%BC%88%E4%BC%98%EF%BC%89.js",
-      "fileSize": 21741,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 23650,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "九阅小说",
@@ -561,8 +561,8 @@
       "enabled": true,
       "fileName": "九阅小说.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E4%B9%9D%E9%98%85%E5%B0%8F%E8%AF%B4.js",
-      "fileSize": 24017,
-      "updatedAt": "2026-04-24T09:06:16Z"
+      "fileSize": 25926,
+      "updatedAt": "2026-04-24T10:58:57Z"
     },
     {
       "name": "书单推荐（优+）",
@@ -581,8 +581,8 @@
       "enabled": true,
       "fileName": "书单推荐（优+）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E4%B9%A6%E5%8D%95%E6%8E%A8%E8%8D%90%EF%BC%88%E4%BC%98%2B%EF%BC%89.js",
-      "fileSize": 24458,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 26367,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "书旗小说",
@@ -601,8 +601,8 @@
       "enabled": true,
       "fileName": "书旗小说-2.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E4%B9%A6%E6%97%97%E5%B0%8F%E8%AF%B4-2.js",
-      "fileSize": 30653,
-      "updatedAt": "2026-04-24T09:06:16Z"
+      "fileSize": 32562,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "书旗小说",
@@ -621,8 +621,8 @@
       "enabled": true,
       "fileName": "书旗小说.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E4%B9%A6%E6%97%97%E5%B0%8F%E8%AF%B4.js",
-      "fileSize": 87574,
-      "updatedAt": "2026-04-24T09:06:16Z"
+      "fileSize": 89483,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "书法小说（优+）",
@@ -640,8 +640,8 @@
       "enabled": true,
       "fileName": "书法小说（优+）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E4%B9%A6%E6%B3%95%E5%B0%8F%E8%AF%B4%EF%BC%88%E4%BC%98%2B%EF%BC%89.js",
-      "fileSize": 22070,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 23979,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "书耽小说（优）",
@@ -660,8 +660,8 @@
       "enabled": true,
       "fileName": "书耽小说（优）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E4%B9%A6%E8%80%BD%E5%B0%8F%E8%AF%B4%EF%BC%88%E4%BC%98%EF%BC%89.js",
-      "fileSize": 29679,
-      "updatedAt": "2026-04-24T09:06:16Z"
+      "fileSize": 31588,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "书香阁子（优+）",
@@ -679,8 +679,8 @@
       "enabled": true,
       "fileName": "书香阁子（优+）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E4%B9%A6%E9%A6%99%E9%98%81%E5%AD%90%EF%BC%88%E4%BC%98%2B%EF%BC%89.js",
-      "fileSize": 24904,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 26813,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "二八看书（优++）",
@@ -698,8 +698,8 @@
       "enabled": true,
       "fileName": "二八看书（优++）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E4%BA%8C%E5%85%AB%E7%9C%8B%E4%B9%A6%EF%BC%88%E4%BC%98%2B%2B%EF%BC%89.js",
-      "fileSize": 27162,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 29071,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "五丁音乐（优+）",
@@ -718,8 +718,8 @@
       "enabled": true,
       "fileName": "五丁音乐（优+）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E4%BA%94%E4%B8%81%E9%9F%B3%E4%B9%90%EF%BC%88%E4%BC%98%2B%EF%BC%89.js",
-      "fileSize": 23310,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 25219,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "五五读书（优）",
@@ -737,8 +737,8 @@
       "enabled": true,
       "fileName": "五五读书（优）-2.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E4%BA%94%E4%BA%94%E8%AF%BB%E4%B9%A6%EF%BC%88%E4%BC%98%EF%BC%89-2.js",
-      "fileSize": 21426,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 23335,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "五五读书（优）",
@@ -756,8 +756,8 @@
       "enabled": true,
       "fileName": "五五读书（优）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E4%BA%94%E4%BA%94%E8%AF%BB%E4%B9%A6%EF%BC%88%E4%BC%98%EF%BC%89.js",
-      "fileSize": 19899,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 21808,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "企鹅浏览",
@@ -776,8 +776,8 @@
       "enabled": true,
       "fileName": "企鹅浏览-2.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E4%BC%81%E9%B9%85%E6%B5%8F%E8%A7%88-2.js",
-      "fileSize": 20508,
-      "updatedAt": "2026-04-24T09:06:16Z"
+      "fileSize": 22417,
+      "updatedAt": "2026-04-24T10:58:57Z"
     },
     {
       "name": "企鹅浏览",
@@ -796,8 +796,8 @@
       "enabled": true,
       "fileName": "企鹅浏览.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E4%BC%81%E9%B9%85%E6%B5%8F%E8%A7%88.js",
-      "fileSize": 20543,
-      "updatedAt": "2026-04-24T09:06:16Z"
+      "fileSize": 22452,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "企鹅浏览（优）",
@@ -816,8 +816,8 @@
       "enabled": true,
       "fileName": "企鹅浏览（优）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E4%BC%81%E9%B9%85%E6%B5%8F%E8%A7%88%EF%BC%88%E4%BC%98%EF%BC%89.js",
-      "fileSize": 20537,
-      "updatedAt": "2026-04-24T09:06:16Z"
+      "fileSize": 22446,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "企鹅阅读",
@@ -836,8 +836,8 @@
       "enabled": true,
       "fileName": "企鹅阅读-2.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E4%BC%81%E9%B9%85%E9%98%85%E8%AF%BB-2.js",
-      "fileSize": 25023,
-      "updatedAt": "2026-04-24T09:06:16Z"
+      "fileSize": 26932,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "企鹅阅读",
@@ -856,8 +856,8 @@
       "enabled": true,
       "fileName": "企鹅阅读-3.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E4%BC%81%E9%B9%85%E9%98%85%E8%AF%BB-3.js",
-      "fileSize": 90371,
-      "updatedAt": "2026-04-24T09:06:16Z"
+      "fileSize": 92280,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "企鹅阅读",
@@ -876,8 +876,8 @@
       "enabled": true,
       "fileName": "企鹅阅读.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E4%BC%81%E9%B9%85%E9%98%85%E8%AF%BB.js",
-      "fileSize": 89849,
-      "updatedAt": "2026-04-24T09:06:16Z"
+      "fileSize": 91758,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "企鹅音乐（优++）",
@@ -896,8 +896,8 @@
       "enabled": true,
       "fileName": "企鹅音乐（优++）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E4%BC%81%E9%B9%85%E9%9F%B3%E4%B9%90%EF%BC%88%E4%BC%98%2B%2B%EF%BC%89.js",
-      "fileSize": 19868,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 21777,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "优品学习（优）",
@@ -916,8 +916,8 @@
       "enabled": true,
       "fileName": "优品学习（优）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E4%BC%98%E5%93%81%E5%AD%A6%E4%B9%A0%EF%BC%88%E4%BC%98%EF%BC%89.js",
-      "fileSize": 20012,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 21921,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "优品文档（导+）",
@@ -936,8 +936,8 @@
       "enabled": true,
       "fileName": "优品文档（导+）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E4%BC%98%E5%93%81%E6%96%87%E6%A1%A3%EF%BC%88%E5%AF%BC%2B%EF%BC%89.js",
-      "fileSize": 21376,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 23285,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "优质资源（优）",
@@ -956,8 +956,8 @@
       "enabled": true,
       "fileName": "优质资源（优）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E4%BC%98%E8%B4%A8%E8%B5%84%E6%BA%90%EF%BC%88%E4%BC%98%EF%BC%89.js",
-      "fileSize": 24668,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 26577,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "光社漫畫（优+）",
@@ -976,8 +976,8 @@
       "enabled": true,
       "fileName": "光社漫畫（优+）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E5%85%89%E7%A4%BE%E6%BC%AB%E7%95%AB%EF%BC%88%E4%BC%98%2B%EF%BC%89.js",
-      "fileSize": 25734,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 27643,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "全免小说（优++）",
@@ -995,8 +995,8 @@
       "enabled": true,
       "fileName": "全免小说（优++）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E5%85%A8%E5%85%8D%E5%B0%8F%E8%AF%B4%EF%BC%88%E4%BC%98%2B%2B%EF%BC%89.js",
-      "fileSize": 47169,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 49078,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "全免漫画（优）",
@@ -1015,8 +1015,8 @@
       "enabled": true,
       "fileName": "全免漫画（优）-2.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E5%85%A8%E5%85%8D%E6%BC%AB%E7%94%BB%EF%BC%88%E4%BC%98%EF%BC%89-2.js",
-      "fileSize": 23786,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 25695,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "全免漫画（优）",
@@ -1035,8 +1035,8 @@
       "enabled": true,
       "fileName": "全免漫画（优）-3.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E5%85%A8%E5%85%8D%E6%BC%AB%E7%94%BB%EF%BC%88%E4%BC%98%EF%BC%89-3.js",
-      "fileSize": 23784,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 25693,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "全免漫画（优）",
@@ -1055,8 +1055,8 @@
       "enabled": true,
       "fileName": "全免漫画（优）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E5%85%A8%E5%85%8D%E6%BC%AB%E7%94%BB%EF%BC%88%E4%BC%98%EF%BC%89.js",
-      "fileSize": 23795,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 25704,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "全本同人（优）",
@@ -1074,8 +1074,8 @@
       "enabled": true,
       "fileName": "全本同人（优）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E5%85%A8%E6%9C%AC%E5%90%8C%E4%BA%BA%EF%BC%88%E4%BC%98%EF%BC%89.js",
-      "fileSize": 20091,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 22000,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "全本小说（优++）",
@@ -1093,8 +1093,8 @@
       "enabled": true,
       "fileName": "全本小说（优++）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E5%85%A8%E6%9C%AC%E5%B0%8F%E8%AF%B4%EF%BC%88%E4%BC%98%2B%2B%EF%BC%89.js",
-      "fileSize": 21174,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 23083,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "全本小说（优+）",
@@ -1112,8 +1112,8 @@
       "enabled": true,
       "fileName": "全本小说（优+）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E5%85%A8%E6%9C%AC%E5%B0%8F%E8%AF%B4%EF%BC%88%E4%BC%98%2B%EF%BC%89.js",
-      "fileSize": 20469,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 22378,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "全本小说（优）",
@@ -1131,8 +1131,8 @@
       "enabled": true,
       "fileName": "全本小说（优）-2.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E5%85%A8%E6%9C%AC%E5%B0%8F%E8%AF%B4%EF%BC%88%E4%BC%98%EF%BC%89-2.js",
-      "fileSize": 20992,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 22901,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "全本小说（优）",
@@ -1150,8 +1150,8 @@
       "enabled": true,
       "fileName": "全本小说（优）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E5%85%A8%E6%9C%AC%E5%B0%8F%E8%AF%B4%EF%BC%88%E4%BC%98%EF%BC%89.js",
-      "fileSize": 20404,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 22313,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "全英文学（英）",
@@ -1169,8 +1169,8 @@
       "enabled": true,
       "fileName": "全英文学（英）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E5%85%A8%E8%8B%B1%E6%96%87%E5%AD%A6%EF%BC%88%E8%8B%B1%EF%BC%89.js",
-      "fileSize": 20046,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 21955,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "八一中文（优）",
@@ -1188,8 +1188,8 @@
       "enabled": true,
       "fileName": "八一中文（优）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E5%85%AB%E4%B8%80%E4%B8%AD%E6%96%87%EF%BC%88%E4%BC%98%EF%BC%89.js",
-      "fileSize": 20488,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 22397,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "八三中文（优+）",
@@ -1207,8 +1207,8 @@
       "enabled": true,
       "fileName": "八三中文（优+）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E5%85%AB%E4%B8%89%E4%B8%AD%E6%96%87%EF%BC%88%E4%BC%98%2B%EF%BC%89.js",
-      "fileSize": 20744,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 22653,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "八零小说（优++）",
@@ -1226,8 +1226,8 @@
       "enabled": true,
       "fileName": "八零小说（优++）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E5%85%AB%E9%9B%B6%E5%B0%8F%E8%AF%B4%EF%BC%88%E4%BC%98%2B%2B%EF%BC%89.js",
-      "fileSize": 25210,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 27119,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "八零电子（导）",
@@ -1246,8 +1246,8 @@
       "enabled": true,
       "fileName": "八零电子（导）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E5%85%AB%E9%9B%B6%E7%94%B5%E5%AD%90%EF%BC%88%E5%AF%BC%EF%BC%89.js",
-      "fileSize": 22016,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 23925,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "冰清小说（优）",
@@ -1265,8 +1265,8 @@
       "enabled": true,
       "fileName": "冰清小说（优）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E5%86%B0%E6%B8%85%E5%B0%8F%E8%AF%B4%EF%BC%88%E4%BC%98%EF%BC%89.js",
-      "fileSize": 20286,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 22195,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "刺猬猫吧",
@@ -1285,8 +1285,8 @@
       "enabled": true,
       "fileName": "刺猬猫吧-2.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E5%88%BA%E7%8C%AC%E7%8C%AB%E5%90%A7-2.js",
-      "fileSize": 20826,
-      "updatedAt": "2026-04-24T09:06:16Z"
+      "fileSize": 22735,
+      "updatedAt": "2026-04-24T10:58:57Z"
     },
     {
       "name": "刺猬猫吧",
@@ -1305,8 +1305,8 @@
       "enabled": true,
       "fileName": "刺猬猫吧.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E5%88%BA%E7%8C%AC%E7%8C%AB%E5%90%A7.js",
-      "fileSize": 26622,
-      "updatedAt": "2026-04-24T09:06:16Z"
+      "fileSize": 28531,
+      "updatedAt": "2026-04-24T10:58:57Z"
     },
     {
       "name": "刺猬猫网",
@@ -1325,8 +1325,8 @@
       "enabled": true,
       "fileName": "刺猬猫网.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E5%88%BA%E7%8C%AC%E7%8C%AB%E7%BD%91.js",
-      "fileSize": 23187,
-      "updatedAt": "2026-04-24T09:06:16Z"
+      "fileSize": 25096,
+      "updatedAt": "2026-04-24T10:58:57Z"
     },
     {
       "name": "刺猬猫说",
@@ -1345,8 +1345,8 @@
       "enabled": true,
       "fileName": "刺猬猫说.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E5%88%BA%E7%8C%AC%E7%8C%AB%E8%AF%B4.js",
-      "fileSize": 20487,
-      "updatedAt": "2026-04-24T09:06:16Z"
+      "fileSize": 22396,
+      "updatedAt": "2026-04-24T10:58:57Z"
     },
     {
       "name": "包子漫画（优++）",
@@ -1365,8 +1365,8 @@
       "enabled": true,
       "fileName": "包子漫画（优++）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E5%8C%85%E5%AD%90%E6%BC%AB%E7%94%BB%EF%BC%88%E4%BC%98%2B%2B%EF%BC%89.js",
-      "fileSize": 30320,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 32229,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "包子漫画（优+）",
@@ -1385,8 +1385,8 @@
       "enabled": true,
       "fileName": "包子漫画（优+）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E5%8C%85%E5%AD%90%E6%BC%AB%E7%94%BB%EF%BC%88%E4%BC%98%2B%EF%BC%89.js",
-      "fileSize": 21393,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 23302,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "包子漫画（优）",
@@ -1405,8 +1405,8 @@
       "enabled": true,
       "fileName": "包子漫画（优）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E5%8C%85%E5%AD%90%E6%BC%AB%E7%94%BB%EF%BC%88%E4%BC%98%EF%BC%89.js",
-      "fileSize": 22175,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 24084,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "南极小说（优）",
@@ -1424,8 +1424,8 @@
       "enabled": true,
       "fileName": "南极小说（优）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E5%8D%97%E6%9E%81%E5%B0%8F%E8%AF%B4%EF%BC%88%E4%BC%98%EF%BC%89.js",
-      "fileSize": 20837,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 22746,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "博览群书（优）",
@@ -1443,8 +1443,8 @@
       "enabled": true,
       "fileName": "博览群书（优）-2.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E5%8D%9A%E8%A7%88%E7%BE%A4%E4%B9%A6%EF%BC%88%E4%BC%98%EF%BC%89-2.js",
-      "fileSize": 25119,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 27028,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "博览群书（优）",
@@ -1462,8 +1462,8 @@
       "enabled": true,
       "fileName": "博览群书（优）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E5%8D%9A%E8%A7%88%E7%BE%A4%E4%B9%A6%EF%BC%88%E4%BC%98%EF%BC%89.js",
-      "fileSize": 25112,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 27021,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "双语小说（英）",
@@ -1481,8 +1481,8 @@
       "enabled": true,
       "fileName": "双语小说（英）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E5%8F%8C%E8%AF%AD%E5%B0%8F%E8%AF%B4%EF%BC%88%E8%8B%B1%EF%BC%89.js",
-      "fileSize": 19578,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 21487,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "双零电子（优）",
@@ -1500,8 +1500,8 @@
       "enabled": true,
       "fileName": "双零电子（优）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E5%8F%8C%E9%9B%B6%E7%94%B5%E5%AD%90%EF%BC%88%E4%BC%98%EF%BC%89.js",
-      "fileSize": 22305,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 24214,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "古典文学（优+）",
@@ -1519,8 +1519,8 @@
       "enabled": true,
       "fileName": "古典文学（优+）-2.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E5%8F%A4%E5%85%B8%E6%96%87%E5%AD%A6%EF%BC%88%E4%BC%98%2B%EF%BC%89-2.js",
-      "fileSize": 23031,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 24940,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "古典文学（优+）",
@@ -1538,8 +1538,8 @@
       "enabled": true,
       "fileName": "古典文学（优+）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E5%8F%A4%E5%85%B8%E6%96%87%E5%AD%A6%EF%BC%88%E4%BC%98%2B%EF%BC%89.js",
-      "fileSize": 22820,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 24729,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "古诗文网（优+）",
@@ -1557,8 +1557,8 @@
       "enabled": true,
       "fileName": "古诗文网（优+）-2.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E5%8F%A4%E8%AF%97%E6%96%87%E7%BD%91%EF%BC%88%E4%BC%98%2B%EF%BC%89-2.js",
-      "fileSize": 84711,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 86620,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "古诗文网（优+）",
@@ -1576,8 +1576,8 @@
       "enabled": true,
       "fileName": "古诗文网（优+）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E5%8F%A4%E8%AF%97%E6%96%87%E7%BD%91%EF%BC%88%E4%BC%98%2B%EF%BC%89.js",
-      "fileSize": 84269,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 86178,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "古诗词网（优+）",
@@ -1595,8 +1595,8 @@
       "enabled": true,
       "fileName": "古诗词网（优+）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E5%8F%A4%E8%AF%97%E8%AF%8D%E7%BD%91%EF%BC%88%E4%BC%98%2B%EF%BC%89.js",
-      "fileSize": 56434,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 58343,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "古龙全集（优+）",
@@ -1614,8 +1614,8 @@
       "enabled": true,
       "fileName": "古龙全集（优+）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E5%8F%A4%E9%BE%99%E5%85%A8%E9%9B%86%EF%BC%88%E4%BC%98%2B%EF%BC%89.js",
-      "fileSize": 19367,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 21276,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "古龙武侠（优+）",
@@ -1633,8 +1633,8 @@
       "enabled": true,
       "fileName": "古龙武侠（优+）-2.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E5%8F%A4%E9%BE%99%E6%AD%A6%E4%BE%A0%EF%BC%88%E4%BC%98%2B%EF%BC%89-2.js",
-      "fileSize": 35188,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 37097,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "古龙武侠（优+）",
@@ -1652,8 +1652,8 @@
       "enabled": true,
       "fileName": "古龙武侠（优+）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E5%8F%A4%E9%BE%99%E6%AD%A6%E4%BE%A0%EF%BC%88%E4%BC%98%2B%EF%BC%89.js",
-      "fileSize": 20047,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 21956,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "吉站漫画（优+）",
@@ -1672,8 +1672,8 @@
       "enabled": true,
       "fileName": "吉站漫画（优+）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E5%90%89%E7%AB%99%E6%BC%AB%E7%94%BB%EF%BC%88%E4%BC%98%2B%EF%BC%89.js",
-      "fileSize": 22536,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 24445,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "同人小说（优）",
@@ -1691,8 +1691,8 @@
       "enabled": true,
       "fileName": "同人小说（优）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E5%90%8C%E4%BA%BA%E5%B0%8F%E8%AF%B4%EF%BC%88%E4%BC%98%EF%BC%89.js",
-      "fileSize": 20128,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 22037,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "名著阅读（优++）",
@@ -1711,8 +1711,8 @@
       "enabled": true,
       "fileName": "名著阅读（优++）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E5%90%8D%E8%91%97%E9%98%85%E8%AF%BB%EF%BC%88%E4%BC%98%2B%2B%EF%BC%89.js",
-      "fileSize": 19902,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 21811,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "听蛙音乐（优+）",
@@ -1731,8 +1731,8 @@
       "enabled": true,
       "fileName": "听蛙音乐（优+）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E5%90%AC%E8%9B%99%E9%9F%B3%E4%B9%90%EF%BC%88%E4%BC%98%2B%EF%BC%89.js",
-      "fileSize": 20099,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 22008,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "吾爱破解（优+）",
@@ -1751,8 +1751,8 @@
       "enabled": true,
       "fileName": "吾爱破解（优+）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E5%90%BE%E7%88%B1%E7%A0%B4%E8%A7%A3%EF%BC%88%E4%BC%98%2B%EF%BC%89.js",
-      "fileSize": 20464,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 22373,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "咸鱼小说（优+）",
@@ -1770,8 +1770,8 @@
       "enabled": true,
       "fileName": "咸鱼小说（优+）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E5%92%B8%E9%B1%BC%E5%B0%8F%E8%AF%B4%EF%BC%88%E4%BC%98%2B%EF%BC%89.js",
-      "fileSize": 19636,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 21545,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "哎爱巴士",
@@ -1790,8 +1790,8 @@
       "enabled": true,
       "fileName": "哎爱巴士.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E5%93%8E%E7%88%B1%E5%B7%B4%E5%A3%AB.js",
-      "fileSize": 21088,
-      "updatedAt": "2026-04-24T09:06:16Z"
+      "fileSize": 22997,
+      "updatedAt": "2026-04-24T10:58:57Z"
     },
     {
       "name": "哔哩哔哩（优+++）",
@@ -1810,8 +1810,8 @@
       "enabled": true,
       "fileName": "哔哩哔哩（优+++）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E5%93%94%E5%93%A9%E5%93%94%E5%93%A9%EF%BC%88%E4%BC%98%2B%2B%2B%EF%BC%89.js",
-      "fileSize": 135315,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 137224,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "哔哩漫画（优+++）",
@@ -1830,8 +1830,8 @@
       "enabled": true,
       "fileName": "哔哩漫画（优+++）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E5%93%94%E5%93%A9%E6%BC%AB%E7%94%BB%EF%BC%88%E4%BC%98%2B%2B%2B%EF%BC%89.js",
-      "fileSize": 39799,
-      "updatedAt": "2026-04-24T09:06:16Z"
+      "fileSize": 41708,
+      "updatedAt": "2026-04-24T10:58:57Z"
     },
     {
       "name": "商店小说（优）",
@@ -1849,8 +1849,8 @@
       "enabled": true,
       "fileName": "商店小说（优）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E5%95%86%E5%BA%97%E5%B0%8F%E8%AF%B4%EF%BC%88%E4%BC%98%EF%BC%89.js",
-      "fileSize": 20857,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 22766,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "喜马拉雅（优+）",
@@ -1869,8 +1869,8 @@
       "enabled": true,
       "fileName": "喜马拉雅（优+）-2.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E5%96%9C%E9%A9%AC%E6%8B%89%E9%9B%85%EF%BC%88%E4%BC%98%2B%EF%BC%89-2.js",
-      "fileSize": 34286,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 36195,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "喜马拉雅（优+）",
@@ -1889,8 +1889,8 @@
       "enabled": true,
       "fileName": "喜马拉雅（优+）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E5%96%9C%E9%A9%AC%E6%8B%89%E9%9B%85%EF%BC%88%E4%BC%98%2B%EF%BC%89.js",
-      "fileSize": 34148,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 36057,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "喜马拉雅（优）",
@@ -1909,8 +1909,8 @@
       "enabled": true,
       "fileName": "喜马拉雅（优）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E5%96%9C%E9%A9%AC%E6%8B%89%E9%9B%85%EF%BC%88%E4%BC%98%EF%BC%89.js",
-      "fileSize": 20317,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 22226,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "四三看书（优）",
@@ -1928,8 +1928,8 @@
       "enabled": true,
       "fileName": "四三看书（优）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E5%9B%9B%E4%B8%89%E7%9C%8B%E4%B9%A6%EF%BC%88%E4%BC%98%EF%BC%89.js",
-      "fileSize": 23581,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 25490,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "国学典籍（优+）",
@@ -1947,8 +1947,8 @@
       "enabled": true,
       "fileName": "国学典籍（优+）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E5%9B%BD%E5%AD%A6%E5%85%B8%E7%B1%8D%EF%BC%88%E4%BC%98%2B%EF%BC%89.js",
-      "fileSize": 38148,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 40057,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "国学書库（优+）",
@@ -1966,8 +1966,8 @@
       "enabled": true,
       "fileName": "国学書库（优+）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E5%9B%BD%E5%AD%A6%E6%9B%B8%E5%BA%93%EF%BC%88%E4%BC%98%2B%EF%BC%89.js",
-      "fileSize": 21989,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 23898,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "国学经典（优+）",
@@ -1985,8 +1985,8 @@
       "enabled": true,
       "fileName": "国学经典（优+）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E5%9B%BD%E5%AD%A6%E7%BB%8F%E5%85%B8%EF%BC%88%E4%BC%98%2B%EF%BC%89.js",
-      "fileSize": 25270,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 27179,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "图书迷子（优）",
@@ -2004,8 +2004,8 @@
       "enabled": true,
       "fileName": "图书迷子（优）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E5%9B%BE%E4%B9%A6%E8%BF%B7%E5%AD%90%EF%BC%88%E4%BC%98%EF%BC%89.js",
-      "fileSize": 22291,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 24200,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "坚果云盘（优++）",
@@ -2024,8 +2024,8 @@
       "enabled": true,
       "fileName": "坚果云盘（优++）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E5%9D%9A%E6%9E%9C%E4%BA%91%E7%9B%98%EF%BC%88%E4%BC%98%2B%2B%EF%BC%89.js",
-      "fileSize": 21079,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 22988,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "城堡小说（优+）",
@@ -2043,8 +2043,8 @@
       "enabled": true,
       "fileName": "城堡小说（优+）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E5%9F%8E%E5%A0%A1%E5%B0%8F%E8%AF%B4%EF%BC%88%E4%BC%98%2B%EF%BC%89.js",
-      "fileSize": 29396,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 31305,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "墨辰整理书源系列7.1版",
@@ -2061,8 +2061,8 @@
       "enabled": true,
       "fileName": "墨辰整理书源系列7.1版.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E5%A2%A8%E8%BE%B0%E6%95%B4%E7%90%86%E4%B9%A6%E6%BA%90%E7%B3%BB%E5%88%977.1%E7%89%88.js",
-      "fileSize": 24233,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 26142,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "壹二小说（优）",
@@ -2080,8 +2080,8 @@
       "enabled": true,
       "fileName": "壹二小说（优）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E5%A3%B9%E4%BA%8C%E5%B0%8F%E8%AF%B4%EF%BC%88%E4%BC%98%EF%BC%89.js",
-      "fileSize": 24461,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 26370,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "多多书院（优）",
@@ -2099,8 +2099,8 @@
       "enabled": true,
       "fileName": "多多书院（优）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E5%A4%9A%E5%A4%9A%E4%B9%A6%E9%99%A2%EF%BC%88%E4%BC%98%EF%BC%89.js",
-      "fileSize": 20078,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 21987,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "夜天连看（优）",
@@ -2118,8 +2118,8 @@
       "enabled": true,
       "fileName": "夜天连看（优）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E5%A4%9C%E5%A4%A9%E8%BF%9E%E7%9C%8B%EF%BC%88%E4%BC%98%EF%BC%89.js",
-      "fileSize": 20056,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 21965,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "大唐小说（优+）",
@@ -2137,8 +2137,8 @@
       "enabled": true,
       "fileName": "大唐小说（优+）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E5%A4%A7%E5%94%90%E5%B0%8F%E8%AF%B4%EF%BC%88%E4%BC%98%2B%EF%BC%89.js",
-      "fileSize": 37416,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 39325,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "大美书网（优）",
@@ -2156,8 +2156,8 @@
       "enabled": true,
       "fileName": "大美书网（优）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E5%A4%A7%E7%BE%8E%E4%B9%A6%E7%BD%91%EF%BC%88%E4%BC%98%EF%BC%89.js",
-      "fileSize": 22385,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 24294,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "天下书音（优）",
@@ -2176,8 +2176,8 @@
       "enabled": true,
       "fileName": "天下书音（优）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E5%A4%A9%E4%B8%8B%E4%B9%A6%E9%9F%B3%EF%BC%88%E4%BC%98%EF%BC%89.js",
-      "fileSize": 27153,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 29062,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "天地中文",
@@ -2196,8 +2196,8 @@
       "enabled": true,
       "fileName": "天地中文.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E5%A4%A9%E5%9C%B0%E4%B8%AD%E6%96%87.js",
-      "fileSize": 21832,
-      "updatedAt": "2026-04-24T09:06:16Z"
+      "fileSize": 23741,
+      "updatedAt": "2026-04-24T10:58:57Z"
     },
     {
       "name": "天堂深圳（优）",
@@ -2215,8 +2215,8 @@
       "enabled": true,
       "fileName": "天堂深圳（优）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E5%A4%A9%E5%A0%82%E6%B7%B1%E5%9C%B3%EF%BC%88%E4%BC%98%EF%BC%89.js",
-      "fileSize": 19616,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 21525,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "天天书吧（优+）",
@@ -2234,8 +2234,8 @@
       "enabled": true,
       "fileName": "天天书吧（优+）-2.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E5%A4%A9%E5%A4%A9%E4%B9%A6%E5%90%A7%EF%BC%88%E4%BC%98%2B%EF%BC%89-2.js",
-      "fileSize": 20126,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 22035,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "天天书吧（优+）",
@@ -2253,8 +2253,8 @@
       "enabled": true,
       "fileName": "天天书吧（优+）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E5%A4%A9%E5%A4%A9%E4%B9%A6%E5%90%A7%EF%BC%88%E4%BC%98%2B%EF%BC%89.js",
-      "fileSize": 20763,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 22672,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "天天小说（优+++）",
@@ -2272,8 +2272,8 @@
       "enabled": true,
       "fileName": "天天小说（优+++）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E5%A4%A9%E5%A4%A9%E5%B0%8F%E8%AF%B4%EF%BC%88%E4%BC%98%2B%2B%2B%EF%BC%89.js",
-      "fileSize": 30766,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 32675,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "天天小说（优++）",
@@ -2291,8 +2291,8 @@
       "enabled": true,
       "fileName": "天天小说（优++）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E5%A4%A9%E5%A4%A9%E5%B0%8F%E8%AF%B4%EF%BC%88%E4%BC%98%2B%2B%EF%BC%89.js",
-      "fileSize": 20507,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 22416,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "天天看书（优+++）",
@@ -2310,8 +2310,8 @@
       "enabled": true,
       "fileName": "天天看书（优+++）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E5%A4%A9%E5%A4%A9%E7%9C%8B%E4%B9%A6%EF%BC%88%E4%BC%98%2B%2B%2B%EF%BC%89.js",
-      "fileSize": 22095,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 24004,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "天悦小说（优）",
@@ -2329,8 +2329,8 @@
       "enabled": true,
       "fileName": "天悦小说（优）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E5%A4%A9%E6%82%A6%E5%B0%8F%E8%AF%B4%EF%BC%88%E4%BC%98%EF%BC%89.js",
-      "fileSize": 21674,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 23583,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "天涯知识（优+）",
@@ -2348,8 +2348,8 @@
       "enabled": true,
       "fileName": "天涯知识（优+）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E5%A4%A9%E6%B6%AF%E7%9F%A5%E8%AF%86%EF%BC%88%E4%BC%98%2B%EF%BC%89.js",
-      "fileSize": 20137,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 22046,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "天涯知识（优）",
@@ -2368,8 +2368,8 @@
       "enabled": true,
       "fileName": "天涯知识（优）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E5%A4%A9%E6%B6%AF%E7%9F%A5%E8%AF%86%EF%BC%88%E4%BC%98%EF%BC%89.js",
-      "fileSize": 31409,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 33318,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "太极小说（优+）",
@@ -2387,8 +2387,8 @@
       "enabled": false,
       "fileName": "太极小说（优+）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E5%A4%AA%E6%9E%81%E5%B0%8F%E8%AF%B4%EF%BC%88%E4%BC%98%2B%EF%BC%89.js",
-      "fileSize": 25948,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 27857,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "奇书网吧（导）",
@@ -2407,8 +2407,8 @@
       "enabled": true,
       "fileName": "奇书网吧（导）-2.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E5%A5%87%E4%B9%A6%E7%BD%91%E5%90%A7%EF%BC%88%E5%AF%BC%EF%BC%89-2.js",
-      "fileSize": 22547,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 24456,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "奇书网吧（导）",
@@ -2427,8 +2427,8 @@
       "enabled": true,
       "fileName": "奇书网吧（导）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E5%A5%87%E4%B9%A6%E7%BD%91%E5%90%A7%EF%BC%88%E5%AF%BC%EF%BC%89.js",
-      "fileSize": 20714,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 22623,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "奇漫屋子（优）",
@@ -2447,8 +2447,8 @@
       "enabled": true,
       "fileName": "奇漫屋子（优）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E5%A5%87%E6%BC%AB%E5%B1%8B%E5%AD%90%EF%BC%88%E4%BC%98%EF%BC%89.js",
-      "fileSize": 20747,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 22656,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "奥尔中文（优）",
@@ -2466,8 +2466,8 @@
       "enabled": true,
       "fileName": "奥尔中文（优）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E5%A5%A5%E5%B0%94%E4%B8%AD%E6%96%87%EF%BC%88%E4%BC%98%EF%BC%89.js",
-      "fileSize": 21073,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 22982,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "好看漫画（优+）",
@@ -2486,8 +2486,8 @@
       "enabled": true,
       "fileName": "好看漫画（优+）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E5%A5%BD%E7%9C%8B%E6%BC%AB%E7%94%BB%EF%BC%88%E4%BC%98%2B%EF%BC%89.js",
-      "fileSize": 22305,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 24214,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "如漫画网（优+）",
@@ -2506,8 +2506,8 @@
       "enabled": true,
       "fileName": "如漫画网（优+）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E5%A6%82%E6%BC%AB%E7%94%BB%E7%BD%91%EF%BC%88%E4%BC%98%2B%EF%BC%89.js",
-      "fileSize": 23824,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 25733,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "存档书库（优）",
@@ -2526,8 +2526,8 @@
       "enabled": true,
       "fileName": "存档书库（优）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E5%AD%98%E6%A1%A3%E4%B9%A6%E5%BA%93%EF%BC%88%E4%BC%98%EF%BC%89.js",
-      "fileSize": 114805,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 116714,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "安之原创",
@@ -2546,8 +2546,8 @@
       "enabled": true,
       "fileName": "安之原创-2.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E5%AE%89%E4%B9%8B%E5%8E%9F%E5%88%9B-2.js",
-      "fileSize": 22912,
-      "updatedAt": "2026-04-24T09:06:16Z"
+      "fileSize": 24821,
+      "updatedAt": "2026-04-24T10:58:57Z"
     },
     {
       "name": "安之原创",
@@ -2566,8 +2566,8 @@
       "enabled": true,
       "fileName": "安之原创-3.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E5%AE%89%E4%B9%8B%E5%8E%9F%E5%88%9B-3.js",
-      "fileSize": 22996,
-      "updatedAt": "2026-04-24T09:06:16Z"
+      "fileSize": 24905,
+      "updatedAt": "2026-04-24T10:58:57Z"
     },
     {
       "name": "安之原创",
@@ -2586,8 +2586,8 @@
       "enabled": true,
       "fileName": "安之原创.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E5%AE%89%E4%B9%8B%E5%8E%9F%E5%88%9B.js",
-      "fileSize": 19579,
-      "updatedAt": "2026-04-24T09:06:16Z"
+      "fileSize": 21488,
+      "updatedAt": "2026-04-24T10:58:57Z"
     },
     {
       "name": "安读书网（优+）",
@@ -2605,8 +2605,8 @@
       "enabled": true,
       "fileName": "安读书网（优+）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E5%AE%89%E8%AF%BB%E4%B9%A6%E7%BD%91%EF%BC%88%E4%BC%98%2B%EF%BC%89.js",
-      "fileSize": 24348,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 26257,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "安轻小说",
@@ -2625,8 +2625,8 @@
       "enabled": true,
       "fileName": "安轻小说-2.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E5%AE%89%E8%BD%BB%E5%B0%8F%E8%AF%B4-2.js",
-      "fileSize": 22676,
-      "updatedAt": "2026-04-24T09:06:16Z"
+      "fileSize": 24585,
+      "updatedAt": "2026-04-24T10:58:57Z"
     },
     {
       "name": "安轻小说",
@@ -2645,8 +2645,8 @@
       "enabled": true,
       "fileName": "安轻小说.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E5%AE%89%E8%BD%BB%E5%B0%8F%E8%AF%B4.js",
-      "fileSize": 22206,
-      "updatedAt": "2026-04-24T09:06:16Z"
+      "fileSize": 24115,
+      "updatedAt": "2026-04-24T10:58:57Z"
     },
     {
       "name": "小米书城（优+）",
@@ -2664,8 +2664,8 @@
       "enabled": true,
       "fileName": "小米书城（优+）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E5%B0%8F%E7%B1%B3%E4%B9%A6%E5%9F%8E%EF%BC%88%E4%BC%98%2B%EF%BC%89.js",
-      "fileSize": 24869,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 26778,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "小米广播（优+）",
@@ -2684,8 +2684,8 @@
       "enabled": true,
       "fileName": "小米广播（优+）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E5%B0%8F%E7%B1%B3%E5%B9%BF%E6%92%AD%EF%BC%88%E4%BC%98%2B%EF%BC%89.js",
-      "fileSize": 35089,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 36998,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "小米阅读（优+）",
@@ -2703,8 +2703,8 @@
       "enabled": true,
       "fileName": "小米阅读（优+）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E5%B0%8F%E7%B1%B3%E9%98%85%E8%AF%BB%EF%BC%88%E4%BC%98%2B%EF%BC%89.js",
-      "fileSize": 23914,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 25823,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "就爱文学（优）",
@@ -2722,8 +2722,8 @@
       "enabled": true,
       "fileName": "就爱文学（优）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E5%B0%B1%E7%88%B1%E6%96%87%E5%AD%A6%EF%BC%88%E4%BC%98%EF%BC%89.js",
-      "fileSize": 21616,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 23525,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "布咕阅读",
@@ -2742,8 +2742,8 @@
       "enabled": true,
       "fileName": "布咕阅读.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E5%B8%83%E5%92%95%E9%98%85%E8%AF%BB.js",
-      "fileSize": 19817,
-      "updatedAt": "2026-04-24T09:06:16Z"
+      "fileSize": 21726,
+      "updatedAt": "2026-04-24T10:58:57Z"
     },
     {
       "name": "幻想小说（优++）",
@@ -2761,8 +2761,8 @@
       "enabled": true,
       "fileName": "幻想小说（优++）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E5%B9%BB%E6%83%B3%E5%B0%8F%E8%AF%B4%EF%BC%88%E4%BC%98%2B%2B%EF%BC%89.js",
-      "fileSize": 20329,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 22238,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "幻梦轻说（优++）",
@@ -2780,8 +2780,8 @@
       "enabled": true,
       "fileName": "幻梦轻说（优++）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E5%B9%BB%E6%A2%A6%E8%BD%BB%E8%AF%B4%EF%BC%88%E4%BC%98%2B%2B%EF%BC%89.js",
-      "fileSize": 33752,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 35661,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "开心漫画（优+）",
@@ -2800,8 +2800,8 @@
       "enabled": true,
       "fileName": "开心漫画（优+）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E5%BC%80%E5%BF%83%E6%BC%AB%E7%94%BB%EF%BC%88%E4%BC%98%2B%EF%BC%89.js",
-      "fileSize": 39164,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 41073,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "异轻纵然（优++）",
@@ -2819,8 +2819,8 @@
       "enabled": true,
       "fileName": "异轻纵然（优++）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E5%BC%82%E8%BD%BB%E7%BA%B5%E7%84%B6%EF%BC%88%E4%BC%98%2B%2B%EF%BC%89.js",
-      "fileSize": 22542,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 24451,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "得奇小说（优+++）",
@@ -2838,8 +2838,8 @@
       "enabled": true,
       "fileName": "得奇小说（优+++）-2.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E5%BE%97%E5%A5%87%E5%B0%8F%E8%AF%B4%EF%BC%88%E4%BC%98%2B%2B%2B%EF%BC%89-2.js",
-      "fileSize": 19910,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 21819,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "得奇小说（优+++）",
@@ -2857,8 +2857,8 @@
       "enabled": true,
       "fileName": "得奇小说（优+++）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E5%BE%97%E5%A5%87%E5%B0%8F%E8%AF%B4%EF%BC%88%E4%BC%98%2B%2B%2B%EF%BC%89.js",
-      "fileSize": 23313,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 25222,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "微博书源（优+）",
@@ -2877,8 +2877,8 @@
       "enabled": true,
       "fileName": "微博书源（优+）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E5%BE%AE%E5%8D%9A%E4%B9%A6%E6%BA%90%EF%BC%88%E4%BC%98%2B%EF%BC%89.js",
-      "fileSize": 32681,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 34590,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "微博评论（优+）",
@@ -2897,8 +2897,8 @@
       "enabled": true,
       "fileName": "微博评论（优+）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E5%BE%AE%E5%8D%9A%E8%AF%84%E8%AE%BA%EF%BC%88%E4%BC%98%2B%EF%BC%89.js",
-      "fileSize": 27477,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 29386,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "心轻小说",
@@ -2917,8 +2917,8 @@
       "enabled": true,
       "fileName": "心轻小说.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E5%BF%83%E8%BD%BB%E5%B0%8F%E8%AF%B4.js",
-      "fileSize": 19702,
-      "updatedAt": "2026-04-24T09:06:16Z"
+      "fileSize": 21611,
+      "updatedAt": "2026-04-24T10:58:57Z"
     },
     {
       "name": "快看漫画",
@@ -2937,8 +2937,8 @@
       "enabled": true,
       "fileName": "快看漫画-2.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E5%BF%AB%E7%9C%8B%E6%BC%AB%E7%94%BB-2.js",
-      "fileSize": 31571,
-      "updatedAt": "2026-04-24T09:06:16Z"
+      "fileSize": 33480,
+      "updatedAt": "2026-04-24T10:58:57Z"
     },
     {
       "name": "快看漫画",
@@ -2957,8 +2957,8 @@
       "enabled": true,
       "fileName": "快看漫画-3.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E5%BF%AB%E7%9C%8B%E6%BC%AB%E7%94%BB-3.js",
-      "fileSize": 31457,
-      "updatedAt": "2026-04-24T09:06:16Z"
+      "fileSize": 33366,
+      "updatedAt": "2026-04-24T10:58:57Z"
     },
     {
       "name": "快看漫画",
@@ -2977,8 +2977,8 @@
       "enabled": true,
       "fileName": "快看漫画-4.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E5%BF%AB%E7%9C%8B%E6%BC%AB%E7%94%BB-4.js",
-      "fileSize": 30438,
-      "updatedAt": "2026-04-24T09:06:16Z"
+      "fileSize": 32347,
+      "updatedAt": "2026-04-24T10:58:57Z"
     },
     {
       "name": "快看漫画",
@@ -2997,8 +2997,8 @@
       "enabled": true,
       "fileName": "快看漫画-5.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E5%BF%AB%E7%9C%8B%E6%BC%AB%E7%94%BB-5.js",
-      "fileSize": 31261,
-      "updatedAt": "2026-04-24T09:06:16Z"
+      "fileSize": 33170,
+      "updatedAt": "2026-04-24T10:58:57Z"
     },
     {
       "name": "快看漫画",
@@ -3017,8 +3017,8 @@
       "enabled": true,
       "fileName": "快看漫画.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E5%BF%AB%E7%9C%8B%E6%BC%AB%E7%94%BB.js",
-      "fileSize": 21782,
-      "updatedAt": "2026-04-24T09:06:16Z"
+      "fileSize": 23691,
+      "updatedAt": "2026-04-24T10:58:57Z"
     },
     {
       "name": "快眼看书（优+）",
@@ -3036,8 +3036,8 @@
       "enabled": true,
       "fileName": "快眼看书（优+）-2.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E5%BF%AB%E7%9C%BC%E7%9C%8B%E4%B9%A6%EF%BC%88%E4%BC%98%2B%EF%BC%89-2.js",
-      "fileSize": 20266,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 22175,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "快眼看书（优+）",
@@ -3055,8 +3055,8 @@
       "enabled": true,
       "fileName": "快眼看书（优+）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E5%BF%AB%E7%9C%BC%E7%9C%8B%E4%B9%A6%EF%BC%88%E4%BC%98%2B%EF%BC%89.js",
-      "fileSize": 19898,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 21807,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "恩施轻语（优+）",
@@ -3074,8 +3074,8 @@
       "enabled": true,
       "fileName": "恩施轻语（优+）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E6%81%A9%E6%96%BD%E8%BD%BB%E8%AF%AD%EF%BC%88%E4%BC%98%2B%EF%BC%89.js",
-      "fileSize": 26197,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 28106,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "懒人听书（优+++）",
@@ -3094,8 +3094,8 @@
       "enabled": true,
       "fileName": "懒人听书（优+++）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E6%87%92%E4%BA%BA%E5%90%AC%E4%B9%A6%EF%BC%88%E4%BC%98%2B%2B%2B%EF%BC%89.js",
-      "fileSize": 23724,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 25633,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "我是盐神（优+）",
@@ -3113,8 +3113,8 @@
       "enabled": true,
       "fileName": "我是盐神（优+）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E6%88%91%E6%98%AF%E7%9B%90%E7%A5%9E%EF%BC%88%E4%BC%98%2B%EF%BC%89.js",
-      "fileSize": 21026,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 22935,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "我爱读者（优）",
@@ -3133,8 +3133,8 @@
       "enabled": true,
       "fileName": "我爱读者（优）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E6%88%91%E7%88%B1%E8%AF%BB%E8%80%85%EF%BC%88%E4%BC%98%EF%BC%89.js",
-      "fileSize": 19313,
-      "updatedAt": "2026-04-24T09:06:16Z"
+      "fileSize": 21222,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "我的书城（优++）",
@@ -3152,8 +3152,8 @@
       "enabled": true,
       "fileName": "我的书城（优++）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E6%88%91%E7%9A%84%E4%B9%A6%E5%9F%8E%EF%BC%88%E4%BC%98%2B%2B%EF%BC%89.js",
-      "fileSize": 21259,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 23168,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "手机看书（优）",
@@ -3171,8 +3171,8 @@
       "enabled": true,
       "fileName": "手机看书（优）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E6%89%8B%E6%9C%BA%E7%9C%8B%E4%B9%A6%EF%BC%88%E4%BC%98%EF%BC%89.js",
-      "fileSize": 23224,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 25133,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "拷贝漫画（优++）",
@@ -3191,8 +3191,8 @@
       "enabled": true,
       "fileName": "拷贝漫画（优++）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E6%8B%B7%E8%B4%9D%E6%BC%AB%E7%94%BB%EF%BC%88%E4%BC%98%2B%2B%EF%BC%89.js",
-      "fileSize": 20734,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 22643,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "掌阅小说",
@@ -3211,8 +3211,8 @@
       "enabled": true,
       "fileName": "掌阅小说.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E6%8E%8C%E9%98%85%E5%B0%8F%E8%AF%B4.js",
-      "fileSize": 27441,
-      "updatedAt": "2026-04-24T09:06:16Z"
+      "fileSize": 29350,
+      "updatedAt": "2026-04-24T10:58:57Z"
     },
     {
       "name": "搜书小说（优）",
@@ -3230,8 +3230,8 @@
       "enabled": true,
       "fileName": "搜书小说（优）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E6%90%9C%E4%B9%A6%E5%B0%8F%E8%AF%B4%EF%BC%88%E4%BC%98%EF%BC%89.js",
-      "fileSize": 19996,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 21905,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "收费漫画",
@@ -3250,8 +3250,8 @@
       "enabled": true,
       "fileName": "收费漫画.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E6%94%B6%E8%B4%B9%E6%BC%AB%E7%94%BB.js",
-      "fileSize": 21662,
-      "updatedAt": "2026-04-24T09:06:16Z"
+      "fileSize": 23571,
+      "updatedAt": "2026-04-24T10:58:57Z"
     },
     {
       "name": "文桑小说（优）",
@@ -3269,8 +3269,8 @@
       "enabled": true,
       "fileName": "文桑小说（优）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E6%96%87%E6%A1%91%E5%B0%8F%E8%AF%B4%EF%BC%88%E4%BC%98%EF%BC%89.js",
-      "fileSize": 21069,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 22978,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "斗罗小说（优+）",
@@ -3288,8 +3288,8 @@
       "enabled": true,
       "fileName": "斗罗小说（优+）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E6%96%97%E7%BD%97%E5%B0%8F%E8%AF%B4%EF%BC%88%E4%BC%98%2B%EF%BC%89.js",
-      "fileSize": 20122,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 22031,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "新人漫画",
@@ -3308,8 +3308,8 @@
       "enabled": true,
       "fileName": "新人漫画.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E6%96%B0%E4%BA%BA%E6%BC%AB%E7%94%BB.js",
-      "fileSize": 21250,
-      "updatedAt": "2026-04-24T09:06:16Z"
+      "fileSize": 23159,
+      "updatedAt": "2026-04-24T10:58:57Z"
     },
     {
       "name": "新爱漫画（优+）",
@@ -3328,8 +3328,8 @@
       "enabled": true,
       "fileName": "新爱漫画（优+）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E6%96%B0%E7%88%B1%E6%BC%AB%E7%94%BB%EF%BC%88%E4%BC%98%2B%EF%BC%89.js",
-      "fileSize": 21176,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 23085,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "新读小说（繁）",
@@ -3347,8 +3347,8 @@
       "enabled": true,
       "fileName": "新读小说（繁）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E6%96%B0%E8%AF%BB%E5%B0%8F%E8%AF%B4%EF%BC%88%E7%B9%81%EF%BC%89.js",
-      "fileSize": 20341,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 22250,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "无奈书库（优）",
@@ -3366,8 +3366,8 @@
       "enabled": true,
       "fileName": "无奈书库（优）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E6%97%A0%E5%A5%88%E4%B9%A6%E5%BA%93%EF%BC%88%E4%BC%98%EF%BC%89.js",
-      "fileSize": 20330,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 22239,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "无忧书城（优）",
@@ -3385,8 +3385,8 @@
       "enabled": true,
       "fileName": "无忧书城（优）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E6%97%A0%E5%BF%A7%E4%B9%A6%E5%9F%8E%EF%BC%88%E4%BC%98%EF%BC%89.js",
-      "fileSize": 24280,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 26189,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "无线电子（优）",
@@ -3404,8 +3404,8 @@
       "enabled": true,
       "fileName": "无线电子（优）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E6%97%A0%E7%BA%BF%E7%94%B5%E5%AD%90%EF%BC%88%E4%BC%98%EF%BC%89.js",
-      "fileSize": 20774,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 22683,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "旭日小说（优+）",
@@ -3423,8 +3423,8 @@
       "enabled": true,
       "fileName": "旭日小说（优+）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E6%97%AD%E6%97%A5%E5%B0%8F%E8%AF%B4%EF%BC%88%E4%BC%98%2B%EF%BC%89.js",
-      "fileSize": 22743,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 24652,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "时代音乐（优+）",
@@ -3443,8 +3443,8 @@
       "enabled": true,
       "fileName": "时代音乐（优+）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E6%97%B6%E4%BB%A3%E9%9F%B3%E4%B9%90%EF%BC%88%E4%BC%98%2B%EF%BC%89.js",
-      "fileSize": 24868,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 26777,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "星际漫画（优）",
@@ -3463,8 +3463,8 @@
       "enabled": true,
       "fileName": "星际漫画（优）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E6%98%9F%E9%99%85%E6%BC%AB%E7%94%BB%EF%BC%88%E4%BC%98%EF%BC%89.js",
-      "fileSize": 22228,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 24137,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "晋江文学",
@@ -3483,8 +3483,8 @@
       "enabled": true,
       "fileName": "晋江文学-2.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E6%99%8B%E6%B1%9F%E6%96%87%E5%AD%A6-2.js",
-      "fileSize": 55548,
-      "updatedAt": "2026-04-24T09:06:16Z"
+      "fileSize": 57457,
+      "updatedAt": "2026-04-24T10:58:57Z"
     },
     {
       "name": "晋江文学",
@@ -3503,8 +3503,8 @@
       "enabled": true,
       "fileName": "晋江文学-3.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E6%99%8B%E6%B1%9F%E6%96%87%E5%AD%A6-3.js",
-      "fileSize": 116938,
-      "updatedAt": "2026-04-24T09:06:16Z"
+      "fileSize": 118847,
+      "updatedAt": "2026-04-24T10:58:57Z"
     },
     {
       "name": "晋江文学",
@@ -3523,8 +3523,8 @@
       "enabled": true,
       "fileName": "晋江文学.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E6%99%8B%E6%B1%9F%E6%96%87%E5%AD%A6.js",
-      "fileSize": 38696,
-      "updatedAt": "2026-04-24T09:06:16Z"
+      "fileSize": 40605,
+      "updatedAt": "2026-04-24T10:58:57Z"
     },
     {
       "name": "晋江评论",
@@ -3543,8 +3543,8 @@
       "enabled": true,
       "fileName": "晋江评论.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E6%99%8B%E6%B1%9F%E8%AF%84%E8%AE%BA.js",
-      "fileSize": 42518,
-      "updatedAt": "2026-04-24T09:06:16Z"
+      "fileSize": 44427,
+      "updatedAt": "2026-04-24T10:58:57Z"
     },
     {
       "name": "曼哈漫画（优+）",
@@ -3563,8 +3563,8 @@
       "enabled": true,
       "fileName": "曼哈漫画（优+）-2.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E6%9B%BC%E5%93%88%E6%BC%AB%E7%94%BB%EF%BC%88%E4%BC%98%2B%EF%BC%89-2.js",
-      "fileSize": 22131,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 24040,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "曼哈漫画（优+）",
@@ -3583,8 +3583,8 @@
       "enabled": true,
       "fileName": "曼哈漫画（优+）-3.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E6%9B%BC%E5%93%88%E6%BC%AB%E7%94%BB%EF%BC%88%E4%BC%98%2B%EF%BC%89-3.js",
-      "fileSize": 22903,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 24812,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "曼哈漫画（优+）",
@@ -3603,8 +3603,8 @@
       "enabled": true,
       "fileName": "曼哈漫画（优+）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E6%9B%BC%E5%93%88%E6%BC%AB%E7%94%BB%EF%BC%88%E4%BC%98%2B%EF%BC%89.js",
-      "fileSize": 37288,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 39197,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "月趣动漫（优+）",
@@ -3623,8 +3623,8 @@
       "enabled": true,
       "fileName": "月趣动漫（优+）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E6%9C%88%E8%B6%A3%E5%8A%A8%E6%BC%AB%EF%BC%88%E4%BC%98%2B%EF%BC%89.js",
-      "fileSize": 22485,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 24394,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "有度中文",
@@ -3643,8 +3643,8 @@
       "enabled": true,
       "fileName": "有度中文.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E6%9C%89%E5%BA%A6%E4%B8%AD%E6%96%87.js",
-      "fileSize": 33728,
-      "updatedAt": "2026-04-24T09:06:16Z"
+      "fileSize": 35637,
+      "updatedAt": "2026-04-24T10:58:57Z"
     },
     {
       "name": "有度中文（优++）",
@@ -3662,8 +3662,8 @@
       "enabled": true,
       "fileName": "有度中文（优++）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E6%9C%89%E5%BA%A6%E4%B8%AD%E6%96%87%EF%BC%88%E4%BC%98%2B%2B%EF%BC%89.js",
-      "fileSize": 35102,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 37011,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "有度中文（优+）",
@@ -3681,8 +3681,8 @@
       "enabled": true,
       "fileName": "有度中文（优+）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E6%9C%89%E5%BA%A6%E4%B8%AD%E6%96%87%EF%BC%88%E4%BC%98%2B%EF%BC%89.js",
-      "fileSize": 35146,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 37055,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "有度轻说（优+）",
@@ -3700,8 +3700,8 @@
       "enabled": true,
       "fileName": "有度轻说（优+）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E6%9C%89%E5%BA%A6%E8%BD%BB%E8%AF%B4%EF%BC%88%E4%BC%98%2B%EF%BC%89.js",
-      "fileSize": 22459,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 24368,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "松鹤庭沐（优）",
@@ -3719,8 +3719,8 @@
       "enabled": true,
       "fileName": "松鹤庭沐（优）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E6%9D%BE%E9%B9%A4%E5%BA%AD%E6%B2%90%EF%BC%88%E4%BC%98%EF%BC%89.js",
-      "fileSize": 290520,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 292429,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "松鹤阅读",
@@ -3739,8 +3739,8 @@
       "enabled": true,
       "fileName": "松鹤阅读.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E6%9D%BE%E9%B9%A4%E9%98%85%E8%AF%BB.js",
-      "fileSize": 87372,
-      "updatedAt": "2026-04-24T09:06:16Z"
+      "fileSize": 89281,
+      "updatedAt": "2026-04-24T10:58:57Z"
     },
     {
       "name": "栀子欢子",
@@ -3759,8 +3759,8 @@
       "enabled": true,
       "fileName": "栀子欢子.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E6%A0%80%E5%AD%90%E6%AC%A2%E5%AD%90.js",
-      "fileSize": 24585,
-      "updatedAt": "2026-04-24T09:06:16Z"
+      "fileSize": 26494,
+      "updatedAt": "2026-04-24T10:58:57Z"
     },
     {
       "name": "栀子欢波",
@@ -3779,8 +3779,8 @@
       "enabled": true,
       "fileName": "栀子欢波.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E6%A0%80%E5%AD%90%E6%AC%A2%E6%B3%A2.js",
-      "fileSize": 24591,
-      "updatedAt": "2026-04-24T09:06:16Z"
+      "fileSize": 26500,
+      "updatedAt": "2026-04-24T10:58:57Z"
     },
     {
       "name": "栀子欢网",
@@ -3799,8 +3799,8 @@
       "enabled": true,
       "fileName": "栀子欢网.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E6%A0%80%E5%AD%90%E6%AC%A2%E7%BD%91.js",
-      "fileSize": 24376,
-      "updatedAt": "2026-04-24T09:06:16Z"
+      "fileSize": 26285,
+      "updatedAt": "2026-04-24T10:58:57Z"
     },
     {
       "name": "桔纸书屋（优+）",
@@ -3818,8 +3818,8 @@
       "enabled": true,
       "fileName": "桔纸书屋（优+）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E6%A1%94%E7%BA%B8%E4%B9%A6%E5%B1%8B%EF%BC%88%E4%BC%98%2B%EF%BC%89.js",
-      "fileSize": 21936,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 23845,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "梧桐中文",
@@ -3838,8 +3838,8 @@
       "enabled": true,
       "fileName": "梧桐中文-2.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E6%A2%A7%E6%A1%90%E4%B8%AD%E6%96%87-2.js",
-      "fileSize": 19651,
-      "updatedAt": "2026-04-24T09:06:16Z"
+      "fileSize": 21560,
+      "updatedAt": "2026-04-24T10:58:57Z"
     },
     {
       "name": "梧桐中文",
@@ -3858,8 +3858,8 @@
       "enabled": true,
       "fileName": "梧桐中文-3.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E6%A2%A7%E6%A1%90%E4%B8%AD%E6%96%87-3.js",
-      "fileSize": 20293,
-      "updatedAt": "2026-04-24T09:06:16Z"
+      "fileSize": 22202,
+      "updatedAt": "2026-04-24T10:58:57Z"
     },
     {
       "name": "梧桐中文",
@@ -3878,8 +3878,8 @@
       "enabled": true,
       "fileName": "梧桐中文.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E6%A2%A7%E6%A1%90%E4%B8%AD%E6%96%87.js",
-      "fileSize": 20804,
-      "updatedAt": "2026-04-24T09:06:16Z"
+      "fileSize": 22713,
+      "updatedAt": "2026-04-24T10:58:57Z"
     },
     {
       "name": "棉花小说（优）",
@@ -3897,8 +3897,8 @@
       "enabled": true,
       "fileName": "棉花小说（优）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E6%A3%89%E8%8A%B1%E5%B0%8F%E8%AF%B4%EF%BC%88%E4%BC%98%EF%BC%89.js",
-      "fileSize": 20643,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 22552,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "榴莲影视（优）",
@@ -3917,8 +3917,8 @@
       "enabled": true,
       "fileName": "榴莲影视（优）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E6%A6%B4%E8%8E%B2%E5%BD%B1%E8%A7%86%EF%BC%88%E4%BC%98%EF%BC%89.js",
-      "fileSize": 21014,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 22923,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "次元姬子（优）",
@@ -3937,8 +3937,8 @@
       "enabled": true,
       "fileName": "次元姬子（优）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E6%AC%A1%E5%85%83%E5%A7%AC%E5%AD%90%EF%BC%88%E4%BC%98%EF%BC%89.js",
-      "fileSize": 26086,
-      "updatedAt": "2026-04-24T09:06:16Z"
+      "fileSize": 27995,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "次元小说（优）",
@@ -3956,8 +3956,8 @@
       "enabled": true,
       "fileName": "次元小说（优）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E6%AC%A1%E5%85%83%E5%B0%8F%E8%AF%B4%EF%BC%88%E4%BC%98%EF%BC%89.js",
-      "fileSize": 20803,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 22712,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "歌书网吧（优）",
@@ -3975,8 +3975,8 @@
       "enabled": true,
       "fileName": "歌书网吧（优）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E6%AD%8C%E4%B9%A6%E7%BD%91%E5%90%A7%EF%BC%88%E4%BC%98%EF%BC%89.js",
-      "fileSize": 19760,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 21669,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "武芊漫画（优+）",
@@ -3995,8 +3995,8 @@
       "enabled": true,
       "fileName": "武芊漫画（优+）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E6%AD%A6%E8%8A%8A%E6%BC%AB%E7%94%BB%EF%BC%88%E4%BC%98%2B%EF%BC%89.js",
-      "fileSize": 21933,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 23842,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "殓师灵异（优）",
@@ -4014,8 +4014,8 @@
       "enabled": true,
       "fileName": "殓师灵异（优）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E6%AE%93%E5%B8%88%E7%81%B5%E5%BC%82%EF%BC%88%E4%BC%98%EF%BC%89.js",
-      "fileSize": 19972,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 21881,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "民间故事（优+）",
@@ -4033,8 +4033,8 @@
       "enabled": true,
       "fileName": "民间故事（优+）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E6%B0%91%E9%97%B4%E6%95%85%E4%BA%8B%EF%BC%88%E4%BC%98%2B%EF%BC%89.js",
-      "fileSize": 23088,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 24997,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "水山听书（优+）",
@@ -4053,8 +4053,8 @@
       "enabled": true,
       "fileName": "水山听书（优+）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E6%B0%B4%E5%B1%B1%E5%90%AC%E4%B9%A6%EF%BC%88%E4%BC%98%2B%EF%BC%89.js",
-      "fileSize": 21867,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 23776,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "永远漫画（优）",
@@ -4073,8 +4073,8 @@
       "enabled": true,
       "fileName": "永远漫画（优）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E6%B0%B8%E8%BF%9C%E6%BC%AB%E7%94%BB%EF%BC%88%E4%BC%98%EF%BC%89.js",
-      "fileSize": 31755,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 33664,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "求书帮吧（优）",
@@ -4092,8 +4092,8 @@
       "enabled": true,
       "fileName": "求书帮吧（优）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E6%B1%82%E4%B9%A6%E5%B8%AE%E5%90%A7%EF%BC%88%E4%BC%98%EF%BC%89.js",
-      "fileSize": 19967,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 21876,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "治能寄算（优+）",
@@ -4112,8 +4112,8 @@
       "enabled": true,
       "fileName": "治能寄算（优+）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E6%B2%BB%E8%83%BD%E5%AF%84%E7%AE%97%EF%BC%88%E4%BC%98%2B%EF%BC%89.js",
-      "fileSize": 24131,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 26040,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "海洋听书（优）",
@@ -4132,8 +4132,8 @@
       "enabled": true,
       "fileName": "海洋听书（优）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E6%B5%B7%E6%B4%8B%E5%90%AC%E4%B9%A6%EF%BC%88%E4%BC%98%EF%BC%89.js",
-      "fileSize": 20980,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 22889,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "海词木稽（优）",
@@ -4152,8 +4152,8 @@
       "enabled": true,
       "fileName": "海词木稽（优）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E6%B5%B7%E8%AF%8D%E6%9C%A8%E7%A8%BD%EF%BC%88%E4%BC%98%EF%BC%89.js",
-      "fileSize": 19368,
-      "updatedAt": "2026-04-24T09:06:16Z"
+      "fileSize": 21277,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "海词精选（优）",
@@ -4172,8 +4172,8 @@
       "enabled": true,
       "fileName": "海词精选（优）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E6%B5%B7%E8%AF%8D%E7%B2%BE%E9%80%89%EF%BC%88%E4%BC%98%EF%BC%89.js",
-      "fileSize": 19318,
-      "updatedAt": "2026-04-24T09:06:16Z"
+      "fileSize": 21227,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "海词词典（优）",
@@ -4192,8 +4192,8 @@
       "enabled": true,
       "fileName": "海词词典（优）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E6%B5%B7%E8%AF%8D%E8%AF%8D%E5%85%B8%EF%BC%88%E4%BC%98%EF%BC%89.js",
-      "fileSize": 19319,
-      "updatedAt": "2026-04-24T09:06:16Z"
+      "fileSize": 21228,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "滴答漫画（优）",
@@ -4212,8 +4212,8 @@
       "enabled": true,
       "fileName": "滴答漫画（优）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E6%BB%B4%E7%AD%94%E6%BC%AB%E7%94%BB%EF%BC%88%E4%BC%98%EF%BC%89.js",
-      "fileSize": 20562,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 22471,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "漫播听书（优）",
@@ -4232,8 +4232,8 @@
       "enabled": true,
       "fileName": "漫播听书（优）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E6%BC%AB%E6%92%AD%E5%90%AC%E4%B9%A6%EF%BC%88%E4%BC%98%EF%BC%89.js",
-      "fileSize": 22034,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 23943,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "漫漫漫画",
@@ -4252,8 +4252,8 @@
       "enabled": true,
       "fileName": "漫漫漫画.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E6%BC%AB%E6%BC%AB%E6%BC%AB%E7%94%BB.js",
-      "fileSize": 21241,
-      "updatedAt": "2026-04-24T09:06:16Z"
+      "fileSize": 23150,
+      "updatedAt": "2026-04-24T10:58:57Z"
     },
     {
       "name": "漫画搬运（优+）",
@@ -4272,8 +4272,8 @@
       "enabled": true,
       "fileName": "漫画搬运（优+）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E6%BC%AB%E7%94%BB%E6%90%AC%E8%BF%90%EF%BC%88%E4%BC%98%2B%EF%BC%89.js",
-      "fileSize": 24418,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 26327,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "漫红漫画（优）",
@@ -4292,8 +4292,8 @@
       "enabled": true,
       "fileName": "漫红漫画（优）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E6%BC%AB%E7%BA%A2%E6%BC%AB%E7%94%BB%EF%BC%88%E4%BC%98%EF%BC%89.js",
-      "fileSize": 19735,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 21644,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "潇社音乐（优+）",
@@ -4312,8 +4312,8 @@
       "enabled": true,
       "fileName": "潇社音乐（优+）-2.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E6%BD%87%E7%A4%BE%E9%9F%B3%E4%B9%90%EF%BC%88%E4%BC%98%2B%EF%BC%89-2.js",
-      "fileSize": 22991,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 24900,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "潇社音乐（优+）",
@@ -4332,8 +4332,8 @@
       "enabled": true,
       "fileName": "潇社音乐（优+）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E6%BD%87%E7%A4%BE%E9%9F%B3%E4%B9%90%EF%BC%88%E4%BC%98%2B%EF%BC%89.js",
-      "fileSize": 22992,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 24901,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "火球书库（优）",
@@ -4351,8 +4351,8 @@
       "enabled": true,
       "fileName": "火球书库（优）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E7%81%AB%E7%90%83%E4%B9%A6%E5%BA%93%EF%BC%88%E4%BC%98%EF%BC%89.js",
-      "fileSize": 22441,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 24350,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "灵感小说（优）",
@@ -4370,8 +4370,8 @@
       "enabled": true,
       "fileName": "灵感小说（优）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E7%81%B5%E6%84%9F%E5%B0%8F%E8%AF%B4%EF%BC%88%E4%BC%98%EF%BC%89.js",
-      "fileSize": 22044,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 23953,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "炫动小说（优+）",
@@ -4389,8 +4389,8 @@
       "enabled": true,
       "fileName": "炫动小说（优+）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E7%82%AB%E5%8A%A8%E5%B0%8F%E8%AF%B4%EF%BC%88%E4%BC%98%2B%EF%BC%89.js",
-      "fileSize": 23235,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 25144,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "熊猫文学（优+）",
@@ -4408,8 +4408,8 @@
       "enabled": true,
       "fileName": "熊猫文学（优+）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E7%86%8A%E7%8C%AB%E6%96%87%E5%AD%A6%EF%BC%88%E4%BC%98%2B%EF%BC%89.js",
-      "fileSize": 20822,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 22731,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "爱上听书（优）",
@@ -4428,8 +4428,8 @@
       "enabled": true,
       "fileName": "爱上听书（优）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E7%88%B1%E4%B8%8A%E5%90%AC%E4%B9%A6%EF%BC%88%E4%BC%98%EF%BC%89.js",
-      "fileSize": 20758,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 22667,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "爱下电子（优）",
@@ -4447,8 +4447,8 @@
       "enabled": true,
       "fileName": "爱下电子（优）-2.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E7%88%B1%E4%B8%8B%E7%94%B5%E5%AD%90%EF%BC%88%E4%BC%98%EF%BC%89-2.js",
-      "fileSize": 23527,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 25436,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "爱下电子（优）",
@@ -4466,8 +4466,8 @@
       "enabled": true,
       "fileName": "爱下电子（优）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E7%88%B1%E4%B8%8B%E7%94%B5%E5%AD%90%EF%BC%88%E4%BC%98%EF%BC%89.js",
-      "fileSize": 20975,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 22884,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "爱下电子（繁）",
@@ -4485,8 +4485,8 @@
       "enabled": true,
       "fileName": "爱下电子（繁）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E7%88%B1%E4%B8%8B%E7%94%B5%E5%AD%90%EF%BC%88%E7%B9%81%EF%BC%89.js",
-      "fileSize": 19752,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 21661,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "爱久久网（优+）",
@@ -4504,8 +4504,8 @@
       "enabled": true,
       "fileName": "爱久久网（优+）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E7%88%B1%E4%B9%85%E4%B9%85%E7%BD%91%EF%BC%88%E4%BC%98%2B%EF%BC%89.js",
-      "fileSize": 28467,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 30376,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "爱久小说（优）",
@@ -4523,8 +4523,8 @@
       "enabled": true,
       "fileName": "爱久小说（优）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E7%88%B1%E4%B9%85%E5%B0%8F%E8%AF%B4%EF%BC%88%E4%BC%98%EF%BC%89.js",
-      "fileSize": 30630,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 32539,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "爱优漫吧（优+）",
@@ -4543,8 +4543,8 @@
       "enabled": true,
       "fileName": "爱优漫吧（优+）-2.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E7%88%B1%E4%BC%98%E6%BC%AB%E5%90%A7%EF%BC%88%E4%BC%98%2B%EF%BC%89-2.js",
-      "fileSize": 30942,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 32851,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "爱优漫吧（优+）",
@@ -4563,8 +4563,8 @@
       "enabled": true,
       "fileName": "爱优漫吧（优+）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E7%88%B1%E4%BC%98%E6%BC%AB%E5%90%A7%EF%BC%88%E4%BC%98%2B%EF%BC%89.js",
-      "fileSize": 30939,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 32848,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "爱写小说（日）",
@@ -4582,8 +4582,8 @@
       "enabled": true,
       "fileName": "爱写小说（日）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E7%88%B1%E5%86%99%E5%B0%8F%E8%AF%B4%EF%BC%88%E6%97%A5%EF%BC%89.js",
-      "fileSize": 20957,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 22866,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "爱去小说（导）",
@@ -4602,8 +4602,8 @@
       "enabled": true,
       "fileName": "爱去小说（导）-2.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E7%88%B1%E5%8E%BB%E5%B0%8F%E8%AF%B4%EF%BC%88%E5%AF%BC%EF%BC%89-2.js",
-      "fileSize": 21466,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 23375,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "爱去小说（导）",
@@ -4622,8 +4622,8 @@
       "enabled": true,
       "fileName": "爱去小说（导）-3.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E7%88%B1%E5%8E%BB%E5%B0%8F%E8%AF%B4%EF%BC%88%E5%AF%BC%EF%BC%89-3.js",
-      "fileSize": 22562,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 24471,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "爱去小说（导）",
@@ -4642,8 +4642,8 @@
       "enabled": true,
       "fileName": "爱去小说（导）-4.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E7%88%B1%E5%8E%BB%E5%B0%8F%E8%AF%B4%EF%BC%88%E5%AF%BC%EF%BC%89-4.js",
-      "fileSize": 20811,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 22720,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "爱去小说（导）",
@@ -4662,8 +4662,8 @@
       "enabled": true,
       "fileName": "爱去小说（导）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E7%88%B1%E5%8E%BB%E5%B0%8F%E8%AF%B4%EF%BC%88%E5%AF%BC%EF%BC%89.js",
-      "fileSize": 26034,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 27943,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "爱发电网（优）",
@@ -4682,8 +4682,8 @@
       "enabled": true,
       "fileName": "爱发电网（优）-2.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E7%88%B1%E5%8F%91%E7%94%B5%E7%BD%91%EF%BC%88%E4%BC%98%EF%BC%89-2.js",
-      "fileSize": 22737,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 24646,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "爱发电网（优）",
@@ -4702,8 +4702,8 @@
       "enabled": true,
       "fileName": "爱发电网（优）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E7%88%B1%E5%8F%91%E7%94%B5%E7%BD%91%EF%BC%88%E4%BC%98%EF%BC%89.js",
-      "fileSize": 24474,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 26383,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "爱听书王（优+）",
@@ -4722,8 +4722,8 @@
       "enabled": true,
       "fileName": "爱听书王（优+）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E7%88%B1%E5%90%AC%E4%B9%A6%E7%8E%8B%EF%BC%88%E4%BC%98%2B%EF%BC%89.js",
-      "fileSize": 22588,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 24497,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "爱奇艺漫",
@@ -4742,8 +4742,8 @@
       "enabled": true,
       "fileName": "爱奇艺漫.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E7%88%B1%E5%A5%87%E8%89%BA%E6%BC%AB.js",
-      "fileSize": 23920,
-      "updatedAt": "2026-04-24T09:06:16Z"
+      "fileSize": 25829,
+      "updatedAt": "2026-04-24T10:58:57Z"
     },
     {
       "name": "爱尚小说（优）",
@@ -4761,8 +4761,8 @@
       "enabled": true,
       "fileName": "爱尚小说（优）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E7%88%B1%E5%B0%9A%E5%B0%8F%E8%AF%B4%EF%BC%88%E4%BC%98%EF%BC%89.js",
-      "fileSize": 19992,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 21901,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "爱推书君（优）",
@@ -4781,8 +4781,8 @@
       "enabled": true,
       "fileName": "爱推书君（优）-2.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E7%88%B1%E6%8E%A8%E4%B9%A6%E5%90%9B%EF%BC%88%E4%BC%98%EF%BC%89-2.js",
-      "fileSize": 25452,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 27361,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "爱推书君（优）",
@@ -4801,8 +4801,8 @@
       "enabled": true,
       "fileName": "爱推书君（优）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E7%88%B1%E6%8E%A8%E4%B9%A6%E5%90%9B%EF%BC%88%E4%BC%98%EF%BC%89.js",
-      "fileSize": 25430,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 27339,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "爱推書君（优）",
@@ -4821,8 +4821,8 @@
       "enabled": true,
       "fileName": "爱推書君（优）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E7%88%B1%E6%8E%A8%E6%9B%B8%E5%90%9B%EF%BC%88%E4%BC%98%EF%BC%89.js",
-      "fileSize": 26543,
-      "updatedAt": "2026-04-24T09:06:16Z"
+      "fileSize": 28452,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "爱淘小说（优++）",
@@ -4840,8 +4840,8 @@
       "enabled": true,
       "fileName": "爱淘小说（优++）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E7%88%B1%E6%B7%98%E5%B0%8F%E8%AF%B4%EF%BC%88%E4%BC%98%2B%2B%EF%BC%89.js",
-      "fileSize": 107017,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 108926,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "爱漫客栈",
@@ -4860,8 +4860,8 @@
       "enabled": true,
       "fileName": "爱漫客栈-2.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E7%88%B1%E6%BC%AB%E5%AE%A2%E6%A0%88-2.js",
-      "fileSize": 22107,
-      "updatedAt": "2026-04-24T09:06:16Z"
+      "fileSize": 24016,
+      "updatedAt": "2026-04-24T10:58:57Z"
     },
     {
       "name": "爱漫客栈",
@@ -4880,8 +4880,8 @@
       "enabled": true,
       "fileName": "爱漫客栈-3.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E7%88%B1%E6%BC%AB%E5%AE%A2%E6%A0%88-3.js",
-      "fileSize": 26227,
-      "updatedAt": "2026-04-24T09:06:16Z"
+      "fileSize": 28136,
+      "updatedAt": "2026-04-24T10:58:57Z"
     },
     {
       "name": "爱漫客栈",
@@ -4900,8 +4900,8 @@
       "enabled": true,
       "fileName": "爱漫客栈.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E7%88%B1%E6%BC%AB%E5%AE%A2%E6%A0%88.js",
-      "fileSize": 22083,
-      "updatedAt": "2026-04-24T09:06:16Z"
+      "fileSize": 23992,
+      "updatedAt": "2026-04-24T10:58:57Z"
     },
     {
       "name": "爱爱中文（优）",
@@ -4919,8 +4919,8 @@
       "enabled": true,
       "fileName": "爱爱中文（优）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E7%88%B1%E7%88%B1%E4%B8%AD%E6%96%87%EF%BC%88%E4%BC%98%EF%BC%89.js",
-      "fileSize": 20067,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 21976,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "爱看影视（优++）",
@@ -4939,8 +4939,8 @@
       "enabled": true,
       "fileName": "爱看影视（优++）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E7%88%B1%E7%9C%8B%E5%BD%B1%E8%A7%86%EF%BC%88%E4%BC%98%2B%2B%EF%BC%89.js",
-      "fileSize": 30401,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 32310,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "爱看漫画（优+）",
@@ -4959,8 +4959,8 @@
       "enabled": true,
       "fileName": "爱看漫画（优+）-2.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E7%88%B1%E7%9C%8B%E6%BC%AB%E7%94%BB%EF%BC%88%E4%BC%98%2B%EF%BC%89-2.js",
-      "fileSize": 25089,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 26998,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "爱看漫画（优+）",
@@ -4979,8 +4979,8 @@
       "enabled": true,
       "fileName": "爱看漫画（优+）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E7%88%B1%E7%9C%8B%E6%BC%AB%E7%94%BB%EF%BC%88%E4%BC%98%2B%EF%BC%89.js",
-      "fileSize": 25074,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 26983,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "爱看漫画（优）",
@@ -4999,8 +4999,8 @@
       "enabled": true,
       "fileName": "爱看漫画（优）-2.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E7%88%B1%E7%9C%8B%E6%BC%AB%E7%94%BB%EF%BC%88%E4%BC%98%EF%BC%89-2.js",
-      "fileSize": 25066,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 26975,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "爱看漫画（优）",
@@ -5019,8 +5019,8 @@
       "enabled": true,
       "fileName": "爱看漫画（优）-3.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E7%88%B1%E7%9C%8B%E6%BC%AB%E7%94%BB%EF%BC%88%E4%BC%98%EF%BC%89-3.js",
-      "fileSize": 24810,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 26719,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "爱看漫画（优）",
@@ -5039,8 +5039,8 @@
       "enabled": true,
       "fileName": "爱看漫画（优）-4.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E7%88%B1%E7%9C%8B%E6%BC%AB%E7%94%BB%EF%BC%88%E4%BC%98%EF%BC%89-4.js",
-      "fileSize": 25064,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 26973,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "爱看漫画（优）",
@@ -5059,8 +5059,8 @@
       "enabled": true,
       "fileName": "爱看漫画（优）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E7%88%B1%E7%9C%8B%E6%BC%AB%E7%94%BB%EF%BC%88%E4%BC%98%EF%BC%89.js",
-      "fileSize": 25178,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 27087,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "爱轻写真（优+）",
@@ -5079,8 +5079,8 @@
       "enabled": true,
       "fileName": "爱轻写真（优+）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E7%88%B1%E8%BD%BB%E5%86%99%E7%9C%9F%EF%BC%88%E4%BC%98%2B%EF%BC%89.js",
-      "fileSize": 22312,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 24221,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "独步小说（优+）",
@@ -5098,8 +5098,8 @@
       "enabled": true,
       "fileName": "独步小说（优+）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E7%8B%AC%E6%AD%A5%E5%B0%8F%E8%AF%B4%EF%BC%88%E4%BC%98%2B%EF%BC%89.js",
-      "fileSize": 19701,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 21610,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "独步小说（优）",
@@ -5117,8 +5117,8 @@
       "enabled": true,
       "fileName": "独步小说（优）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E7%8B%AC%E6%AD%A5%E5%B0%8F%E8%AF%B4%EF%BC%88%E4%BC%98%EF%BC%89.js",
-      "fileSize": 20700,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 22609,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "独阅读网",
@@ -5137,8 +5137,8 @@
       "enabled": true,
       "fileName": "独阅读网.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E7%8B%AC%E9%98%85%E8%AF%BB%E7%BD%91.js",
-      "fileSize": 21345,
-      "updatedAt": "2026-04-24T09:06:16Z"
+      "fileSize": 23254,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "狸猫故事（优+）",
@@ -5156,8 +5156,8 @@
       "enabled": true,
       "fileName": "狸猫故事（优+）-2.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E7%8B%B8%E7%8C%AB%E6%95%85%E4%BA%8B%EF%BC%88%E4%BC%98%2B%EF%BC%89-2.js",
-      "fileSize": 76707,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 78616,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "狸猫故事（优+）",
@@ -5175,8 +5175,8 @@
       "enabled": true,
       "fileName": "狸猫故事（优+）-3.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E7%8B%B8%E7%8C%AB%E6%95%85%E4%BA%8B%EF%BC%88%E4%BC%98%2B%EF%BC%89-3.js",
-      "fileSize": 23266,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 25175,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "狸猫故事（优+）",
@@ -5194,8 +5194,8 @@
       "enabled": true,
       "fileName": "狸猫故事（优+）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E7%8B%B8%E7%8C%AB%E6%95%85%E4%BA%8B%EF%BC%88%E4%BC%98%2B%EF%BC%89.js",
-      "fileSize": 76722,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 78631,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "猫九小说",
@@ -5214,8 +5214,8 @@
       "enabled": true,
       "fileName": "猫九小说-2.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E7%8C%AB%E4%B9%9D%E5%B0%8F%E8%AF%B4-2.js",
-      "fileSize": 24089,
-      "updatedAt": "2026-04-24T09:06:16Z"
+      "fileSize": 25998,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "猫九小说",
@@ -5234,8 +5234,8 @@
       "enabled": true,
       "fileName": "猫九小说.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E7%8C%AB%E4%B9%9D%E5%B0%8F%E8%AF%B4.js",
-      "fileSize": 24186,
-      "updatedAt": "2026-04-24T09:06:16Z"
+      "fileSize": 26095,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "猫眼看书（优++）",
@@ -5253,8 +5253,8 @@
       "enabled": true,
       "fileName": "猫眼看书（优++）-2.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E7%8C%AB%E7%9C%BC%E7%9C%8B%E4%B9%A6%EF%BC%88%E4%BC%98%2B%2B%EF%BC%89-2.js",
-      "fileSize": 27880,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 29789,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "猫眼看书（优++）",
@@ -5272,8 +5272,8 @@
       "enabled": true,
       "fileName": "猫眼看书（优++）-3.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E7%8C%AB%E7%9C%BC%E7%9C%8B%E4%B9%A6%EF%BC%88%E4%BC%98%2B%2B%EF%BC%89-3.js",
-      "fileSize": 34603,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 36512,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "猫眼看书（优++）",
@@ -5291,8 +5291,8 @@
       "enabled": true,
       "fileName": "猫眼看书（优++）-4.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E7%8C%AB%E7%9C%BC%E7%9C%8B%E4%B9%A6%EF%BC%88%E4%BC%98%2B%2B%EF%BC%89-4.js",
-      "fileSize": 31692,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 33601,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "猫眼看书（优++）",
@@ -5310,8 +5310,8 @@
       "enabled": true,
       "fileName": "猫眼看书（优++）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E7%8C%AB%E7%9C%BC%E7%9C%8B%E4%B9%A6%EF%BC%88%E4%BC%98%2B%2B%EF%BC%89.js",
-      "fileSize": 32315,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 34224,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "猫耳听书（优+）",
@@ -5330,8 +5330,8 @@
       "enabled": true,
       "fileName": "猫耳听书（优+）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E7%8C%AB%E8%80%B3%E5%90%AC%E4%B9%A6%EF%BC%88%E4%BC%98%2B%EF%BC%89.js",
-      "fileSize": 21263,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 23172,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "猫耳听书（优）",
@@ -5350,8 +5350,8 @@
       "enabled": true,
       "fileName": "猫耳听书（优）-2.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E7%8C%AB%E8%80%B3%E5%90%AC%E4%B9%A6%EF%BC%88%E4%BC%98%EF%BC%89-2.js",
-      "fileSize": 26058,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 27967,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "猫耳听书（优）",
@@ -5370,8 +5370,8 @@
       "enabled": true,
       "fileName": "猫耳听书（优）-3.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E7%8C%AB%E8%80%B3%E5%90%AC%E4%B9%A6%EF%BC%88%E4%BC%98%EF%BC%89-3.js",
-      "fileSize": 21776,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 23685,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "猫耳听书（优）",
@@ -5390,8 +5390,8 @@
       "enabled": true,
       "fileName": "猫耳听书（优）-4.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E7%8C%AB%E8%80%B3%E5%90%AC%E4%B9%A6%EF%BC%88%E4%BC%98%EF%BC%89-4.js",
-      "fileSize": 21657,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 23566,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "猫耳听书（优）",
@@ -5410,8 +5410,8 @@
       "enabled": true,
       "fileName": "猫耳听书（优）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E7%8C%AB%E8%80%B3%E5%90%AC%E4%B9%A6%EF%BC%88%E4%BC%98%EF%BC%89.js",
-      "fileSize": 21615,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 23524,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "猫耳广播（优）",
@@ -5430,8 +5430,8 @@
       "enabled": true,
       "fileName": "猫耳广播（优）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E7%8C%AB%E8%80%B3%E5%B9%BF%E6%92%AD%EF%BC%88%E4%BC%98%EF%BC%89.js",
-      "fileSize": 19809,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 21718,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "猫耳有声（优）",
@@ -5450,8 +5450,8 @@
       "enabled": true,
       "fileName": "猫耳有声（优）-2.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E7%8C%AB%E8%80%B3%E6%9C%89%E5%A3%B0%EF%BC%88%E4%BC%98%EF%BC%89-2.js",
-      "fileSize": 19790,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 21699,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "猫耳有声（优）",
@@ -5470,8 +5470,8 @@
       "enabled": true,
       "fileName": "猫耳有声（优）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E7%8C%AB%E8%80%B3%E6%9C%89%E5%A3%B0%EF%BC%88%E4%BC%98%EF%BC%89.js",
-      "fileSize": 20944,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 22853,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "猫耳音乐（优）",
@@ -5490,8 +5490,8 @@
       "enabled": true,
       "fileName": "猫耳音乐（优）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E7%8C%AB%E8%80%B3%E9%9F%B3%E4%B9%90%EF%BC%88%E4%BC%98%EF%BC%89.js",
-      "fileSize": 21623,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 23532,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "电线看书（优）",
@@ -5509,8 +5509,8 @@
       "enabled": true,
       "fileName": "电线看书（优）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E7%94%B5%E7%BA%BF%E7%9C%8B%E4%B9%A6%EF%BC%88%E4%BC%98%EF%BC%89.js",
-      "fileSize": 20058,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 21967,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "画涯爱子",
@@ -5529,8 +5529,8 @@
       "enabled": true,
       "fileName": "画涯爱子.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E7%94%BB%E6%B6%AF%E7%88%B1%E5%AD%90.js",
-      "fileSize": 20905,
-      "updatedAt": "2026-04-24T09:06:16Z"
+      "fileSize": 22814,
+      "updatedAt": "2026-04-24T10:58:57Z"
     },
     {
       "name": "番茄听书（优++）",
@@ -5549,8 +5549,8 @@
       "enabled": true,
       "fileName": "番茄听书（优++）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E7%95%AA%E8%8C%84%E5%90%AC%E4%B9%A6%EF%BC%88%E4%BC%98%2B%2B%EF%BC%89.js",
-      "fileSize": 23874,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 25783,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "番茄小说（优+++）",
@@ -5568,8 +5568,8 @@
       "enabled": true,
       "fileName": "番茄小说（优+++）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E7%95%AA%E8%8C%84%E5%B0%8F%E8%AF%B4%EF%BC%88%E4%BC%98%2B%2B%2B%EF%BC%89.js",
-      "fileSize": 71144,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 73053,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "番茄小说（优++）",
@@ -5587,8 +5587,8 @@
       "enabled": true,
       "fileName": "番茄小说（优++）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E7%95%AA%E8%8C%84%E5%B0%8F%E8%AF%B4%EF%BC%88%E4%BC%98%2B%2B%EF%BC%89.js",
-      "fileSize": 37980,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 39889,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "番茄小说（优+）",
@@ -5606,8 +5606,8 @@
       "enabled": true,
       "fileName": "番茄小说（优+）-2.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E7%95%AA%E8%8C%84%E5%B0%8F%E8%AF%B4%EF%BC%88%E4%BC%98%2B%EF%BC%89-2.js",
-      "fileSize": 26080,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 27989,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "番茄小说（优+）",
@@ -5625,8 +5625,8 @@
       "enabled": true,
       "fileName": "番茄小说（优+）-3.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E7%95%AA%E8%8C%84%E5%B0%8F%E8%AF%B4%EF%BC%88%E4%BC%98%2B%EF%BC%89-3.js",
-      "fileSize": 50408,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 52317,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "番茄小说（优+）",
@@ -5644,8 +5644,8 @@
       "enabled": true,
       "fileName": "番茄小说（优+）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E7%95%AA%E8%8C%84%E5%B0%8F%E8%AF%B4%EF%BC%88%E4%BC%98%2B%EF%BC%89.js",
-      "fileSize": 135913,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 137822,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "番茄短剧（优++）",
@@ -5664,8 +5664,8 @@
       "enabled": true,
       "fileName": "番茄短剧（优++）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E7%95%AA%E8%8C%84%E7%9F%AD%E5%89%A7%EF%BC%88%E4%BC%98%2B%2B%EF%BC%89.js",
-      "fileSize": 20760,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 22669,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "番薯小说（优++）",
@@ -5683,8 +5683,8 @@
       "enabled": true,
       "fileName": "番薯小说（优++）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E7%95%AA%E8%96%AF%E5%B0%8F%E8%AF%B4%EF%BC%88%E4%BC%98%2B%2B%EF%BC%89.js",
-      "fileSize": 82261,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 84170,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "疯读小说（优++）",
@@ -5702,8 +5702,8 @@
       "enabled": true,
       "fileName": "疯读小说（优++）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E7%96%AF%E8%AF%BB%E5%B0%8F%E8%AF%B4%EF%BC%88%E4%BC%98%2B%2B%EF%BC%89.js",
-      "fileSize": 51487,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 53396,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "疯读小说（优+）",
@@ -5721,8 +5721,8 @@
       "enabled": true,
       "fileName": "疯读小说（优+）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E7%96%AF%E8%AF%BB%E5%B0%8F%E8%AF%B4%EF%BC%88%E4%BC%98%2B%EF%BC%89.js",
-      "fileSize": 51464,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 53373,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "白浅小说（优）",
@@ -5740,8 +5740,8 @@
       "enabled": true,
       "fileName": "白浅小说（优）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E7%99%BD%E6%B5%85%E5%B0%8F%E8%AF%B4%EF%BC%88%E4%BC%98%EF%BC%89.js",
-      "fileSize": 21091,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 23000,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "百合爱会（优+）",
@@ -5759,8 +5759,8 @@
       "enabled": true,
       "fileName": "百合爱会（优+）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E7%99%BE%E5%90%88%E7%88%B1%E4%BC%9A%EF%BC%88%E4%BC%98%2B%EF%BC%89.js",
-      "fileSize": 20740,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 22649,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "百度图片（优）",
@@ -5779,8 +5779,8 @@
       "enabled": true,
       "fileName": "百度图片（优）-2.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E7%99%BE%E5%BA%A6%E5%9B%BE%E7%89%87%EF%BC%88%E4%BC%98%EF%BC%89-2.js",
-      "fileSize": 20073,
-      "updatedAt": "2026-04-24T09:06:16Z"
+      "fileSize": 21982,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "百度图片（优）",
@@ -5799,8 +5799,8 @@
       "enabled": true,
       "fileName": "百度图片（优）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E7%99%BE%E5%BA%A6%E5%9B%BE%E7%89%87%EF%BC%88%E4%BC%98%EF%BC%89.js",
-      "fileSize": 20409,
-      "updatedAt": "2026-04-24T09:06:16Z"
+      "fileSize": 22318,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "百度小说",
@@ -5819,8 +5819,8 @@
       "enabled": true,
       "fileName": "百度小说.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E7%99%BE%E5%BA%A6%E5%B0%8F%E8%AF%B4.js",
-      "fileSize": 24017,
-      "updatedAt": "2026-04-24T09:06:16Z"
+      "fileSize": 25926,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "百度知道（优）",
@@ -5839,8 +5839,8 @@
       "enabled": true,
       "fileName": "百度知道（优）-2.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E7%99%BE%E5%BA%A6%E7%9F%A5%E9%81%93%EF%BC%88%E4%BC%98%EF%BC%89-2.js",
-      "fileSize": 20356,
-      "updatedAt": "2026-04-24T09:06:16Z"
+      "fileSize": 22265,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "百度知道（优）",
@@ -5859,8 +5859,8 @@
       "enabled": true,
       "fileName": "百度知道（优）-3.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E7%99%BE%E5%BA%A6%E7%9F%A5%E9%81%93%EF%BC%88%E4%BC%98%EF%BC%89-3.js",
-      "fileSize": 20226,
-      "updatedAt": "2026-04-24T09:06:16Z"
+      "fileSize": 22135,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "百度知道（优）",
@@ -5879,8 +5879,8 @@
       "enabled": true,
       "fileName": "百度知道（优）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E7%99%BE%E5%BA%A6%E7%9F%A5%E9%81%93%EF%BC%88%E4%BC%98%EF%BC%89.js",
-      "fileSize": 21295,
-      "updatedAt": "2026-04-24T09:06:16Z"
+      "fileSize": 23204,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "百度网盘（优++）",
@@ -5899,8 +5899,8 @@
       "enabled": true,
       "fileName": "百度网盘（优++）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E7%99%BE%E5%BA%A6%E7%BD%91%E7%9B%98%EF%BC%88%E4%BC%98%2B%2B%EF%BC%89.js",
-      "fileSize": 23761,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 25670,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "百度贴吧（优+）",
@@ -5919,8 +5919,8 @@
       "enabled": true,
       "fileName": "百度贴吧（优+）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E7%99%BE%E5%BA%A6%E8%B4%B4%E5%90%A7%EF%BC%88%E4%BC%98%2B%EF%BC%89.js",
-      "fileSize": 25027,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 26936,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "百度贴吧（优）",
@@ -5939,8 +5939,8 @@
       "enabled": true,
       "fileName": "百度贴吧（优）-2.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E7%99%BE%E5%BA%A6%E8%B4%B4%E5%90%A7%EF%BC%88%E4%BC%98%EF%BC%89-2.js",
-      "fileSize": 21361,
-      "updatedAt": "2026-04-24T09:06:16Z"
+      "fileSize": 23270,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "百度贴吧（优）",
@@ -5959,8 +5959,8 @@
       "enabled": true,
       "fileName": "百度贴吧（优）-3.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E7%99%BE%E5%BA%A6%E8%B4%B4%E5%90%A7%EF%BC%88%E4%BC%98%EF%BC%89-3.js",
-      "fileSize": 24786,
-      "updatedAt": "2026-04-24T09:06:16Z"
+      "fileSize": 26695,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "百度贴吧（优）",
@@ -5979,8 +5979,8 @@
       "enabled": true,
       "fileName": "百度贴吧（优）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E7%99%BE%E5%BA%A6%E8%B4%B4%E5%90%A7%EF%BC%88%E4%BC%98%EF%BC%89.js",
-      "fileSize": 21354,
-      "updatedAt": "2026-04-24T09:06:16Z"
+      "fileSize": 23263,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "盐选文库（优+）",
@@ -5998,8 +5998,8 @@
       "enabled": true,
       "fileName": "盐选文库（优+）-2.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E7%9B%90%E9%80%89%E6%96%87%E5%BA%93%EF%BC%88%E4%BC%98%2B%EF%BC%89-2.js",
-      "fileSize": 20277,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 22186,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "盐选文库（优+）",
@@ -6017,8 +6017,8 @@
       "enabled": true,
       "fileName": "盐选文库（优+）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E7%9B%90%E9%80%89%E6%96%87%E5%BA%93%EF%BC%88%E4%BC%98%2B%EF%BC%89.js",
-      "fileSize": 19890,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 21799,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "盒子游戏（优）",
@@ -6037,8 +6037,8 @@
       "enabled": true,
       "fileName": "盒子游戏（优）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E7%9B%92%E5%AD%90%E6%B8%B8%E6%88%8F%EF%BC%88%E4%BC%98%EF%BC%89.js",
-      "fileSize": 22783,
-      "updatedAt": "2026-04-24T09:06:16Z"
+      "fileSize": 24692,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "盗墓笔记（优+）",
@@ -6056,8 +6056,8 @@
       "enabled": true,
       "fileName": "盗墓笔记（优+）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E7%9B%97%E5%A2%93%E7%AC%94%E8%AE%B0%EF%BC%88%E4%BC%98%2B%EF%BC%89.js",
-      "fileSize": 19451,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 21360,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "盗随动漫（优+）",
@@ -6076,8 +6076,8 @@
       "enabled": true,
       "fileName": "盗随动漫（优+）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E7%9B%97%E9%9A%8F%E5%8A%A8%E6%BC%AB%EF%BC%88%E4%BC%98%2B%EF%BC%89.js",
-      "fileSize": 20751,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 22660,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "看看阅读",
@@ -6096,8 +6096,8 @@
       "enabled": true,
       "fileName": "看看阅读.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E7%9C%8B%E7%9C%8B%E9%98%85%E8%AF%BB.js",
-      "fileSize": 34911,
-      "updatedAt": "2026-04-24T09:06:16Z"
+      "fileSize": 36820,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "知轩藏书（导）",
@@ -6116,8 +6116,8 @@
       "enabled": true,
       "fileName": "知轩藏书（导）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E7%9F%A5%E8%BD%A9%E8%97%8F%E4%B9%A6%EF%BC%88%E5%AF%BC%EF%BC%89.js",
-      "fileSize": 24795,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 26704,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "短剧合集（优+）",
@@ -6136,8 +6136,8 @@
       "enabled": true,
       "fileName": "短剧合集（优+）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E7%9F%AD%E5%89%A7%E5%90%88%E9%9B%86%EF%BC%88%E4%BC%98%2B%EF%BC%89.js",
-      "fileSize": 20391,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 22300,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "矮贼吧网（优）",
@@ -6156,8 +6156,8 @@
       "enabled": true,
       "fileName": "矮贼吧网（优）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E7%9F%AE%E8%B4%BC%E5%90%A7%E7%BD%91%EF%BC%88%E4%BC%98%EF%BC%89.js",
-      "fileSize": 20068,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 21977,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "磨铁中文",
@@ -6176,8 +6176,8 @@
       "enabled": true,
       "fileName": "磨铁中文.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E7%A3%A8%E9%93%81%E4%B8%AD%E6%96%87.js",
-      "fileSize": 40800,
-      "updatedAt": "2026-04-24T09:06:16Z"
+      "fileSize": 42709,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "神凑轻说（优++）",
@@ -6195,8 +6195,8 @@
       "enabled": true,
       "fileName": "神凑轻说（优++）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E7%A5%9E%E5%87%91%E8%BD%BB%E8%AF%B4%EF%BC%88%E4%BC%98%2B%2B%EF%BC%89.js",
-      "fileSize": 24748,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 26657,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "神凑轻说（优+）",
@@ -6214,8 +6214,8 @@
       "enabled": true,
       "fileName": "神凑轻说（优+）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E7%A5%9E%E5%87%91%E8%BD%BB%E8%AF%B4%EF%BC%88%E4%BC%98%2B%EF%BC%89.js",
-      "fileSize": 24017,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 25926,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "神话之后（优+）",
@@ -6233,8 +6233,8 @@
       "enabled": true,
       "fileName": "神话之后（优+）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E7%A5%9E%E8%AF%9D%E4%B9%8B%E5%90%8E%EF%BC%88%E4%BC%98%2B%EF%BC%89.js",
-      "fileSize": 20145,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 22054,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "秋风书屋（优+）",
@@ -6252,8 +6252,8 @@
       "enabled": true,
       "fileName": "秋风书屋（优+）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E7%A7%8B%E9%A3%8E%E4%B9%A6%E5%B1%8B%EF%BC%88%E4%BC%98%2B%EF%BC%89.js",
-      "fileSize": 20714,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 22623,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "秋风书屋（导）",
@@ -6271,8 +6271,8 @@
       "enabled": true,
       "fileName": "秋风书屋（导）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E7%A7%8B%E9%A3%8E%E4%B9%A6%E5%B1%8B%EF%BC%88%E5%AF%BC%EF%BC%89.js",
-      "fileSize": 21089,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 22998,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "稀饭动漫（优+）",
@@ -6291,8 +6291,8 @@
       "enabled": true,
       "fileName": "稀饭动漫（优+）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E7%A8%80%E9%A5%AD%E5%8A%A8%E6%BC%AB%EF%BC%88%E4%BC%98%2B%EF%BC%89.js",
-      "fileSize": 21450,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 23359,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "稀饭影视（优++）",
@@ -6311,8 +6311,8 @@
       "enabled": true,
       "fileName": "稀饭影视（优++）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E7%A8%80%E9%A5%AD%E5%BD%B1%E8%A7%86%EF%BC%88%E4%BC%98%2B%2B%EF%BC%89.js",
-      "fileSize": 20442,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 22351,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "立方体儿（优++）",
@@ -6330,8 +6330,8 @@
       "enabled": true,
       "fileName": "立方体儿（优++）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E7%AB%8B%E6%96%B9%E4%BD%93%E5%84%BF%EF%BC%88%E4%BC%98%2B%2B%EF%BC%89.js",
-      "fileSize": 65268,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 67177,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "笔下文学（优+）",
@@ -6349,8 +6349,8 @@
       "enabled": true,
       "fileName": "笔下文学（优+）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E7%AC%94%E4%B8%8B%E6%96%87%E5%AD%A6%EF%BC%88%E4%BC%98%2B%EF%BC%89.js",
-      "fileSize": 24139,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 26048,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "笔尚小说",
@@ -6369,8 +6369,8 @@
       "enabled": true,
       "fileName": "笔尚小说-2.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E7%AC%94%E5%B0%9A%E5%B0%8F%E8%AF%B4-2.js",
-      "fileSize": 21498,
-      "updatedAt": "2026-04-24T09:06:16Z"
+      "fileSize": 23407,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "笔尚小说",
@@ -6389,8 +6389,8 @@
       "enabled": true,
       "fileName": "笔尚小说.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E7%AC%94%E5%B0%9A%E5%B0%8F%E8%AF%B4.js",
-      "fileSize": 21482,
-      "updatedAt": "2026-04-24T09:06:16Z"
+      "fileSize": 23391,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "笔趣小说（优）",
@@ -6408,8 +6408,8 @@
       "enabled": true,
       "fileName": "笔趣小说（优）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E7%AC%94%E8%B6%A3%E5%B0%8F%E8%AF%B4%EF%BC%88%E4%BC%98%EF%BC%89.js",
-      "fileSize": 21226,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 23135,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "笔趣漫画（优+）",
@@ -6428,8 +6428,8 @@
       "enabled": true,
       "fileName": "笔趣漫画（优+）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E7%AC%94%E8%B6%A3%E6%BC%AB%E7%94%BB%EF%BC%88%E4%BC%98%2B%EF%BC%89.js",
-      "fileSize": 21175,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 23084,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "篱笆文学（优+++）",
@@ -6447,8 +6447,8 @@
       "enabled": true,
       "fileName": "篱笆文学（优+++）-2.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E7%AF%B1%E7%AC%86%E6%96%87%E5%AD%A6%EF%BC%88%E4%BC%98%2B%2B%2B%EF%BC%89-2.js",
-      "fileSize": 19999,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 21908,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "篱笆文学（优+++）",
@@ -6466,8 +6466,8 @@
       "enabled": true,
       "fileName": "篱笆文学（优+++）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E7%AF%B1%E7%AC%86%E6%96%87%E5%AD%A6%EF%BC%88%E4%BC%98%2B%2B%2B%EF%BC%89.js",
-      "fileSize": 28676,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 30585,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "米读小说（优+）",
@@ -6485,8 +6485,8 @@
       "enabled": true,
       "fileName": "米读小说（优+）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E7%B1%B3%E8%AF%BB%E5%B0%8F%E8%AF%B4%EF%BC%88%E4%BC%98%2B%EF%BC%89.js",
-      "fileSize": 23738,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 25647,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "红牛小说（优）",
@@ -6504,8 +6504,8 @@
       "enabled": true,
       "fileName": "红牛小说（优）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E7%BA%A2%E7%89%9B%E5%B0%8F%E8%AF%B4%EF%BC%88%E4%BC%98%EF%BC%89.js",
-      "fileSize": 25279,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 27188,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "红薯网站",
@@ -6524,8 +6524,8 @@
       "enabled": true,
       "fileName": "红薯网站.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E7%BA%A2%E8%96%AF%E7%BD%91%E7%AB%99.js",
-      "fileSize": 24187,
-      "updatedAt": "2026-04-24T09:06:16Z"
+      "fileSize": 26096,
+      "updatedAt": "2026-04-24T10:58:57Z"
     },
     {
       "name": "纵横中文",
@@ -6544,8 +6544,8 @@
       "enabled": true,
       "fileName": "纵横中文-2.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E7%BA%B5%E6%A8%AA%E4%B8%AD%E6%96%87-2.js",
-      "fileSize": 20775,
-      "updatedAt": "2026-04-24T09:06:16Z"
+      "fileSize": 22684,
+      "updatedAt": "2026-04-24T10:58:57Z"
     },
     {
       "name": "纵横中文",
@@ -6564,8 +6564,8 @@
       "enabled": true,
       "fileName": "纵横中文-3.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E7%BA%B5%E6%A8%AA%E4%B8%AD%E6%96%87-3.js",
-      "fileSize": 20819,
-      "updatedAt": "2026-04-24T09:06:16Z"
+      "fileSize": 22728,
+      "updatedAt": "2026-04-24T10:58:57Z"
     },
     {
       "name": "纵横中文",
@@ -6584,8 +6584,8 @@
       "enabled": true,
       "fileName": "纵横中文.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E7%BA%B5%E6%A8%AA%E4%B8%AD%E6%96%87.js",
-      "fileSize": 26831,
-      "updatedAt": "2026-04-24T09:06:16Z"
+      "fileSize": 28740,
+      "updatedAt": "2026-04-24T10:58:57Z"
     },
     {
       "name": "经致文学",
@@ -6604,8 +6604,8 @@
       "enabled": true,
       "fileName": "经致文学.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E7%BB%8F%E8%87%B4%E6%96%87%E5%AD%A6.js",
-      "fileSize": 22674,
-      "updatedAt": "2026-04-24T09:06:16Z"
+      "fileSize": 24583,
+      "updatedAt": "2026-04-24T10:58:57Z"
     },
     {
       "name": "绿色小说（优）",
@@ -6623,8 +6623,8 @@
       "enabled": true,
       "fileName": "绿色小说（优）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E7%BB%BF%E8%89%B2%E5%B0%8F%E8%AF%B4%EF%BC%88%E4%BC%98%EF%BC%89.js",
-      "fileSize": 22124,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 24033,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "网易云说",
@@ -6643,8 +6643,8 @@
       "enabled": true,
       "fileName": "网易云说.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E7%BD%91%E6%98%93%E4%BA%91%E8%AF%B4.js",
-      "fileSize": 20567,
-      "updatedAt": "2026-04-24T09:06:16Z"
+      "fileSize": 22476,
+      "updatedAt": "2026-04-24T10:58:57Z"
     },
     {
       "name": "网易小说",
@@ -6663,8 +6663,8 @@
       "enabled": true,
       "fileName": "网易小说.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E7%BD%91%E6%98%93%E5%B0%8F%E8%AF%B4.js",
-      "fileSize": 27572,
-      "updatedAt": "2026-04-24T09:06:16Z"
+      "fileSize": 29481,
+      "updatedAt": "2026-04-24T10:58:57Z"
     },
     {
       "name": "网易音乐（优）",
@@ -6683,8 +6683,8 @@
       "enabled": true,
       "fileName": "网易音乐（优）-2.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E7%BD%91%E6%98%93%E9%9F%B3%E4%B9%90%EF%BC%88%E4%BC%98%EF%BC%89-2.js",
-      "fileSize": 24350,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 26259,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "网易音乐（优）",
@@ -6703,8 +6703,8 @@
       "enabled": true,
       "fileName": "网易音乐（优）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E7%BD%91%E6%98%93%E9%9F%B3%E4%B9%90%EF%BC%88%E4%BC%98%EF%BC%89.js",
-      "fileSize": 20958,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 22867,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "网络漫画（优）",
@@ -6723,8 +6723,8 @@
       "enabled": true,
       "fileName": "网络漫画（优）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E7%BD%91%E7%BB%9C%E6%BC%AB%E7%94%BB%EF%BC%88%E4%BC%98%EF%BC%89.js",
-      "fileSize": 21756,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 23665,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "网飞猫网（优+）",
@@ -6743,8 +6743,8 @@
       "enabled": true,
       "fileName": "网飞猫网（优+）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E7%BD%91%E9%A3%9E%E7%8C%AB%E7%BD%91%EF%BC%88%E4%BC%98%2B%EF%BC%89.js",
-      "fileSize": 26401,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 28310,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "美女图站（优++）",
@@ -6763,8 +6763,8 @@
       "enabled": true,
       "fileName": "美女图站（优++）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E7%BE%8E%E5%A5%B3%E5%9B%BE%E7%AB%99%EF%BC%88%E4%BC%98%2B%2B%EF%BC%89.js",
-      "fileSize": 77033,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 78942,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "聪明视频（优+）",
@@ -6783,8 +6783,8 @@
       "enabled": true,
       "fileName": "聪明视频（优+）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E8%81%AA%E6%98%8E%E8%A7%86%E9%A2%91%EF%BC%88%E4%BC%98%2B%EF%BC%89.js",
-      "fileSize": 23037,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 24946,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "腾讯漫画",
@@ -6803,8 +6803,8 @@
       "enabled": true,
       "fileName": "腾讯漫画-2.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E8%85%BE%E8%AE%AF%E6%BC%AB%E7%94%BB-2.js",
-      "fileSize": 22382,
-      "updatedAt": "2026-04-24T09:06:16Z"
+      "fileSize": 24291,
+      "updatedAt": "2026-04-24T10:58:57Z"
     },
     {
       "name": "腾讯漫画",
@@ -6823,8 +6823,8 @@
       "enabled": true,
       "fileName": "腾讯漫画-3.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E8%85%BE%E8%AE%AF%E6%BC%AB%E7%94%BB-3.js",
-      "fileSize": 24643,
-      "updatedAt": "2026-04-24T09:06:16Z"
+      "fileSize": 26552,
+      "updatedAt": "2026-04-24T10:58:57Z"
     },
     {
       "name": "腾讯漫画",
@@ -6843,8 +6843,8 @@
       "enabled": true,
       "fileName": "腾讯漫画-4.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E8%85%BE%E8%AE%AF%E6%BC%AB%E7%94%BB-4.js",
-      "fileSize": 22394,
-      "updatedAt": "2026-04-24T09:06:16Z"
+      "fileSize": 24303,
+      "updatedAt": "2026-04-24T10:58:57Z"
     },
     {
       "name": "腾讯漫画",
@@ -6863,8 +6863,8 @@
       "enabled": true,
       "fileName": "腾讯漫画.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E8%85%BE%E8%AE%AF%E6%BC%AB%E7%94%BB.js",
-      "fileSize": 22414,
-      "updatedAt": "2026-04-24T09:06:16Z"
+      "fileSize": 24323,
+      "updatedAt": "2026-04-24T10:58:57Z"
     },
     {
       "name": "艾格动漫（优）",
@@ -6883,8 +6883,8 @@
       "enabled": true,
       "fileName": "艾格动漫（优）-2.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E8%89%BE%E6%A0%BC%E5%8A%A8%E6%BC%AB%EF%BC%88%E4%BC%98%EF%BC%89-2.js",
-      "fileSize": 22725,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 24634,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "艾格动漫（优）",
@@ -6903,8 +6903,8 @@
       "enabled": true,
       "fileName": "艾格动漫（优）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E8%89%BE%E6%A0%BC%E5%8A%A8%E6%BC%AB%EF%BC%88%E4%BC%98%EF%BC%89.js",
-      "fileSize": 23204,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 25113,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "花生小说（优）",
@@ -6922,8 +6922,8 @@
       "enabled": true,
       "fileName": "花生小说（优）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E8%8A%B1%E7%94%9F%E5%B0%8F%E8%AF%B4%EF%BC%88%E4%BC%98%EF%BC%89.js",
-      "fileSize": 23191,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 25100,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "苏轻小说",
@@ -6942,8 +6942,8 @@
       "enabled": true,
       "fileName": "苏轻小说-2.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E8%8B%8F%E8%BD%BB%E5%B0%8F%E8%AF%B4-2.js",
-      "fileSize": 22209,
-      "updatedAt": "2026-04-24T09:06:16Z"
+      "fileSize": 24118,
+      "updatedAt": "2026-04-24T10:58:57Z"
     },
     {
       "name": "苏轻小说",
@@ -6962,8 +6962,8 @@
       "enabled": true,
       "fileName": "苏轻小说.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E8%8B%8F%E8%BD%BB%E5%B0%8F%E8%AF%B4.js",
-      "fileSize": 23793,
-      "updatedAt": "2026-04-24T09:06:16Z"
+      "fileSize": 25702,
+      "updatedAt": "2026-04-24T10:58:57Z"
     },
     {
       "name": "若初文学",
@@ -6982,8 +6982,8 @@
       "enabled": true,
       "fileName": "若初文学-2.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E8%8B%A5%E5%88%9D%E6%96%87%E5%AD%A6-2.js",
-      "fileSize": 24264,
-      "updatedAt": "2026-04-24T09:06:16Z"
+      "fileSize": 26173,
+      "updatedAt": "2026-04-24T10:58:57Z"
     },
     {
       "name": "若初文学",
@@ -7002,8 +7002,8 @@
       "enabled": true,
       "fileName": "若初文学.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E8%8B%A5%E5%88%9D%E6%96%87%E5%AD%A6.js",
-      "fileSize": 28253,
-      "updatedAt": "2026-04-24T09:06:16Z"
+      "fileSize": 30162,
+      "updatedAt": "2026-04-24T10:58:57Z"
     },
     {
       "name": "苦瓜书盘（导）",
@@ -7021,8 +7021,8 @@
       "enabled": true,
       "fileName": "苦瓜书盘（导）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E8%8B%A6%E7%93%9C%E4%B9%A6%E7%9B%98%EF%BC%88%E5%AF%BC%EF%BC%89.js",
-      "fileSize": 24189,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 26098,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "英文小说（英）",
@@ -7040,8 +7040,8 @@
       "enabled": true,
       "fileName": "英文小说（英）-2.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E8%8B%B1%E6%96%87%E5%B0%8F%E8%AF%B4%EF%BC%88%E8%8B%B1%EF%BC%89-2.js",
-      "fileSize": 19935,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 21844,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "英文小说（英）",
@@ -7059,8 +7059,8 @@
       "enabled": true,
       "fileName": "英文小说（英）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E8%8B%B1%E6%96%87%E5%B0%8F%E8%AF%B4%EF%BC%88%E8%8B%B1%EF%BC%89.js",
-      "fileSize": 20303,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 22212,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "英语阅读（英）",
@@ -7078,8 +7078,8 @@
       "enabled": true,
       "fileName": "英语阅读（英）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E8%8B%B1%E8%AF%AD%E9%98%85%E8%AF%BB%EF%BC%88%E8%8B%B1%EF%BC%89.js",
-      "fileSize": 20570,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 22479,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "茶杯狐狸（优+++）",
@@ -7098,8 +7098,8 @@
       "enabled": true,
       "fileName": "茶杯狐狸（优+++）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E8%8C%B6%E6%9D%AF%E7%8B%90%E7%8B%B8%EF%BC%88%E4%BC%98%2B%2B%2B%EF%BC%89.js",
-      "fileSize": 19989,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 21898,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "茶马小说（优++）",
@@ -7117,8 +7117,8 @@
       "enabled": true,
       "fileName": "茶马小说（优++）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E8%8C%B6%E9%A9%AC%E5%B0%8F%E8%AF%B4%EF%BC%88%E4%BC%98%2B%2B%EF%BC%89.js",
-      "fileSize": 21851,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 23760,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "荔枝有声（优）",
@@ -7137,8 +7137,8 @@
       "enabled": true,
       "fileName": "荔枝有声（优）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E8%8D%94%E6%9E%9D%E6%9C%89%E5%A3%B0%EF%BC%88%E4%BC%98%EF%BC%89.js",
-      "fileSize": 19742,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 21651,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "荔枝音乐（优）",
@@ -7157,8 +7157,8 @@
       "enabled": true,
       "fileName": "荔枝音乐（优）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E8%8D%94%E6%9E%9D%E9%9F%B3%E4%B9%90%EF%BC%88%E4%BC%98%EF%BC%89.js",
-      "fileSize": 19741,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 21650,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "萌图社团（优++）",
@@ -7177,8 +7177,8 @@
       "enabled": true,
       "fileName": "萌图社团（优++）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E8%90%8C%E5%9B%BE%E7%A4%BE%E5%9B%A2%EF%BC%88%E4%BC%98%2B%2B%EF%BC%89.js",
-      "fileSize": 26000,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 27909,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "蓝批小说（优+++）",
@@ -7196,8 +7196,8 @@
       "enabled": false,
       "fileName": "蓝批小说（优+++）-2.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E8%93%9D%E6%89%B9%E5%B0%8F%E8%AF%B4%EF%BC%88%E4%BC%98%2B%2B%2B%EF%BC%89-2.js",
-      "fileSize": 176959,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 178868,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "蓝批小说（优+++）",
@@ -7215,8 +7215,8 @@
       "enabled": true,
       "fileName": "蓝批小说（优+++）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E8%93%9D%E6%89%B9%E5%B0%8F%E8%AF%B4%EF%BC%88%E4%BC%98%2B%2B%2B%EF%BC%89.js",
-      "fileSize": 173284,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 175193,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "蓝批漫画（优+++）",
@@ -7235,8 +7235,8 @@
       "enabled": true,
       "fileName": "蓝批漫画（优+++）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E8%93%9D%E6%89%B9%E6%BC%AB%E7%94%BB%EF%BC%88%E4%BC%98%2B%2B%2B%EF%BC%89.js",
-      "fileSize": 76813,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 78722,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "蚂蚁文学（优）",
@@ -7254,8 +7254,8 @@
       "enabled": true,
       "fileName": "蚂蚁文学（优）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E8%9A%82%E8%9A%81%E6%96%87%E5%AD%A6%EF%BC%88%E4%BC%98%EF%BC%89.js",
-      "fileSize": 20362,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 22271,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "蚂蚁阅读（优）",
@@ -7273,8 +7273,8 @@
       "enabled": true,
       "fileName": "蚂蚁阅读（优）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E8%9A%82%E8%9A%81%E9%98%85%E8%AF%BB%EF%BC%88%E4%BC%98%EF%BC%89.js",
-      "fileSize": 21057,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 22966,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "裤裤漫画（优）",
@@ -7293,8 +7293,8 @@
       "enabled": true,
       "fileName": "裤裤漫画（优）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E8%A3%A4%E8%A3%A4%E6%BC%AB%E7%94%BB%EF%BC%88%E4%BC%98%EF%BC%89.js",
-      "fileSize": 23296,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 25205,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "西瓜免费（优+）",
@@ -7312,8 +7312,8 @@
       "enabled": true,
       "fileName": "西瓜免费（优+）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E8%A5%BF%E7%93%9C%E5%85%8D%E8%B4%B9%EF%BC%88%E4%BC%98%2B%EF%BC%89.js",
-      "fileSize": 49309,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 51218,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "西瓜卡通（优+）",
@@ -7332,8 +7332,8 @@
       "enabled": true,
       "fileName": "西瓜卡通（优+）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E8%A5%BF%E7%93%9C%E5%8D%A1%E9%80%9A%EF%BC%88%E4%BC%98%2B%EF%BC%89.js",
-      "fileSize": 20542,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 22451,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "言情港吧（优）",
@@ -7351,8 +7351,8 @@
       "enabled": true,
       "fileName": "言情港吧（优）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E8%A8%80%E6%83%85%E6%B8%AF%E5%90%A7%EF%BC%88%E4%BC%98%EF%BC%89.js",
-      "fileSize": 21523,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 23432,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "话本小说（优++）",
@@ -7370,8 +7370,8 @@
       "enabled": true,
       "fileName": "话本小说（优++）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E8%AF%9D%E6%9C%AC%E5%B0%8F%E8%AF%B4%EF%BC%88%E4%BC%98%2B%2B%EF%BC%89.js",
-      "fileSize": 26603,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 28512,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "请看小说（导）",
@@ -7390,8 +7390,8 @@
       "enabled": true,
       "fileName": "请看小说（导）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E8%AF%B7%E7%9C%8B%E5%B0%8F%E8%AF%B4%EF%BC%88%E5%AF%BC%EF%BC%89.js",
-      "fileSize": 19956,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 21865,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "豆腐阅读",
@@ -7410,8 +7410,8 @@
       "enabled": true,
       "fileName": "豆腐阅读-2.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E8%B1%86%E8%85%90%E9%98%85%E8%AF%BB-2.js",
-      "fileSize": 20161,
-      "updatedAt": "2026-04-24T09:06:16Z"
+      "fileSize": 22070,
+      "updatedAt": "2026-04-24T10:58:57Z"
     },
     {
       "name": "豆腐阅读",
@@ -7430,8 +7430,8 @@
       "enabled": true,
       "fileName": "豆腐阅读.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E8%B1%86%E8%85%90%E9%98%85%E8%AF%BB.js",
-      "fileSize": 20163,
-      "updatedAt": "2026-04-24T09:06:16Z"
+      "fileSize": 22072,
+      "updatedAt": "2026-04-24T10:58:57Z"
     },
     {
       "name": "贼吧网玩（导）",
@@ -7450,8 +7450,8 @@
       "enabled": true,
       "fileName": "贼吧网玩（导）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E8%B4%BC%E5%90%A7%E7%BD%91%E7%8E%A9%EF%BC%88%E5%AF%BC%EF%BC%89.js",
-      "fileSize": 25081,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 26990,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "起点中文",
@@ -7470,8 +7470,8 @@
       "enabled": true,
       "fileName": "起点中文.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E8%B5%B7%E7%82%B9%E4%B8%AD%E6%96%87.js",
-      "fileSize": 53058,
-      "updatedAt": "2026-04-24T09:06:16Z"
+      "fileSize": 54967,
+      "updatedAt": "2026-04-24T10:58:57Z"
     },
     {
       "name": "起点中文（优+）",
@@ -7490,8 +7490,8 @@
       "enabled": true,
       "fileName": "起点中文（优+）-2.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E8%B5%B7%E7%82%B9%E4%B8%AD%E6%96%87%EF%BC%88%E4%BC%98%2B%EF%BC%89-2.js",
-      "fileSize": 36589,
-      "updatedAt": "2026-04-24T09:06:16Z"
+      "fileSize": 38498,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "起点中文（优+）",
@@ -7510,8 +7510,8 @@
       "enabled": true,
       "fileName": "起点中文（优+）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E8%B5%B7%E7%82%B9%E4%B8%AD%E6%96%87%EF%BC%88%E4%BC%98%2B%EF%BC%89.js",
-      "fileSize": 184816,
-      "updatedAt": "2026-04-24T09:06:16Z"
+      "fileSize": 186725,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "起点男频（优）",
@@ -7530,8 +7530,8 @@
       "enabled": true,
       "fileName": "起点男频（优）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E8%B5%B7%E7%82%B9%E7%94%B7%E9%A2%91%EF%BC%88%E4%BC%98%EF%BC%89.js",
-      "fileSize": 114381,
-      "updatedAt": "2026-04-24T09:06:16Z"
+      "fileSize": 116290,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "起点读书（优+++）",
@@ -7549,8 +7549,8 @@
       "enabled": true,
       "fileName": "起点读书（优+++）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E8%B5%B7%E7%82%B9%E8%AF%BB%E4%B9%A6%EF%BC%88%E4%BC%98%2B%2B%2B%EF%BC%89.js",
-      "fileSize": 24783,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 26692,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "超星网站（优+）",
@@ -7569,8 +7569,8 @@
       "enabled": true,
       "fileName": "超星网站（优+）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E8%B6%85%E6%98%9F%E7%BD%91%E7%AB%99%EF%BC%88%E4%BC%98%2B%EF%BC%89.js",
-      "fileSize": 22461,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 24370,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "趣书网吧（导）",
@@ -7589,8 +7589,8 @@
       "enabled": true,
       "fileName": "趣书网吧（导）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E8%B6%A3%E4%B9%A6%E7%BD%91%E5%90%A7%EF%BC%88%E5%AF%BC%EF%BC%89.js",
-      "fileSize": 21246,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 23155,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "趣悦小说（优++）",
@@ -7608,8 +7608,8 @@
       "enabled": true,
       "fileName": "趣悦小说（优++）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E8%B6%A3%E6%82%A6%E5%B0%8F%E8%AF%B4%EF%BC%88%E4%BC%98%2B%2B%EF%BC%89.js",
-      "fileSize": 120809,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 122718,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "车群小说（优）",
@@ -7627,8 +7627,8 @@
       "enabled": true,
       "fileName": "车群小说（优）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E8%BD%A6%E7%BE%A4%E5%B0%8F%E8%AF%B4%EF%BC%88%E4%BC%98%EF%BC%89.js",
-      "fileSize": 20898,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 22807,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "轻之文库（优++）",
@@ -7646,8 +7646,8 @@
       "enabled": true,
       "fileName": "轻之文库（优++）-2.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E8%BD%BB%E4%B9%8B%E6%96%87%E5%BA%93%EF%BC%88%E4%BC%98%2B%2B%EF%BC%89-2.js",
-      "fileSize": 26811,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 28720,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "轻之文库（优++）",
@@ -7665,8 +7665,8 @@
       "enabled": true,
       "fileName": "轻之文库（优++）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E8%BD%BB%E4%B9%8B%E6%96%87%E5%BA%93%EF%BC%88%E4%BC%98%2B%2B%EF%BC%89.js",
-      "fileSize": 26843,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 28752,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "轻之文库（优+）",
@@ -7684,8 +7684,8 @@
       "enabled": true,
       "fileName": "轻之文库（优+）-2.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E8%BD%BB%E4%B9%8B%E6%96%87%E5%BA%93%EF%BC%88%E4%BC%98%2B%EF%BC%89-2.js",
-      "fileSize": 24776,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 26685,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "轻之文库（优+）",
@@ -7703,8 +7703,8 @@
       "enabled": true,
       "fileName": "轻之文库（优+）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E8%BD%BB%E4%B9%8B%E6%96%87%E5%BA%93%EF%BC%88%E4%BC%98%2B%EF%BC%89.js",
-      "fileSize": 21438,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 23347,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "轻文库说（优++）",
@@ -7722,8 +7722,8 @@
       "enabled": true,
       "fileName": "轻文库说（优++）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E8%BD%BB%E6%96%87%E5%BA%93%E8%AF%B4%EF%BC%88%E4%BC%98%2B%2B%EF%BC%89.js",
-      "fileSize": 27200,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 29109,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "轻次元姬",
@@ -7742,8 +7742,8 @@
       "enabled": true,
       "fileName": "轻次元姬.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E8%BD%BB%E6%AC%A1%E5%85%83%E5%A7%AC.js",
-      "fileSize": 26069,
-      "updatedAt": "2026-04-24T09:06:16Z"
+      "fileSize": 27978,
+      "updatedAt": "2026-04-24T10:58:57Z"
     },
     {
       "name": "轻菠萝包",
@@ -7762,8 +7762,8 @@
       "enabled": true,
       "fileName": "轻菠萝包.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E8%BD%BB%E8%8F%A0%E8%90%9D%E5%8C%85.js",
-      "fileSize": 28017,
-      "updatedAt": "2026-04-24T09:06:16Z"
+      "fileSize": 29926,
+      "updatedAt": "2026-04-24T10:58:57Z"
     },
     {
       "name": "轻说机翻（优+）",
@@ -7781,8 +7781,8 @@
       "enabled": true,
       "fileName": "轻说机翻（优+）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E8%BD%BB%E8%AF%B4%E6%9C%BA%E7%BF%BB%EF%BC%88%E4%BC%98%2B%EF%BC%89.js",
-      "fileSize": 32430,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 34339,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "轻说百科（优++）",
@@ -7800,8 +7800,8 @@
       "enabled": true,
       "fileName": "轻说百科（优++）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E8%BD%BB%E8%AF%B4%E7%99%BE%E7%A7%91%EF%BC%88%E4%BC%98%2B%2B%EF%BC%89.js",
-      "fileSize": 24194,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 26103,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "过期杂志（优+）",
@@ -7819,8 +7819,8 @@
       "enabled": true,
       "fileName": "过期杂志（优+）-2.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E8%BF%87%E6%9C%9F%E6%9D%82%E5%BF%97%EF%BC%88%E4%BC%98%2B%EF%BC%89-2.js",
-      "fileSize": 22362,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 24271,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "过期杂志（优+）",
@@ -7838,8 +7838,8 @@
       "enabled": true,
       "fileName": "过期杂志（优+）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E8%BF%87%E6%9C%9F%E6%9D%82%E5%BF%97%EF%BC%88%E4%BC%98%2B%EF%BC%89.js",
-      "fileSize": 21067,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 22976,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "追书出版",
@@ -7858,8 +7858,8 @@
       "enabled": true,
       "fileName": "追书出版.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E8%BF%BD%E4%B9%A6%E5%87%BA%E7%89%88.js",
-      "fileSize": 19685,
-      "updatedAt": "2026-04-24T09:06:16Z"
+      "fileSize": 21594,
+      "updatedAt": "2026-04-24T10:58:57Z"
     },
     {
       "name": "追书神器",
@@ -7878,8 +7878,8 @@
       "enabled": true,
       "fileName": "追书神器.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E8%BF%BD%E4%B9%A6%E7%A5%9E%E5%99%A8.js",
-      "fileSize": 20742,
-      "updatedAt": "2026-04-24T09:06:16Z"
+      "fileSize": 22651,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "追光阅读（优）",
@@ -7897,8 +7897,8 @@
       "enabled": true,
       "fileName": "追光阅读（优）-2.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E8%BF%BD%E5%85%89%E9%98%85%E8%AF%BB%EF%BC%88%E4%BC%98%EF%BC%89-2.js",
-      "fileSize": 24012,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 25921,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "追光阅读（优）",
@@ -7916,8 +7916,8 @@
       "enabled": true,
       "fileName": "追光阅读（优）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E8%BF%BD%E5%85%89%E9%98%85%E8%AF%BB%EF%BC%88%E4%BC%98%EF%BC%89.js",
-      "fileSize": 22618,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 24527,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "通用书源（写）",
@@ -7936,8 +7936,8 @@
       "enabled": true,
       "fileName": "通用书源（写）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E9%80%9A%E7%94%A8%E4%B9%A6%E6%BA%90%EF%BC%88%E5%86%99%EF%BC%89.js",
-      "fileSize": 61022,
-      "updatedAt": "2026-04-24T09:06:16Z"
+      "fileSize": 62931,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "速读谷吧（优）",
@@ -7955,8 +7955,8 @@
       "enabled": true,
       "fileName": "速读谷吧（优）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E9%80%9F%E8%AF%BB%E8%B0%B7%E5%90%A7%EF%BC%88%E4%BC%98%EF%BC%89.js",
-      "fileSize": 21055,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 22964,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "速读谷子（优）",
@@ -7974,8 +7974,8 @@
       "enabled": true,
       "fileName": "速读谷子（优）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E9%80%9F%E8%AF%BB%E8%B0%B7%E5%AD%90%EF%BC%88%E4%BC%98%EF%BC%89.js",
-      "fileSize": 20553,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 22462,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "酷匠网吧（优+）",
@@ -7993,8 +7993,8 @@
       "enabled": true,
       "fileName": "酷匠网吧（优+）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E9%85%B7%E5%8C%A0%E7%BD%91%E5%90%A7%EF%BC%88%E4%BC%98%2B%EF%BC%89.js",
-      "fileSize": 22667,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 24576,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "酷安应用（优+）",
@@ -8013,8 +8013,8 @@
       "enabled": true,
       "fileName": "酷安应用（优+）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E9%85%B7%E5%AE%89%E5%BA%94%E7%94%A8%EF%BC%88%E4%BC%98%2B%EF%BC%89.js",
-      "fileSize": 26383,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 28292,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "酷我小说",
@@ -8033,8 +8033,8 @@
       "enabled": true,
       "fileName": "酷我小说-2.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E9%85%B7%E6%88%91%E5%B0%8F%E8%AF%B4-2.js",
-      "fileSize": 21730,
-      "updatedAt": "2026-04-24T09:06:16Z"
+      "fileSize": 23639,
+      "updatedAt": "2026-04-24T10:58:57Z"
     },
     {
       "name": "酷我小说",
@@ -8053,8 +8053,8 @@
       "enabled": true,
       "fileName": "酷我小说-3.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E9%85%B7%E6%88%91%E5%B0%8F%E8%AF%B4-3.js",
-      "fileSize": 21910,
-      "updatedAt": "2026-04-24T09:06:16Z"
+      "fileSize": 23819,
+      "updatedAt": "2026-04-24T10:58:57Z"
     },
     {
       "name": "酷我小说",
@@ -8073,8 +8073,8 @@
       "enabled": true,
       "fileName": "酷我小说.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E9%85%B7%E6%88%91%E5%B0%8F%E8%AF%B4.js",
-      "fileSize": 20616,
-      "updatedAt": "2026-04-24T09:06:16Z"
+      "fileSize": 22525,
+      "updatedAt": "2026-04-24T10:58:57Z"
     },
     {
       "name": "酷我音乐（优）",
@@ -8093,8 +8093,8 @@
       "enabled": true,
       "fileName": "酷我音乐（优）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E9%85%B7%E6%88%91%E9%9F%B3%E4%B9%90%EF%BC%88%E4%BC%98%EF%BC%89.js",
-      "fileSize": 40305,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 42214,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "酷爱漫画",
@@ -8113,8 +8113,8 @@
       "enabled": true,
       "fileName": "酷爱漫画.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E9%85%B7%E7%88%B1%E6%BC%AB%E7%94%BB.js",
-      "fileSize": 20287,
-      "updatedAt": "2026-04-24T09:06:16Z"
+      "fileSize": 22196,
+      "updatedAt": "2026-04-24T10:58:57Z"
     },
     {
       "name": "酷看漫画（优+）",
@@ -8133,8 +8133,8 @@
       "enabled": true,
       "fileName": "酷看漫画（优+）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E9%85%B7%E7%9C%8B%E6%BC%AB%E7%94%BB%EF%BC%88%E4%BC%98%2B%EF%BC%89.js",
-      "fileSize": 21773,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 23682,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "酷看漫画（优）",
@@ -8153,8 +8153,8 @@
       "enabled": true,
       "fileName": "酷看漫画（优）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E9%85%B7%E7%9C%8B%E6%BC%AB%E7%94%BB%EF%BC%88%E4%BC%98%EF%BC%89.js",
-      "fileSize": 21660,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 23569,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "酸奶漫画",
@@ -8173,8 +8173,8 @@
       "enabled": true,
       "fileName": "酸奶漫画-2.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E9%85%B8%E5%A5%B6%E6%BC%AB%E7%94%BB-2.js",
-      "fileSize": 20184,
-      "updatedAt": "2026-04-24T09:06:16Z"
+      "fileSize": 22093,
+      "updatedAt": "2026-04-24T10:58:57Z"
     },
     {
       "name": "酸奶漫画",
@@ -8193,8 +8193,8 @@
       "enabled": true,
       "fileName": "酸奶漫画.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E9%85%B8%E5%A5%B6%E6%BC%AB%E7%94%BB.js",
-      "fileSize": 20187,
-      "updatedAt": "2026-04-24T09:06:16Z"
+      "fileSize": 22096,
+      "updatedAt": "2026-04-24T10:58:57Z"
     },
     {
       "name": "野蛮漫画（优）",
@@ -8213,8 +8213,8 @@
       "enabled": true,
       "fileName": "野蛮漫画（优）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E9%87%8E%E8%9B%AE%E6%BC%AB%E7%94%BB%EF%BC%88%E4%BC%98%EF%BC%89.js",
-      "fileSize": 24186,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 26095,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "金庸小说（优+）",
@@ -8232,8 +8232,8 @@
       "enabled": true,
       "fileName": "金庸小说（优+）-2.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E9%87%91%E5%BA%B8%E5%B0%8F%E8%AF%B4%EF%BC%88%E4%BC%98%2B%EF%BC%89-2.js",
-      "fileSize": 20007,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 21916,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "金庸小说（优+）",
@@ -8251,8 +8251,8 @@
       "enabled": true,
       "fileName": "金庸小说（优+）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E9%87%91%E5%BA%B8%E5%B0%8F%E8%AF%B4%EF%BC%88%E4%BC%98%2B%EF%BC%89.js",
-      "fileSize": 20038,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 21947,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "铁血读书",
@@ -8271,8 +8271,8 @@
       "enabled": true,
       "fileName": "铁血读书-2.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E9%93%81%E8%A1%80%E8%AF%BB%E4%B9%A6-2.js",
-      "fileSize": 20153,
-      "updatedAt": "2026-04-24T09:06:16Z"
+      "fileSize": 22062,
+      "updatedAt": "2026-04-24T10:58:57Z"
     },
     {
       "name": "铁血读书",
@@ -8291,8 +8291,8 @@
       "enabled": true,
       "fileName": "铁血读书-3.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E9%93%81%E8%A1%80%E8%AF%BB%E4%B9%A6-3.js",
-      "fileSize": 20734,
-      "updatedAt": "2026-04-24T09:06:16Z"
+      "fileSize": 22643,
+      "updatedAt": "2026-04-24T10:58:57Z"
     },
     {
       "name": "铁血读书",
@@ -8311,8 +8311,8 @@
       "enabled": true,
       "fileName": "铁血读书.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E9%93%81%E8%A1%80%E8%AF%BB%E4%B9%A6.js",
-      "fileSize": 19826,
-      "updatedAt": "2026-04-24T09:06:16Z"
+      "fileSize": 21735,
+      "updatedAt": "2026-04-24T10:58:57Z"
     },
     {
       "name": "铅笔小说（优）",
@@ -8330,8 +8330,8 @@
       "enabled": true,
       "fileName": "铅笔小说（优）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E9%93%85%E7%AC%94%E5%B0%8F%E8%AF%B4%EF%BC%88%E4%BC%98%EF%BC%89.js",
-      "fileSize": 21883,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 23792,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "铅笔轻说（优+）",
@@ -8349,8 +8349,8 @@
       "enabled": true,
       "fileName": "铅笔轻说（优+）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E9%93%85%E7%AC%94%E8%BD%BB%E8%AF%B4%EF%BC%88%E4%BC%98%2B%EF%BC%89.js",
-      "fileSize": 20618,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 22527,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "镇魂小说（优++）",
@@ -8368,8 +8368,8 @@
       "enabled": true,
       "fileName": "镇魂小说（优++）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E9%95%87%E9%AD%82%E5%B0%8F%E8%AF%B4%EF%BC%88%E4%BC%98%2B%2B%EF%BC%89.js",
-      "fileSize": 20452,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 22361,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "闲看小说（优）",
@@ -8387,8 +8387,8 @@
       "enabled": true,
       "fileName": "闲看小说（优）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E9%97%B2%E7%9C%8B%E5%B0%8F%E8%AF%B4%EF%BC%88%E4%BC%98%EF%BC%89.js",
-      "fileSize": 25598,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 27507,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "阅友小说（优++）",
@@ -8406,8 +8406,8 @@
       "enabled": true,
       "fileName": "阅友小说（优++）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E9%98%85%E5%8F%8B%E5%B0%8F%E8%AF%B4%EF%BC%88%E4%BC%98%2B%2B%EF%BC%89.js",
-      "fileSize": 25030,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 26939,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "阅友小说（优+）",
@@ -8425,8 +8425,8 @@
       "enabled": true,
       "fileName": "阅友小说（优+）-2.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E9%98%85%E5%8F%8B%E5%B0%8F%E8%AF%B4%EF%BC%88%E4%BC%98%2B%EF%BC%89-2.js",
-      "fileSize": 24099,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 26008,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "阅友小说（优+）",
@@ -8444,8 +8444,8 @@
       "enabled": true,
       "fileName": "阅友小说（优+）-3.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E9%98%85%E5%8F%8B%E5%B0%8F%E8%AF%B4%EF%BC%88%E4%BC%98%2B%EF%BC%89-3.js",
-      "fileSize": 24084,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 25993,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "阅友小说（优+）",
@@ -8463,8 +8463,8 @@
       "enabled": true,
       "fileName": "阅友小说（优+）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E9%98%85%E5%8F%8B%E5%B0%8F%E8%AF%B4%EF%BC%88%E4%BC%98%2B%EF%BC%89.js",
-      "fileSize": 24061,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 25970,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "阅友小说（优）",
@@ -8482,8 +8482,8 @@
       "enabled": true,
       "fileName": "阅友小说（优）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E9%98%85%E5%8F%8B%E5%B0%8F%E8%AF%B4%EF%BC%88%E4%BC%98%EF%BC%89.js",
-      "fileSize": 24062,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 25971,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "阅友网络（优）",
@@ -8501,8 +8501,8 @@
       "enabled": true,
       "fileName": "阅友网络（优）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E9%98%85%E5%8F%8B%E7%BD%91%E7%BB%9C%EF%BC%88%E4%BC%98%EF%BC%89.js",
-      "fileSize": 25024,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 26933,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "阅读书库（优）",
@@ -8520,8 +8520,8 @@
       "enabled": true,
       "fileName": "阅读书库（优）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E9%98%85%E8%AF%BB%E4%B9%A6%E5%BA%93%EF%BC%88%E4%BC%98%EF%BC%89.js",
-      "fileSize": 24428,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 26337,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "阅读助手（优+++）",
@@ -8539,8 +8539,8 @@
       "enabled": true,
       "fileName": "阅读助手（优+++）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E9%98%85%E8%AF%BB%E5%8A%A9%E6%89%8B%EF%BC%88%E4%BC%98%2B%2B%2B%EF%BC%89.js",
-      "fileSize": 42861,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 44770,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "阅读库子（优+）",
@@ -8558,8 +8558,8 @@
       "enabled": true,
       "fileName": "阅读库子（优+）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E9%98%85%E8%AF%BB%E5%BA%93%E5%AD%90%EF%BC%88%E4%BC%98%2B%EF%BC%89.js",
-      "fileSize": 20861,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 22770,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "阿巴小说（优+）",
@@ -8577,8 +8577,8 @@
       "enabled": true,
       "fileName": "阿巴小说（优+）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E9%98%BF%E5%B7%B4%E5%B0%8F%E8%AF%B4%EF%BC%88%E4%BC%98%2B%EF%BC%89.js",
-      "fileSize": 21536,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 23445,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "陶越文华（优++）",
@@ -8596,8 +8596,8 @@
       "enabled": true,
       "fileName": "陶越文华（优++）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E9%99%B6%E8%B6%8A%E6%96%87%E5%8D%8E%EF%BC%88%E4%BC%98%2B%2B%EF%BC%89.js",
-      "fileSize": 24973,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 26882,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "零点看书（优）",
@@ -8615,8 +8615,8 @@
       "enabled": true,
       "fileName": "零点看书（优）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E9%9B%B6%E7%82%B9%E7%9C%8B%E4%B9%A6%EF%BC%88%E4%BC%98%EF%BC%89.js",
-      "fileSize": 21570,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 23479,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "零零小说（优）",
@@ -8634,8 +8634,8 @@
       "enabled": true,
       "fileName": "零零小说（优）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E9%9B%B6%E9%9B%B6%E5%B0%8F%E8%AF%B4%EF%BC%88%E4%BC%98%EF%BC%89.js",
-      "fileSize": 21179,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 23088,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "霓虹漫画（优）",
@@ -8654,8 +8654,8 @@
       "enabled": true,
       "fileName": "霓虹漫画（优）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E9%9C%93%E8%99%B9%E6%BC%AB%E7%94%BB%EF%BC%88%E4%BC%98%EF%BC%89.js",
-      "fileSize": 19561,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 21470,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "霸王游戏（优）",
@@ -8674,8 +8674,8 @@
       "enabled": true,
       "fileName": "霸王游戏（优）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E9%9C%B8%E7%8E%8B%E6%B8%B8%E6%88%8F%EF%BC%88%E4%BC%98%EF%BC%89.js",
-      "fileSize": 20870,
-      "updatedAt": "2026-04-24T09:06:16Z"
+      "fileSize": 22779,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "霸王街机（优）",
@@ -8694,8 +8694,8 @@
       "enabled": true,
       "fileName": "霸王街机（优）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E9%9C%B8%E7%8E%8B%E8%A1%97%E6%9C%BA%EF%BC%88%E4%BC%98%EF%BC%89.js",
-      "fileSize": 20782,
-      "updatedAt": "2026-04-24T09:06:16Z"
+      "fileSize": 22691,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "霹雳书坊（优）",
@@ -8713,8 +8713,8 @@
       "enabled": true,
       "fileName": "霹雳书坊（优）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E9%9C%B9%E9%9B%B3%E4%B9%A6%E5%9D%8A%EF%BC%88%E4%BC%98%EF%BC%89.js",
-      "fileSize": 20641,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 22550,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "青花鱼评（优）",
@@ -8733,8 +8733,8 @@
       "enabled": true,
       "fileName": "青花鱼评（优）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E9%9D%92%E8%8A%B1%E9%B1%BC%E8%AF%84%EF%BC%88%E4%BC%98%EF%BC%89.js",
-      "fileSize": 34673,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 36582,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "面包聆听（优）",
@@ -8753,8 +8753,8 @@
       "enabled": true,
       "fileName": "面包聆听（优）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E9%9D%A2%E5%8C%85%E8%81%86%E5%90%AC%EF%BC%88%E4%BC%98%EF%BC%89.js",
-      "fileSize": 22839,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 24748,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "顶点小说（优）",
@@ -8772,8 +8772,8 @@
       "enabled": true,
       "fileName": "顶点小说（优）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E9%A1%B6%E7%82%B9%E5%B0%8F%E8%AF%B4%EF%BC%88%E4%BC%98%EF%BC%89.js",
-      "fileSize": 21212,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 23121,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "风云小说（优+）",
@@ -8791,8 +8791,8 @@
       "enabled": true,
       "fileName": "风云小说（优+）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E9%A3%8E%E4%BA%91%E5%B0%8F%E8%AF%B4%EF%BC%88%E4%BC%98%2B%EF%BC%89.js",
-      "fileSize": 21478,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 23387,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "风扇枕说（日+）",
@@ -8810,8 +8810,8 @@
       "enabled": true,
       "fileName": "风扇枕说（日+）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E9%A3%8E%E6%89%87%E6%9E%95%E8%AF%B4%EF%BC%88%E6%97%A5%2B%EF%BC%89.js",
-      "fileSize": 20457,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 22366,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "飞卢小说（优）",
@@ -8830,8 +8830,8 @@
       "enabled": true,
       "fileName": "飞卢小说（优）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E9%A3%9E%E5%8D%A2%E5%B0%8F%E8%AF%B4%EF%BC%88%E4%BC%98%EF%BC%89.js",
-      "fileSize": 20616,
-      "updatedAt": "2026-04-24T09:06:16Z"
+      "fileSize": 22525,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "饭角有声（优）",
@@ -8850,8 +8850,8 @@
       "enabled": true,
       "fileName": "饭角有声（优）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E9%A5%AD%E8%A7%92%E6%9C%89%E5%A3%B0%EF%BC%88%E4%BC%98%EF%BC%89.js",
-      "fileSize": 19863,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 21772,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "鬼故事集（优+）",
@@ -8869,8 +8869,8 @@
       "enabled": true,
       "fileName": "鬼故事集（优+）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E9%AC%BC%E6%95%85%E4%BA%8B%E9%9B%86%EF%BC%88%E4%BC%98%2B%EF%BC%89.js",
-      "fileSize": 20694,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 22603,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "魔陌音乐（优）",
@@ -8889,8 +8889,8 @@
       "enabled": true,
       "fileName": "魔陌音乐（优）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E9%AD%94%E9%99%8C%E9%9F%B3%E4%B9%90%EF%BC%88%E4%BC%98%EF%BC%89.js",
-      "fileSize": 30103,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 32012,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "鲸云轻说（优++）",
@@ -8908,8 +8908,8 @@
       "enabled": true,
       "fileName": "鲸云轻说（优++）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E9%B2%B8%E4%BA%91%E8%BD%BB%E8%AF%B4%EF%BC%88%E4%BC%98%2B%2B%EF%BC%89.js",
-      "fileSize": 21227,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 23136,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "鲸云轻说（优+）",
@@ -8927,8 +8927,8 @@
       "enabled": true,
       "fileName": "鲸云轻说（优+）-2.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E9%B2%B8%E4%BA%91%E8%BD%BB%E8%AF%B4%EF%BC%88%E4%BC%98%2B%EF%BC%89-2.js",
-      "fileSize": 20548,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 22457,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "鲸云轻说（优+）",
@@ -8946,8 +8946,8 @@
       "enabled": true,
       "fileName": "鲸云轻说（优+）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E9%B2%B8%E4%BA%91%E8%BD%BB%E8%AF%B4%EF%BC%88%E4%BC%98%2B%EF%BC%89.js",
-      "fileSize": 21115,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 23024,
+      "updatedAt": "2026-04-24T10:58:56Z"
     },
     {
       "name": "鸠摩搜书（导）",
@@ -8965,8 +8965,8 @@
       "enabled": true,
       "fileName": "鸠摩搜书（导）.js",
       "downloadUrl": "https://raw.githubusercontent.com/qiupo/bookSource/refs/heads/master/repository/%E9%B8%A0%E6%91%A9%E6%90%9C%E4%B9%A6%EF%BC%88%E5%AF%BC%EF%BC%89.js",
-      "fileSize": 20087,
-      "updatedAt": "2026-04-24T09:06:15Z"
+      "fileSize": 21996,
+      "updatedAt": "2026-04-24T10:58:56Z"
     }
   ]
 }

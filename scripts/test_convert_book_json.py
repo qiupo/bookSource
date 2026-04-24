@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 import json
+import subprocess
 import tempfile
 from pathlib import Path
 
@@ -39,6 +40,43 @@ def test_runtime_template_contains_required_entrypoints():
     ]:
         assert name in runtime, name
     assert 'return formatChapterContent(applyRule(data, source.ruleContent && source.ruleContent.content), chapterUrl);' in runtime
+
+
+def run_runtime_assertions(script):
+    runtime = Path(__file__).with_name('legacy_runtime.js').read_text(encoding='utf-8')
+    subprocess.run(['node', '-e', runtime + '\n' + script], check=True)
+
+
+def test_runtime_replaces_template_cleaners_and_recursive_paths():
+    run_runtime_assertions(r'''
+const assert = require('assert');
+const runtime = createLegacyRuntime({ bookSourceName: '企鹅阅读', bookSourceUrl: 'https://ubook.reader.qq.com' });
+const data = {
+  categoryInfoV4: '玄幻 小说',
+  nested: { shortName: '短篇小说' },
+  chapinfo: { lastChapterUpdateTime: '2026-04-24 10:30:00' }
+};
+assert.strictEqual(runtime.applyRule(data, '{{$.categoryInfoV4##\\s+##/}}'), '玄幻/小说');
+assert.strictEqual(runtime.applyRule(data, '{{$..shortName##小说##}}'), '短篇');
+assert.strictEqual(runtime.applyRule(data, '{{$.chapinfo.lastChapterUpdateTime##\\s.*##}}'), '2026-04-24');
+''')
+
+
+def test_runtime_does_not_turn_object_script_results_into_object_url():
+    run_runtime_assertions(r'''
+const assert = require('assert');
+const runtime = createLegacyRuntime({ bookSourceName: '企鹅阅读', bookSourceUrl: 'https://ubook.reader.qq.com/api/book' });
+const value = runtime.applyRule({ bid: '12345' }, '<js>result</js>');
+const mapped = runtime.mapFields({ bid: '12345' }, { chapterUrl: '<js>result</js>' }, { url: 'chapterUrl' }, 'https://ubook.reader.qq.com/api/book');
+const returnedObject = runtime.mapFields({ bid: '12345' }, { chapterUrl: '<js>return result</js>' }, { url: 'chapterUrl' }, 'https://ubook.reader.qq.com/api/book');
+assert.strictEqual(value, '');
+assert.notStrictEqual(mapped.url, 'https://ubook.reader.qq.com/api/[object Object]');
+assert.notStrictEqual(mapped.url, 'https://ubook.reader.qq.com/api/book/[object Object]');
+assert.notStrictEqual(returnedObject.url, 'https://ubook.reader.qq.com/api/[object Object]');
+assert.notStrictEqual(returnedObject.url, 'https://ubook.reader.qq.com/api/book/[object Object]');
+assert.strictEqual(mapped.url, '');
+assert.strictEqual(returnedObject.url, '');
+''')
 
 
 def test_convert_writes_js_with_metadata_and_payload():
@@ -149,6 +187,8 @@ if __name__ == '__main__':
     test_safe_filename_removes_invalid_chars_and_deduplicates()
     test_metadata_helpers_extract_author_and_version()
     test_runtime_template_contains_required_entrypoints()
+    test_runtime_replaces_template_cleaners_and_recursive_paths()
+    test_runtime_does_not_turn_object_script_results_into_object_url()
     test_convert_writes_js_with_metadata_and_payload()
     test_analyze_compatibility_detects_features_and_manual_level()
     test_convert_writes_compatibility_report()

@@ -182,8 +182,8 @@ function createLegacyRuntime(source) {
     if (!path) return context;
     var text = String(path).replace(/^@json:/, '').trim();
     if (text === '$') return context;
-    if (text.indexOf('$.') === 0) text = text.slice(2);
     if (text.indexOf('$..') === 0) return recursiveFind(context, text.slice(3));
+    if (text.indexOf('$.') === 0) text = text.slice(2);
     var parts = text.split('.').filter(Boolean);
     var current = context;
     for (var i = 0; i < parts.length; i++) {
@@ -231,15 +231,61 @@ function createLegacyRuntime(source) {
     return [value];
   }
 
+  function primitiveForUrl(value) {
+    value = first(value);
+    if (value === null || value === undefined) return '';
+    if (typeof value === 'string' || typeof value === 'number' || typeof value === 'boolean') return String(value);
+    if (typeof value === 'object') {
+      var keys = ['url', 'chapterUrl', 'bookUrl', 'tocUrl', 'href'];
+      for (var i = 0; i < keys.length; i++) {
+        var child = value[keys[i]];
+        if (typeof child === 'string' || typeof child === 'number' || typeof child === 'boolean') return String(child);
+      }
+    }
+    return '';
+  }
+
+  function applyCleanSuffix(value, clean) {
+    var parts = String(clean || '').split('##');
+    if (parts.length < 2) return value;
+    var pattern = parts[1];
+    var replacement = parts.length >= 3 ? parts[2] : '';
+    try { return stringify(value).replace(new RegExp(pattern, 'g'), replacement); } catch (_) { return value; }
+  }
+
+  function findTemplateCleanIndex(text) {
+    var depth = 0;
+    for (var i = 0; i < text.length - 1; i++) {
+      var pair = text.slice(i, i + 2);
+      if (pair === '{{') {
+        depth++;
+        i++;
+      } else if (pair === '}}' && depth > 0) {
+        depth--;
+        i++;
+      } else if (pair === '##' && depth === 0) {
+        return i;
+      }
+    }
+    return -1;
+  }
+
+  function splitTemplateExpression(expr) {
+    var parts = String(expr || '').split('##');
+    return { rule: parts[0].trim(), clean: parts.length > 1 ? '##' + parts.slice(1).join('##') : '' };
+  }
+
   function renderTemplate(template, vars, context) {
     return String(template || '').replace(/\{\{([\s\S]*?)\}\}/g, function (_, expr) {
-      var key = expr.trim();
-      if (key === 'key') return encodeURIComponent(vars.keyword || '');
-      if (key === 'page') return vars.page || 1;
-      if (key === 'baseUrl') return vars.baseUrl || '';
-      if (key === 'source.key') return baseUrl();
-      if (key.indexOf('$.') === 0 || key === '$') return stringify(first(getPathValue(context, key)));
-      return '';
+      var parsed = splitTemplateExpression(expr);
+      var key = parsed.rule;
+      var value = '';
+      if (key === 'key') value = encodeURIComponent(vars.keyword || '');
+      else if (key === 'page') value = vars.page || 1;
+      else if (key === 'baseUrl') value = vars.baseUrl || '';
+      else if (key === 'source.key') value = baseUrl();
+      else if (key.indexOf('$.') === 0 || key.indexOf('$..') === 0 || key === '$') value = first(getPathValue(context, key));
+      return stringify(parsed.clean ? applyCleanSuffix(value, parsed.clean) : value);
     });
   }
 
@@ -301,7 +347,7 @@ function createLegacyRuntime(source) {
 
   function splitRuleAndClean(rule) {
     var text = String(rule || '');
-    var idx = text.indexOf('##');
+    var idx = findTemplateCleanIndex(text);
     if (idx === -1) return { rule: text, clean: '' };
     return { rule: text.slice(0, idx), clean: text.slice(idx) };
   }
@@ -339,7 +385,7 @@ function createLegacyRuntime(source) {
     var text = clean.rule.trim();
     var value;
     if (!text || text === 'all') value = context;
-    else if (text.indexOf('@json:') === 0 || text.indexOf('$.') === 0 || text === '$') value = evaluateJsonPath(context, text);
+    else if (text.indexOf('@json:') === 0 || text.indexOf('$.') === 0 || text.indexOf('$..') === 0 || text === '$') value = evaluateJsonPath(context, text);
     else if (text.indexOf('@css:') === 0) value = evaluateCss(context, text);
     else if (text.indexOf('@XPath:') === 0) value = evaluateXPath(context, text.replace(/^@XPath:/, ''));
     else if (text.indexOf('//') === 0) value = evaluateXPath(context, text);
@@ -373,7 +419,8 @@ function createLegacyRuntime(source) {
       var body = String(script).replace(/^@js:/, '').replace(/^<js>|<\/js>$/g, '');
       var fn = new Function('java', 'cache', 'cookie', 'source', 'result', 'baseUrl', body);
       var value = fn(java, cache, cookie, source, result, baseUrl());
-      return value === undefined ? result : value;
+      if (value === undefined) return (typeof result === 'string' || typeof result === 'number' || typeof result === 'boolean') ? result : '';
+      return value;
     } catch (error) {
       unsupported('rule script failed: ' + error.message);
       return '';
@@ -385,7 +432,10 @@ function createLegacyRuntime(source) {
     Object.keys(mapping).forEach(function (target) {
       var oldKey = mapping[target];
       var value = applyRule(context, rules && rules[oldKey]);
-      if ((target === 'bookUrl' || target === 'tocUrl' || target === 'coverUrl' || target === 'url') && value) value = absolutize(value, parentUrl || baseUrl());
+      if (target === 'bookUrl' || target === 'tocUrl' || target === 'coverUrl' || target === 'url') {
+        value = primitiveForUrl(value);
+        if (value) value = absolutize(value, parentUrl || baseUrl());
+      }
       item[target] = stringify(first(value));
     });
     return item;
@@ -512,7 +562,7 @@ function createLegacyRuntime(source) {
     }
   }
 
-  return { search: search, bookInfo: bookInfo, chapterList: chapterList, chapterContent: chapterContent, explore: explore, applyRule: applyRule, request: request, evaluateJsonPath: evaluateJsonPath, evaluateCss: evaluateCss, evaluateXPath: evaluateXPath, createJavaShim: createJavaShim };
+  return { search: search, bookInfo: bookInfo, chapterList: chapterList, chapterContent: chapterContent, explore: explore, applyRule: applyRule, request: request, evaluateJsonPath: evaluateJsonPath, evaluateCss: evaluateCss, evaluateXPath: evaluateXPath, createJavaShim: createJavaShim, mapFields: mapFields };
 }
 
 
