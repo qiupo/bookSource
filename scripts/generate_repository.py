@@ -58,26 +58,30 @@ def parse_metadata(path):
     }
 
 
-def source_entry(path, base_url):
+def source_entry(path, base_url, download_dir=None):
     metadata = parse_metadata(path)
     file_name = path.name
     encoded_name = quote(file_name)
+    parts = [base_url.rstrip('/')]
+    if download_dir:
+        parts.append(quote(download_dir.strip('/')))
+    parts.append(encoded_name)
     return {
         **metadata,
         "fileName": file_name,
-        "downloadUrl": f"{base_url.rstrip('/')}/{encoded_name}",
+        "downloadUrl": "/".join(parts),
         "fileSize": path.stat().st_size,
         "updatedAt": file_updated_at(path),
     }
 
 
-def generate(directory, base_url, output, name, version):
+def generate(directory, base_url, output, name, version, download_dir=None):
     files = sorted(path for path in directory.glob("*.js") if path.is_file())
     payload = {
         "name": name,
         "version": version,
         "updatedAt": utc_now(),
-        "sources": [source_entry(path, base_url) for path in files],
+        "sources": [source_entry(path, base_url, download_dir) for path in files],
     }
     output.parent.mkdir(parents=True, exist_ok=True)
     output.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
@@ -91,11 +95,12 @@ def main():
     parser.add_argument("--output", default=None, help="Output repository.json path")
     parser.add_argument("--name", default="Legado Tauri 书源仓库", help="Repository display name")
     parser.add_argument("--version", default="1.0.0", help="Repository version")
+    parser.add_argument("--download-dir", default=None, help="Path segment between base URL and JS files")
     args = parser.parse_args()
 
     directory = Path(args.dir)
     output = Path(args.output) if args.output else directory / "repository.json"
-    payload = generate(directory, args.base_url, output, args.name, args.version)
+    payload = generate(directory, args.base_url, output, args.name, args.version, args.download_dir)
     print(f"Generated {output} with {len(payload['sources'])} sources")
 
 

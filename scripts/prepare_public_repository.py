@@ -21,6 +21,7 @@ def rebuild(source_dir, repository_dir, base_url, name, version):
         output=repository_dir / "repository.json",
         name=name,
         version=version,
+        download_dir=repository_dir.name,
     )
     return len(files), len(payload["sources"])
 

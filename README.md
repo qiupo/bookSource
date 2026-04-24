@@ -13,6 +13,12 @@
 https://raw.githubusercontent.com/qiupo/bookSource/main
 ```
 
+书源文件下载地址会自动生成在 `repository/` 目录下，例如：
+
+```text
+https://raw.githubusercontent.com/qiupo/bookSource/main/repository/示例书源.js
+```
+
 生成后的公开仓库目录符合 Legado Tauri 文档约定：根目录只包含 `*.js` 书源文件和 `repository.json` 索引文件。
 
 ## 目录结构
@@ -125,7 +131,7 @@ python3 scripts/generate_repository.py \
 - `repository.json` 是否可解析
 - `sources` 数量是否匹配 JS 文件数量
 - 每个条目是否包含关键字段
-- `downloadUrl` 是否指向 URL 编码后的文件名
+- `downloadUrl` 是否指向 `repository/` 目录下 URL 编码后的文件名
 
 ## 发布到 GitHub
 
@@ -145,6 +151,8 @@ https://github.com/qiupo/bookSource
 ```text
 https://raw.githubusercontent.com/qiupo/bookSource/main
 ```
+
+生成的 `downloadUrl` 会自动拼接 `repository/` 路径层级。
 
 重新生成：
 

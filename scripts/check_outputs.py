@@ -29,8 +29,9 @@ def check(booksources_dir, repository_dir):
         for key in ["name", "version", "url", "fileName", "downloadUrl", "fileSize", "updatedAt"]:
             if key not in item:
                 raise SystemExit(f"missing key {key} in {file_name}")
-        if not str(item.get("downloadUrl", "")).endswith(quote(file_name)):
-            raise SystemExit(f"downloadUrl does not reference encoded file name: {file_name}")
+        expected_suffix = f"/{quote(repository_dir.name)}/{quote(file_name)}"
+        if not str(item.get("downloadUrl", "")).endswith(expected_suffix):
+            raise SystemExit(f"downloadUrl does not reference repository directory and encoded file name: {file_name}")
 
     print(f"Validated {len(repository_sources)} sources")
     return len(repository_sources)
