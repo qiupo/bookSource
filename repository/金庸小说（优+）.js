@@ -1,26 +1,26 @@
 // @name 金庸小说（优+）
-// @version 2025.09.16
+// @version 2025.12.23
 // @author converted
 // @url https://www.jinyongwang.net
 // @enabled true
 // @tags 小说,书源,converted
-// @description // Error: stream was reset: CANCEL
+// @description // Error: 搜索失效
 
 const LEGADO_SOURCE = {
-  "bookSourceComment": "// Error: stream was reset: CANCEL",
+  "bookSourceComment": "// Error: 搜索失效",
   "bookSourceGroup": "小说 书源",
   "bookSourceName": "金庸小说（优+）",
   "bookSourceType": 0,
-  "bookSourceUrl": "https://www.jinyongwang.net#♤yc",
+  "bookSourceUrl": "https://www.jinyongwang.net",
   "customButton": false,
-  "customOrder": 71,
+  "customOrder": 72,
   "enabled": true,
-  "enabledCookieJar": false,
+  "enabledCookieJar": true,
   "enabledExplore": true,
   "eventListener": false,
   "exploreUrl": "[{\"title\":\"金庸作品\",\"url\":\"/book/\",\"style\":{\"layout_flexGrow\":1}}]",
-  "lastUpdateTime": 1758062512466,
-  "respondTime": 182485,
+  "lastUpdateTime": 1766456412823,
+  "respondTime": 182861,
   "ruleBookInfo": {
     "author": ".author a@text",
     "coverUrl": ".bookimg img@src",

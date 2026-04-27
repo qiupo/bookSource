@@ -1,7 +1,7 @@
 // @name 番茄小说（优++）
 // @version 2025.10.01
 // @author converted
-// @url https://fanqie.hnxianxin.cn/＃妍希
+// @url https://fanqie.hnxianxin.cn/
 // @enabled true
 // @tags 小说,书源,converted
 // @description 支持纯bookid搜书,支持下架,黑屋等小说正文阅读

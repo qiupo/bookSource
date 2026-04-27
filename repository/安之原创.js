@@ -1,44 +1,51 @@
 // @name 安之原创
-// @version 2025.10.02
+// @version 2025.12.21
 // @author converted
-// @url http://www.azycjd.com-8
+// @url http://www.azycjd.com
 // @enabled true
 // @tags 正版小说,书源,小说,converted
+// @description // Error: 搜索失效
 
 const LEGADO_SOURCE = {
+  "bookSourceComment": "// Error: 搜索失效",
   "bookSourceGroup": "正版小说 书源",
   "bookSourceName": "安之原创",
   "bookSourceType": 0,
-  "bookSourceUrl": "http://www.azycjd.com-8",
+  "bookSourceUrl": "http://www.azycjd.com",
   "customButton": false,
-  "customOrder": 424,
+  "customOrder": 432,
   "enabled": true,
   "enabledCookieJar": false,
   "enabledExplore": true,
   "eventListener": false,
-  "lastUpdateTime": 1759402814071,
-  "respondTime": 2849,
+  "exploreUrl": "[{\"title\":\"榜单\",\"url\":\"\",\"style\":{\"layout_flexBasisPercent\":1,\"layout_flexGrow\":1}},\n{\"title\":\"月票榜\",\"url\":\"/webnovelmis/mobile/mranklistright/monthnum/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"点击榜\",\"url\":\"/webnovelmis/mobile/mranklistright/clicknum/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"收藏榜\",\"url\":\"/webnovelmis/mobile/mranklistright/savenum/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"更新榜\",\"url\":\"/webnovelmis/mobile/mranklistright/updatetime/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"推荐榜\",\"url\":\"/webnovelmis/mobile/mranklistright/recommandnum/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"订阅榜\",\"url\":\"/webnovelmis/mobile/mranklistright/subscribenum/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"书友打赏\",\"url\":\"/webnovelmis/mobile/mranklistright/rewardnum/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"新书推荐\",\"url\":\"/webnovelmis/mobile/mranklistright/newrecommandnum/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"新书收藏\",\"url\":\"/webnovelmis/mobile/mranklistright/newsavenum/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"分类\",\"url\":\"\",\"style\":{\"layout_flexBasisPercent\":1,\"layout_flexGrow\":1}},\n{\"title\":\"完结精品\",\"url\":\"/webnovelmis/mobile/mranklistright/allclicknum/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"玄幻奇幻\",\"url\":\"/webnovelmis/mobile/mstackslistright/9/0/0/0/0/0/0/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"武侠仙侠\",\"url\":\"/webnovelmis/mobile/mstackslistright/17/0/0/0/0/0/0/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"都市异能\",\"url\":\"/webnovelmis/mobile/mstackslistright/38/0/0/0/0/0/0/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"历史军事\",\"url\":\"/webnovelmis/mobile/mstackslistright/24/0/0/0/0/0/0/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"游戏竞技\",\"url\":\"/webnovelmis/mobile/mstackslistright/50/0/0/0/0/0/0/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"科幻灵异\",\"url\":\"/webnovelmis/mobile/mstackslistright/58/0/0/0/0/0/0/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"现代言情\",\"url\":\"/webnovelmis/mobile/mstackslistright/71/0/0/0/0/0/0/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"古代言情\",\"url\":\"/webnovelmis/mobile/mstackslistright/79/0/0/0/0/0/0/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}}]",
+  "lastUpdateTime": 1766333573849,
+  "loginUrl": "http://www.azycjd.com/webnovelmis/mobile/mlogin",
+  "respondTime": 200096,
   "ruleBookInfo": {
-    "intro": "class.top_main.0@tag.p@text"
+    "intro": "class.top_main.0@p@html##(^|[。！？]+[”」）】]?)##$1<br>",
+    "lastChapter": "class.top_main.-1@a@text"
   },
   "ruleContent": {
-    "content": "class.novel@tag.p@text"
+    "content": ".novel@p@text",
+    "imageStyle": "0"
   },
   "ruleExplore": {},
   "ruleSearch": {
-    "author": "class.novel_items@tag.p.0@text",
-    "bookList": "class.list_main@tag.li",
-    "bookUrl": "tag.a@href",
-    "coverUrl": "tag.img@src",
-    "kind": "tag.span.0@text",
-    "name": "class.novel_items@tag.h3.0@text"
+    "author": "p.0@text##作者.",
+    "bookList": ".list_main li",
+    "bookUrl": "a@href",
+    "coverUrl": "img@src",
+    "intro": ".intro@text",
+    "kind": "span.0@text",
+    "name": "h3@text"
   },
   "ruleToc": {
-    "chapterList": "class.top_main chapter",
-    "chapterName": "tag.a@text",
-    "chapterUrl": "tag.a@href"
+    "chapterList": "class.top_main chapter@li",
+    "chapterName": "p@text",
+    "chapterUrl": "a@href"
   },
-  "searchUrl": "http://www.azycjd.com/webnovelmis/mobile/msearchresult,{\n  \"method\": \"POST\",\n  \"body\": \"searchtxts={{key}}\"\n}",
+  "searchUrl": "/webnovelmis/mobile/msearchresult,{\n  \"method\": \"POST\",\n  \"body\": \"searchtxts={{key}}\"\n}",
   "weight": 0
 };
 

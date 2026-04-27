@@ -4,7 +4,7 @@ import subprocess
 import tempfile
 from pathlib import Path
 
-from convert_book_json import analyze_compatibility, convert, extract_author, metadata_lines, safe_filename, version_from_timestamp
+from convert_book_json import analyze_compatibility, convert, dedupe_sources, extract_author, metadata_lines, safe_filename, score_source_for_dedup, version_from_timestamp
 
 
 def test_safe_filename_removes_invalid_chars_and_deduplicates():
@@ -16,6 +16,15 @@ def test_safe_filename_removes_invalid_chars_and_deduplicates():
 def test_metadata_helpers_extract_author_and_version():
     assert extract_author('authors: Alice & Bob\n备注') == 'Alice & Bob'
     assert version_from_timestamp(1759350105029) == '2025.10.01'
+
+
+def test_metadata_url_removes_fullwidth_hash_fragment():
+    lines = metadata_lines({
+        'bookSourceName': '番茄小说',
+        'bookSourceUrl': 'https://fanqie.example.com/＃妍希',
+    })
+
+    assert '// @url https://fanqie.example.com/' in lines
 
 
 def test_runtime_template_contains_required_entrypoints():
@@ -183,9 +192,171 @@ def test_analyze_compatibility_marks_media_types():
     assert 'audio' in audio['features']
 
 
+def test_score_source_for_dedup_prefers_compatibility_enabled_update_and_rules():
+    manual = {
+        'bookSourceName': '重复源',
+        'bookSourceUrl': 'https://example.com',
+        'enabled': True,
+        'lastUpdateTime': 200,
+        'ruleContent': {'content': 'Packages.bad'},
+    }
+    partial = {
+        'bookSourceName': '重复源',
+        'bookSourceUrl': 'https://example.com',
+        'enabled': False,
+        'lastUpdateTime': 100,
+        'ruleSearch': {'bookList': '$.data'},
+        'ruleContent': {'content': '@js:return result'},
+    }
+    high_old = {
+        'bookSourceName': '重复源',
+        'bookSourceUrl': 'https://example.com',
+        'enabled': True,
+        'lastUpdateTime': 100,
+        'ruleSearch': {'bookList': '$.data'},
+    }
+    high_new = {
+        'bookSourceName': '重复源',
+        'bookSourceUrl': 'https://example.com',
+        'enabled': True,
+        'lastUpdateTime': 200,
+        'ruleSearch': {'bookList': '$.data'},
+        'ruleBookInfo': {'name': '$.name'},
+    }
+
+    assert score_source_for_dedup(partial, 1) > score_source_for_dedup(manual, 0)
+    assert score_source_for_dedup(high_old, 2) > score_source_for_dedup(partial, 1)
+    assert score_source_for_dedup(high_new, 3) > score_source_for_dedup(high_old, 2)
+
+
+def test_dedupe_sources_keeps_best_duplicate_name_candidate():
+    sources = [
+        {
+            'bookSourceName': '重复源',
+            'bookSourceUrl': 'https://manual.example.com',
+            'ruleContent': {'content': 'Packages.bad'},
+        },
+        {
+            'bookSourceName': '重复源',
+            'bookSourceUrl': 'https://high.example.com',
+            'ruleSearch': {'bookList': '$.data'},
+        },
+        {
+            'bookSourceName': '独立源',
+            'bookSourceUrl': 'https://unique.example.com',
+            'ruleSearch': {'bookList': '$.data'},
+        },
+    ]
+
+    cleaned = dedupe_sources(sources)
+
+    assert [item['bookSourceUrl'] for item in cleaned] == [
+        'https://high.example.com',
+        'https://unique.example.com',
+    ]
+
+
+def test_dedupe_sources_keeps_one_normalized_url_candidate():
+    sources = [
+        {
+            'bookSourceName': '旧源',
+            'bookSourceUrl': 'https://same.example.com#old',
+            'lastUpdateTime': 100,
+            'ruleSearch': {'bookList': '$.data'},
+        },
+        {
+            'bookSourceName': '新源',
+            'bookSourceUrl': 'https://same.example.com#new',
+            'lastUpdateTime': 200,
+            'ruleSearch': {'bookList': '$.data'},
+            'ruleBookInfo': {'name': '$.name'},
+        },
+    ]
+
+    cleaned = dedupe_sources(sources)
+
+    assert len(cleaned) == 1
+    assert cleaned[0]['bookSourceName'] == '新源'
+
+
+def test_dedupe_sources_treats_fullwidth_hash_as_url_fragment_separator():
+    sources = [
+        {
+            'bookSourceName': '旧源',
+            'bookSourceUrl': 'https://same.example.com＃old',
+            'lastUpdateTime': 100,
+            'ruleSearch': {'bookList': '$.data'},
+        },
+        {
+            'bookSourceName': '新源',
+            'bookSourceUrl': 'https://same.example.com＃new',
+            'lastUpdateTime': 200,
+            'ruleSearch': {'bookList': '$.data'},
+            'ruleBookInfo': {'name': '$.name'},
+        },
+    ]
+
+    cleaned = dedupe_sources(sources)
+
+    assert len(cleaned) == 1
+    assert cleaned[0]['bookSourceName'] == '新源'
+
+
+def test_convert_deduplicates_sources_before_writing_outputs():
+    with tempfile.TemporaryDirectory() as tmp:
+        root = Path(tmp)
+        input_path = root / 'book.json'
+        output_dir = root / 'booksources'
+        input_path.write_text(json.dumps([
+            {
+                'bookSourceName': '重复源',
+                'bookSourceUrl': 'https://old.example.com',
+                'ruleContent': {'content': 'Packages.bad'},
+            },
+            {
+                'bookSourceName': '重复源',
+                'bookSourceUrl': 'https://new.example.com',
+                'ruleSearch': {'bookList': '$.data'},
+            },
+        ], ensure_ascii=False), encoding='utf-8')
+
+        written = convert(input_path, output_dir)
+
+        assert len(written) == 1
+        assert written[0].name == '重复源.js'
+        content = written[0].read_text(encoding='utf-8')
+        assert '// @url https://new.example.com' in content
+        report = json.loads((output_dir / 'compatibility-report.json').read_text(encoding='utf-8'))
+        assert len(report) == 1
+        assert report[0]['level'] == 'high'
+
+
+def test_convert_removes_stale_js_outputs():
+    with tempfile.TemporaryDirectory() as tmp:
+        root = Path(tmp)
+        input_path = root / 'book.json'
+        output_dir = root / 'booksources'
+        output_dir.mkdir()
+        stale_path = output_dir / '重复源-2.js'
+        stale_path.write_text('// stale duplicate', encoding='utf-8')
+        input_path.write_text(json.dumps([
+            {
+                'bookSourceName': '重复源',
+                'bookSourceUrl': 'https://new.example.com',
+                'ruleSearch': {'bookList': '$.data'},
+            },
+        ], ensure_ascii=False), encoding='utf-8')
+
+        convert(input_path, output_dir)
+
+        assert not stale_path.exists()
+        assert sorted(path.name for path in output_dir.glob('*.js')) == ['重复源.js']
+
+
 if __name__ == '__main__':
     test_safe_filename_removes_invalid_chars_and_deduplicates()
     test_metadata_helpers_extract_author_and_version()
+    test_metadata_url_removes_fullwidth_hash_fragment()
     test_runtime_template_contains_required_entrypoints()
     test_runtime_replaces_template_cleaners_and_recursive_paths()
     test_runtime_does_not_turn_object_script_results_into_object_url()
@@ -194,4 +365,10 @@ if __name__ == '__main__':
     test_convert_writes_compatibility_report()
     test_metadata_lines_include_tauri_media_type()
     test_analyze_compatibility_marks_media_types()
+    test_score_source_for_dedup_prefers_compatibility_enabled_update_and_rules()
+    test_dedupe_sources_keeps_best_duplicate_name_candidate()
+    test_dedupe_sources_keeps_one_normalized_url_candidate()
+    test_dedupe_sources_treats_fullwidth_hash_as_url_fragment_separator()
+    test_convert_deduplicates_sources_before_writing_outputs()
+    test_convert_removes_stale_js_outputs()
     print('convert tests passed')

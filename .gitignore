@@ -1,3 +1,5 @@
 .worktrees/
 book.json
 booksources/
+__pycache__/
+*.pyc

@@ -1,56 +1,59 @@
 // @name 快看漫画
-// @version 2025.12.15
+// @version 2025.12.17
 // @author converted
-// @url https://api.kkmh.com
+// @url http://m.kuaikanmanhua.com
 // @type comic
 // @enabled true
 // @tags 正版漫画,书源,图片,converted
-// @description // Error: 发现失效, 搜索失效
+// @description // Error: org.mozilla.javascript.EcmaError: TypeError: 无法读取 null 的属性 “0” (<Unknown Source>#1) in <Unknown Source> at line number 1
 
 const LEGADO_SOURCE = {
-  "bookSourceComment": "// Error: 发现失效, 搜索失效",
+  "bookSourceComment": "// Error: org.mozilla.javascript.EcmaError: TypeError: 无法读取 null 的属性 “0” (<Unknown Source>#1) in <Unknown Source> at line number 1",
   "bookSourceGroup": "正版漫画 书源",
   "bookSourceName": "快看漫画",
   "bookSourceType": 2,
-  "bookSourceUrl": "https://api.kkmh.com",
+  "bookSourceUrl": "http://m.kuaikanmanhua.com#未月十八发现",
   "customButton": false,
-  "customOrder": 442,
+  "customOrder": 445,
   "enabled": true,
-  "enabledCookieJar": false,
+  "enabledCookieJar": true,
   "enabledExplore": true,
   "eventListener": false,
-  "exploreUrl": "全部::https://api.kkmh.com/v1/topic_new/lists/get_by_tag?tag=0&since={{20*(page-1)}}\n少年::https://api.kkmh.com/v1/topic_new/lists/get_by_tag?tag=49&since={{20*(page-1)}}\n奇幻::https://api.kkmh.com/v1/topic_new/lists/get_by_tag?tag=22&since={{20*(page-1)}}\n爆笑::https://api.kkmh.com/v1/topic_new/lists/get_by_tag?tag=24&since={{20*(page-1)}}\n日漫::https://api.kkmh.com/v1/topic_new/lists/get_by_tag?tag=57&since={{20*(page-1)}}\n都市::https://api.kkmh.com/v1/topic_new/lists/get_by_tag?tag=48&since={{20*(page-1)}}\n古风::https://api.kkmh.com/v1/topic_new/lists/get_by_tag?tag=46&since={{20*(page-1)}}\n治愈::https://api.kkmh.com/v1/topic_new/lists/get_by_tag?tag=27&since={{20*(page-1)}}\n恋爱::https://api.kkmh.com/v1/topic_new/lists/get_by_tag?tag=20&since={{20*(page-1)}}\n校园::https://api.kkmh.com/v1/topic_new/lists/get_by_tag?tag=47&since={{20*(page-1)}}\n灵异::https://api.kkmh.com/v1/topic_new/lists/get_by_tag?tag=32&since={{20*(page-1)}}\n玄幻::https://api.kkmh.com/v1/topic_new/lists/get_by_tag?tag=63&since={{20*(page-1)}}\n剧情::https://api.kkmh.com/v1/topic_new/lists/get_by_tag?tag=23&since={{20*(page-1)}}\n韩漫::https://api.kkmh.com/v1/topic_new/lists/get_by_tag?tag=60&since={{20*(page-1)}}\n日常::https://api.kkmh.com/v1/topic_new/lists/get_by_tag?tag=19&since={{20*(page-1)}}\n畅销::https://api.kkmh.com/v1/topic_new/lists/get_by_tag?tag=59&since={{20*(page-1)}}\n完结::https://api.kkmh.com/v1/topic_new/lists/get_by_tag?tag=40&since={{20*(page-1)}}\n正能量::https://api.kkmh.com/v1/topic_new/lists/get_by_tag?tag=54&since={{20*(page-1)}}\nnull",
-  "header": "{\n  \"User-Agent\": \"Kuaikan/5.23.0/523000(Android;8.0.0;MIX2;kuaikan568;WIFI;2030*1080)\"\n}",
-  "lastUpdateTime": 1765829552598,
-  "respondTime": 181122,
+  "exploreUrl": "[{\"title\":\"✿　　　　　　　榜    单　　　　　　　✿\",\"url\":\"\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":1}},{\"title\":\"国漫榜\",\"url\":\"http://m.kuaikanmanhua.com/mini/v1/comic/mkuaikan/rank_list?since={{24*(page-1)}}&limit=24&need_ranks=true&rank_id=9\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"日漫榜\",\"url\":\"http://m.kuaikanmanhua.com/mini/v1/comic/mkuaikan/rank_list?since={{24*(page-1)}}&limit=24&need_ranks=true&rank_id=10\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"韩漫榜\",\"url\":\"http://m.kuaikanmanhua.com/mini/v1/comic/mkuaikan/rank_list?since={{24*(page-1)}}&limit=24&need_ranks=true&rank_id=11\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"少女榜\",\"url\":\"http://m.kuaikanmanhua.com/mini/v1/comic/mkuaikan/rank_list?since={{24*(page-1)}}&limit=24&need_ranks=true&rank_id=6\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"少年榜\",\"url\":\"http://m.kuaikanmanhua.com/mini/v1/comic/mkuaikan/rank_list?since={{24*(page-1)}}&limit=24&need_ranks=true&rank_id=5\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"青女榜\",\"url\":\"http://m.kuaikanmanhua.com/mini/v1/comic/mkuaikan/rank_list?since={{24*(page-1)}}&limit=24&need_ranks=true&rank_id=7\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"青年榜\",\"url\":\"http://m.kuaikanmanhua.com/mini/v1/comic/mkuaikan/rank_list?since={{24*(page-1)}}&limit=24&need_ranks=true&rank_id=8\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"新作榜\",\"url\":\"http://m.kuaikanmanhua.com/mini/v1/comic/mkuaikan/rank_list?since={{24*(page-1)}}&limit=24&need_ranks=true&rank_id=2\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"完结榜\",\"url\":\"http://m.kuaikanmanhua.com/mini/v1/comic/mkuaikan/rank_list?since={{24*(page-1)}}&limit=24&need_ranks=true&rank_id=12\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"口碑榜\",\"url\":\"http://m.kuaikanmanhua.com/mini/v1/comic/mkuaikan/rank_list?since={{24*(page-1)}}&limit=24&need_ranks=true&rank_id=3\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"畅销榜\",\"url\":\"http://m.kuaikanmanhua.com/mini/v1/comic/mkuaikan/rank_list?since={{24*(page-1)}}&limit=24&need_ranks=true&rank_id=4\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"————\",\"url\":\"\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"🔹　　 　　　　状    态　 　　　　　🔹 \",\"url\":\"\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":1}},{\"title\":\"推荐\",\"url\":\"http://m.kuaikanmanhua.com/search/mini/topic/multi_filter?page={{page}}&size=24&tag_id=0&update_status=0&pay_status=0&sort=1&fav_filter=0&gender=0\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"最火热\",\"url\":\"http://m.kuaikanmanhua.com/search/mini/topic/multi_filter?page={{page}}&size=24&tag_id=0&update_status=0&pay_status=0&sort=2&fav_filter=0&gender=0\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"新上架\",\"url\":\"http://m.kuaikanmanhua.com/search/mini/topic/multi_filter?page={{page}}&size=24&tag_id=0&update_status=0&pay_status=0&sort=3&fav_filter=0&gender=0\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"连载中\",\"url\":\"http://m.kuaikanmanhua.com/search/mini/topic/multi_filter?page={{page}}&size=24&tag_id=0&update_status=1&pay_status=0&sort=1&fav_filter=0&gender=0\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"已完结\",\"url\":\"http://m.kuaikanmanhua.com/search/mini/topic/multi_filter?page={{page}}&size=24&tag_id=0&update_status=2&pay_status=0&sort=1&fav_filter=0&gender=0\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"————\",\"url\":\"\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"►免费\",\"url\":\"http://m.kuaikanmanhua.com/search/mini/topic/multi_filter?page={{page}}&size=24&tag_id=0&update_status=0&pay_status=1&sort=1&fav_filter=0&gender=0\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"►付费\",\"url\":\"http://m.kuaikanmanhua.com/search/mini/topic/multi_filter?page={{page}}&size=24&tag_id=0&update_status=0&pay_status=2&sort=1&fav_filter=0&gender=0\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"►抢先看\",\"url\":\"http://m.kuaikanmanhua.com/search/mini/topic/multi_filter?page={{page}}&size=24&tag_id=0&update_status=0&pay_status=3&sort=1&fav_filter=0&gender=0\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"🔹　　 　　　　分    类　 　　　　　🔹 \",\"url\":\"\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":1}},{\"title\":\"恋爱\",\"url\":\"http://m.kuaikanmanhua.com/search/mini/topic/multi_filter?page={{page}}&size=24&tag_id=20&update_status=0&pay_status=0&sort=1&fav_filter=0&gender=0\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"强剧情\",\"url\":\"http://m.kuaikanmanhua.com/search/mini/topic/multi_filter?page={{page}}&size=24&tag_id=82&update_status=0&pay_status=0&sort=1&fav_filter=0&gender=0\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"古风\",\"url\":\"http://m.kuaikanmanhua.com/search/mini/topic/multi_filter?page={{page}}&size=24&tag_id=46&update_status=0&pay_status=0&sort=1&fav_filter=0&gender=0\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"校园\",\"url\":\"http://m.kuaikanmanhua.com/search/mini/topic/multi_filter?page={{page}}&size=24&tag_id=47&update_status=0&pay_status=0&sort=1&fav_filter=0&gender=0\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"奇幻\",\"url\":\"http://m.kuaikanmanhua.com/search/mini/topic/multi_filter?page={{page}}&size=24&tag_id=22&update_status=0&pay_status=0&sort=1&fav_filter=0&gender=0\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"唯美\",\"url\":\"http://m.kuaikanmanhua.com/search/mini/topic/multi_filter?page={{page}}&size=24&tag_id=58&update_status=0&pay_status=0&sort=1&fav_filter=0&gender=0\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"热血\",\"url\":\"http://m.kuaikanmanhua.com/search/mini/topic/multi_filter?page={{page}}&size=24&tag_id=67&update_status=0&pay_status=0&sort=1&fav_filter=0&gender=0\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"日漫\",\"url\":\"http://m.kuaikanmanhua.com/search/mini/topic/multi_filter?page={{page}}&size=24&tag_id=57&update_status=0&pay_status=0&sort=1&fav_filter=0&gender=0\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"韩漫\",\"url\":\"http://m.kuaikanmanhua.com/search/mini/topic/multi_filter?page={{page}}&size=24&tag_id=60&update_status=0&pay_status=0&sort=1&fav_filter=0&gender=0\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"大女主\",\"url\":\"http://m.kuaikanmanhua.com/search/mini/topic/multi_filter?page={{page}}&size=24&tag_id=77&update_status=0&pay_status=0&sort=1&fav_filter=0&gender=0\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"完结\",\"url\":\"http://m.kuaikanmanhua.com/search/mini/topic/multi_filter?page={{page}}&size=24&tag_id=40&update_status=0&pay_status=0&sort=1&fav_filter=0&gender=0\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"穿越\",\"url\":\"http://m.kuaikanmanhua.com/search/mini/topic/multi_filter?page={{page}}&size=24&tag_id=80&update_status=0&pay_status=0&sort=1&fav_filter=0&gender=0\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"萌系\",\"url\":\"http://m.kuaikanmanhua.com/search/mini/topic/multi_filter?page={{page}}&size=24&tag_id=62&update_status=0&pay_status=0&sort=1&fav_filter=0&gender=0\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"灵异\",\"url\":\"http://m.kuaikanmanhua.com/search/mini/topic/multi_filter?page={{page}}&size=24&tag_id=32&update_status=0&pay_status=0&sort=1&fav_filter=0&gender=0\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"玄幻\",\"url\":\"http://m.kuaikanmanhua.com/search/mini/topic/multi_filter?page={{page}}&size=24&tag_id=63&update_status=0&pay_status=0&sort=1&fav_filter=0&gender=0\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"搞笑\",\"url\":\"http://m.kuaikanmanhua.com/search/mini/topic/multi_filter?page={{page}}&size=24&tag_id=71&update_status=0&pay_status=0&sort=1&fav_filter=0&gender=0\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"都市\",\"url\":\"http://m.kuaikanmanhua.com/search/mini/topic/multi_filter?page={{page}}&size=24&tag_id=48&update_status=0&pay_status=0&sort=1&fav_filter=0&gender=0\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"正能量\",\"url\":\"http://m.kuaikanmanhua.com/search/mini/topic/multi_filter?page={{page}}&size=24&tag_id=54&update_status=0&pay_status=0&sort=1&fav_filter=0&gender=0\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"总裁\",\"url\":\"http://m.kuaikanmanhua.com/search/mini/topic/multi_filter?page={{page}}&size=24&tag_id=52&update_status=0&pay_status=0&sort=1&fav_filter=0&gender=0\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"投稿\",\"url\":\"http://m.kuaikanmanhua.com/search/mini/topic/multi_filter?page={{page}}&size=24&tag_id=76&update_status=0&pay_status=0&sort=1&fav_filter=0&gender=0\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"————\",\"url\":\"\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}}]",
+  "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Linux; Android 10; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/78.0.3904.108 Mobile Safari/537.36 SearchCraft/3.6.5 (Baidu; P1 9.0)\"\n}",
+  "lastUpdateTime": 1765998216314,
+  "respondTime": 180523,
   "ruleBookInfo": {
-    "author": "$.data.user.nickname",
-    "intro": "$.data.description",
-    "kind": "$.category",
-    "name": "$.data.title"
+    "author": "<js>\na=eval(result.match(/__NUXT__[^<]*/)[0]);\nresult=JSON.stringify(__NUXT__);\n</js>\n$.data[*].topicInfo.user.nickname",
+    "coverUrl": "@js:\neval(result.match(/__NUXT__[^<]*/)[0]);\n__NUXT__.data[0].topicInfo.vertical_image_url",
+    "intro": "@js:\neval(result.match(/__NUXT__[^<]*/)[0]);\n__NUXT__.data[0].topicInfo.description",
+    "kind": "@js:\neval(result.match(/__NUXT__[^<]*/)[0]);\n__NUXT__.data[0].topicInfo.tags",
+    "lastChapter": "@js:\neval(result.match(/__NUXT__[^<]*/)[0]);\n__NUXT__.data[0].topicInfo.update_status.replace(/^.*?已更/,\"\")",
+    "name": "@js:\neval(result.match(/__NUXT__[^<]*/)[0]);\n__NUXT__.data[0].topicInfo.title"
   },
   "ruleContent": {
-    "content": "@js:\nvar options = {\n\"headers\": {\"Referer\": baseUrl}\n}\njava.getStringList(\"$.data.images\").toArray().map\n(a=>'<img src=\"'+a+'\" >').join(\"\\n\")",
+    "content": "class.ComicPics@img@html##data-src##src",
     "imageStyle": "FULL"
   },
   "ruleExplore": {},
   "ruleSearch": {
-    "author": "$.user.nickname",
-    "bookList": "$.data.topic.hit.*&&$.data.topics.*",
-    "bookUrl": "https://api.kkmh.com/v1/topics/{$.id}",
-    "coverUrl": "$.cover_image_url",
-    "intro": "$.description",
-    "kind": "$.category",
+    "author": "$.author_name",
+    "bookList": "$.data.topics||$.data.cards||$.hits.topicMessageList||$.hits",
+    "bookUrl": "$.id||$.topic_id@js:\"http://m.kuaikanmanhua.com/mobile/\"+result+\"/list/\"",
+    "coverUrl": "$.vertical_image_url||$.image_url||$.cover_image_info.images[*].url",
+    "intro": "description",
+    "kind": "$.category||$.recommend_tag[1].title",
     "lastChapter": "$.latest_comic_title",
-    "name": "$.title"
+    "name": "$.title.text||$.title"
   },
   "ruleToc": {
-    "chapterList": "-$..comics.*",
+    "chapterList": "<js>\na=eval(result.match(/__NUXT__[^<]*/)[0]);\nresult=JSON.stringify(__NUXT__);\n</js>\n$.data[*].comicList[*]",
     "chapterName": "$.title",
-    "chapterUrl": "https://api.kkmh.com/v2/comic/{$.id}?is_preview=0",
-    "updateTime": "@js:java.timeFormat({{$.created_at}}*1000)"
+    "chapterUrl": "$.id\n@js:\"http://m.kuaikanmanhua.com/mobile/comics/\"+result",
+    "isVip": "$.is_free\n@js:result=='true'?false:true",
+    "updateTime": "@js:java.timeFormat({{$.updated_at}})"
   },
-  "searchUrl": "https://search.kkmh.com/search/complex?q={{key}}",
+  "searchUrl": "http://m.kuaikanmanhua.com/search/mini/topic/title_and_author?page={{page}}&size=24&q={{key}}",
   "weight": 0
 };
 

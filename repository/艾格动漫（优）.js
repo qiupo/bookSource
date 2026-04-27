@@ -5,27 +5,21 @@
 // @type video
 // @enabled true
 // @tags 影视,书源,类型4,converted
-// @description 获取最新地址(网址无法使用是，获取电脑版最新的搜索地址)
-// @description 搜索理论上可以自动获取最新网址
-// @description https://rentry.la/agefans
-// @description /*legado&&coolapk by:
-// @description xsw8093*/
 
 const LEGADO_SOURCE = {
-  "bookSourceComment": "获取最新地址(网址无法使用是，获取电脑版最新的搜索地址)\n搜索理论上可以自动获取最新网址\nhttps://rentry.la/agefans\n/*legado&&coolapk by:\nxsw8093*/",
   "bookSourceGroup": "影视 书源",
   "bookSourceName": "艾格动漫（优）",
   "bookSourceType": 4,
-  "bookSourceUrl": "https://www.agedm.org/search",
+  "bookSourceUrl": "https://www.agedm.org/search#",
   "customButton": false,
-  "customOrder": 283,
+  "customOrder": 284,
   "enabled": true,
   "enabledCookieJar": false,
   "enabledExplore": true,
   "eventListener": false,
-  "lastUpdateTime": 1766914890477,
+  "lastUpdateTime": 1766914893806,
   "loginUrl": "https://rentry.la/agefans",
-  "respondTime": 4507,
+  "respondTime": 4917,
   "ruleBookInfo": {
     "intro": ".video_detail_desc@text\n@js:\nvar sz0=source.getVariable();\nif(sz0==null||sz0==\"\"){\n\tsz0=1\n}\nlet list = java.getStringList('.nav-pills .nav-item .nav-link@text')\nlet idList=java.getStringList('.nav-pills .nav-item .nav-link@data-bs-target')\nlet str=`     可以修改源变量查看不同线路，当前：${sz0}\\n`\nfor(let x=0;x<list.length;x++){\nlet txtArray0=java.getStringList(\"id.\"+idList[x].replace(\"#\",\"\")+\"@tag.ul@tag.li@tag.a@text\");\nstr =str+`源名称：${list[x]}，源变量：${x+1}，共：${txtArray0.length}集\\n`\n}\nstr+result"
   },

@@ -1,7 +1,7 @@
 // @name 英文小说（英）
-// @version 2025.10.06
+// @version 2025.12.21
 // @author converted
-// @url http://novel.tingroom.com/wap
+// @url https://www.yingyuxiaoshuo.com
 // @enabled true
 // @tags 小说,书源,converted
 
@@ -9,38 +9,42 @@ const LEGADO_SOURCE = {
   "bookSourceGroup": "小说 书源",
   "bookSourceName": "英文小说（英）",
   "bookSourceType": 0,
-  "bookSourceUrl": "http://novel.tingroom.com/wap",
+  "bookSourceUrl": "https://www.yingyuxiaoshuo.com",
   "customButton": false,
-  "customOrder": 222,
+  "customOrder": 223,
   "enabled": true,
   "enabledCookieJar": false,
   "enabledExplore": true,
   "eventListener": false,
-  "exploreUrl": "经典小说::http://novel.tingroom.com/wap/?moduleid=1025&catid=1&type=2\n双语小说::http://novel.tingroom.com/wap/index.php?moduleid=1025&catid=33&type=2\n名人传记::http://novel.tingroom.com/wap/index.php?moduleid=1025&catid=32&type=2\n励志小说::http://novel.tingroom.com/wap/index.php?moduleid=1025&catid=6&type=2\n短篇小说::http://novel.tingroom.com/wap/index.php?moduleid=1025&catid=31&type=2\n儿童小说::http://novel.tingroom.com/wap/index.php?moduleid=1025&catid=29&type=2\n科幻小说::http://novel.tingroom.com/wap/index.php?moduleid=1025&catid=30&type=2\n宗教小说::http://novel.tingroom.com/wap/index.php?moduleid=1025&catid=28&type=2",
-  "lastUpdateTime": 1759754353098,
-  "loginUrl": "{\n  \"url\": \"null\"\n}",
-  "respondTime": 10424,
+  "lastUpdateTime": 1766359054956,
+  "respondTime": 10551,
   "ruleBookInfo": {
-    "author": "class.novle@tag.a@text"
+    "author": "@css:.listshadow1 .text-danger:nth-child(2)@text",
+    "coverUrl": "@css:.listshadow1 img@src",
+    "intro": "@css:.listshadow1 .text-intro1@text",
+    "kind": "@css:.listshadow1 .text-danger:nth-child(n+3)@text",
+    "name": "@css:.listshadow1 .text-danger:first-child h2@text"
   },
   "ruleContent": {
-    "content": "id.nr@html",
-    "nextContentUrl": "text.下一页@href"
+    "content": "{{@css:.text-content1 .c-en@text||.text-content1@text}}"
   },
   "ruleExplore": {},
   "ruleSearch": {
-    "bookList": "class.zong_list@class.list_1",
-    "bookUrl": "tag.a.1@href",
-    "coverUrl": "tag.img@src",
-    "intro": "tag.span@text",
-    "name": "tag.a.1@text"
+    "author": "@css:.grow>div:nth-child(2)@text",
+    "bookList": "@css:.main-list-container>div.h-36",
+    "bookUrl": "a@href",
+    "checkKeyWord": "加",
+    "coverUrl": "img@src",
+    "intro": "@css:.grow>div:nth-child(3)@text",
+    "kind": "@css:.grow>div:nth-child(4) span:first-child@text",
+    "name": "@css:.grow h2>a:nth-child(n)@text"
   },
   "ruleToc": {
-    "chapterList": "class.listtxt@tag.li",
-    "chapterName": "tag.a@text",
-    "chapterUrl": "http://novel.tingroom.com/wap/&& tag.a@href"
+    "chapterList": "@css:.shadow-listshadow1 .grid .text-danger",
+    "chapterName": "class.text-danger@text",
+    "chapterUrl": "class.text-danger@href"
   },
-  "searchUrl": "http://novel.tingroom.com/wap/index.php?moduleid=1025&type=2&kw={{key}},{\n  \"charset\": \"utf-8\"\n}",
+  "searchUrl": "/search/{{key}}",
   "weight": 0
 };
 

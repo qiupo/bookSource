@@ -2,23 +2,24 @@
 // @version 2025.12.21
 // @author converted
 // @url https://m.kanman.com
+// @type comic
 // @enabled true
-// @tags 漫画,书源,小说,converted
+// @tags 漫画,书源,图片,converted
 
 const LEGADO_SOURCE = {
   "bookSourceGroup": "漫画 书源",
   "bookSourceName": "爱看漫画（优+）",
-  "bookSourceType": 0,
-  "bookSourceUrl": "https://m.kanman.com#♤Haxc",
+  "bookSourceType": 2,
+  "bookSourceUrl": "https://m.kanman.com#Haxc1107",
   "customButton": false,
-  "customOrder": 234,
+  "customOrder": 235,
   "enabled": true,
   "enabledCookieJar": true,
   "enabledExplore": true,
   "eventListener": false,
   "exploreUrl": "人气::https://m.kanman.com/api/getsortlist/?comic_sort=&orderby=click&search_type=&search_key=&page={{page}}&size=48\n更新::https://m.kanman.com/api/getsortlist/?comic_sort=&orderby=date&search_type=&search_key=&page={{page}}&size=48\n评分::https://m.kanman.com/api/getsortlist/?comic_sort=&orderby=score&search_type=&search_key=&page={{page}}&size=48\n收藏::https://m.kanman.com/api/getsortlist/?comic_sort=&orderby=shoucang&search_type=&search_key=&page={{page}}&size=48\n热血::https://m.kanman.com/api/getsortlist/?comic_sort=rexue&orderby=&search_type=&search_key=&page={{page}}&size=48\n机战::https://m.kanman.com/api/getsortlist/?comic_sort=jizhan&orderby=&search_type=&search_key=&page={{page}}&size=48\n运动::https://m.kanman.com/api/getsortlist/?comic_sort=yundong&orderby=&search_type=&search_key=&page={{page}}&size=48\n推理::https://m.kanman.com/api/getsortlist/?comic_sort=tuili&orderby=&search_type=&search_key=&page={{page}}&size=48\n冒险::https://m.kanman.com/api/getsortlist/?comic_sort=maoxian&orderby=&search_type=&search_key=&page={{page}}&size=48\n搞笑::https://m.kanman.com/api/getsortlist/?comic_sort=gaoxiao&orderby=&search_type=&search_key=&page={{page}}&size=48\n战争::https://m.kanman.com/api/getsortlist/?comic_sort=zhanzhen&orderby=&search_type=&search_key=&page={{page}}&size=48\n神魔::https://m.kanman.com/api/getsortlist/?comic_sort=shenmo&orderby=&search_type=&search_key=&page={{page}}&size=48\n忍者::https://m.kanman.com/api/getsortlist/?comic_sort=renzhe&orderby=&search_type=&search_key=&page={{page}}&size=48\n竞技::https://m.kanman.com/api/getsortlist/?comic_sort=jingji&orderby=&search_type=&search_key=&page={{page}}&size=48\n悬疑::https://m.kanman.com/api/getsortlist/?comic_sort=xuanyi&orderby=&search_type=&search_key=&page={{page}}&size=48\n社会::https://m.kanman.com/api/getsortlist/?comic_sort=shehui&orderby=&search_type=&search_key=&page={{page}}&size=48\n恋爱::https://m.kanman.com/api/getsortlist/?comic_sort=lianai&orderby=&search_type=&search_key=&page={{page}}&size=48\n宠物::https://m.kanman.com/api/getsortlist/?comic_sort=chongwu&orderby=&search_type=&search_key=&page={{page}}&size=48\n吸血::https://m.kanman.com/api/getsortlist/?comic_sort=xixue&orderby=&search_type=&search_key=&page={{page}}&size=48\n萝莉::https://m.kanman.com/api/getsortlist/?comic_sort=luoli&orderby=&search_type=&search_key=&page={{page}}&size=48\n后宫::https://m.kanman.com/api/getsortlist/?comic_sort=hougong&orderby=&search_type=&search_key=&page={{page}}&size=48\n御姐::https://m.kanman.com/api/getsortlist/?comic_sort=yujie&orderby=&search_type=&search_key=&page={{page}}&size=48\n霸总::https://m.kanman.com/api/getsortlist/?comic_sort=bazong&orderby=&search_type=&search_key=&page={{page}}&size=48\n玄幻::https://m.kanman.com/api/getsortlist/?comic_sort=xuanhuan&orderby=&search_type=&search_key=&page={{page}}&size=48\n古风::https://m.kanman.com/api/getsortlist/?comic_sort=gufeng&orderby=&search_type=&search_key=&page={{page}}&size=48\n历史::https://m.kanman.com/api/getsortlist/?comic_sort=lishi&orderby=&search_type=&search_key=&page={{page}}&size=48\n漫改::https://m.kanman.com/api/getsortlist/?comic_sort=mangai&orderby=&search_type=&search_key=&page={{page}}&size=48\n游戏::https://m.kanman.com/api/getsortlist/?comic_sort=youxi&orderby=&search_type=&search_key=&page={{page}}&size=48\n穿越::https://m.kanman.com/api/getsortlist/?comic_sort=chuanyue&orderby=&search_type=&search_key=&page={{page}}&size=48\n恐怖::https://m.kanman.com/api/getsortlist/?comic_sort=kongbu&orderby=&search_type=&search_key=&page={{page}}&size=48\n真人::https://m.kanman.com/api/getsortlist/?comic_sort=zhenren&orderby=&search_type=&search_key=&page={{page}}&size=48\n科幻::https://m.kanman.com/api/getsortlist/?comic_sort=kehuan&orderby=&search_type=&search_key=&page={{page}}&size=48\n都市::https://m.kanman.com/api/getsortlist/?comic_sort=dushi&orderby=&search_type=&search_key=&page={{page}}&size=48\n武侠::https://m.kanman.com/api/getsortlist/?comic_sort=wuxia&orderby=&search_type=&search_key=&page={{page}}&size=48\n修真::https://m.kanman.com/api/getsortlist/?comic_sort=xiuzhen&orderby=&search_type=&search_key=&page={{page}}&size=48\n生活::https://m.kanman.com/api/getsortlist/?comic_sort=shenghuo&orderby=&search_type=&search_key=&page={{page}}&size=48\n动作::https://m.kanman.com/api/getsortlist/?comic_sort=dongzuo&orderby=&search_type=&search_key=&page={{page}}&size=48\n防疫::https://m.kanman.com/api/getsortlist/?comic_sort=fangyi&orderby=&search_type=&search_key=&page={{page}}&size=48",
-  "lastUpdateTime": 1766317903404,
-  "respondTime": 2054,
+  "lastUpdateTime": 1766318133353,
+  "respondTime": 390,
   "ruleBookInfo": {
     "author": "[property=\"og:novel:author\"]@content",
     "kind": "[property=\"og:novel:category\"]@content",

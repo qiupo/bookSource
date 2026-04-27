@@ -17,8 +17,14 @@ TAURI_TYPES = {
     4: "video",
 }
 
+COMPATIBILITY_SCORE = {
+    "manual": 0,
+    "partial": 1,
+    "high": 2,
+}
+
 INVALID_FILENAME = re.compile(r'[\\/:*?"<>|\n\r\t]+')
-HTTP_URL = re.compile(r'https?://[^\s#，,]+')
+HTTP_URL = re.compile(r'https?://[^\s#＃，,]+')
 
 FEATURE_PATTERNS = {
     "js": re.compile(r"@js:|<js>", re.I),
@@ -168,6 +174,83 @@ def analyze_compatibility(source, file_name):
     }
 
 
+def rule_completeness(source):
+    count = 0
+    for key in ["ruleSearch", "ruleBookInfo", "ruleToc", "ruleContent", "ruleExplore"]:
+        value = source.get(key)
+        if isinstance(value, dict) and value:
+            count += 1
+    return count
+
+
+def score_source_for_dedup(source, index):
+    report = analyze_compatibility(source, f"source-{index}.js")
+    try:
+        updated_at = int(source.get("lastUpdateTime") or 0)
+    except (TypeError, ValueError):
+        updated_at = 0
+    return (
+        COMPATIBILITY_SCORE.get(report["level"], 0),
+        1 if source.get("enabled", True) else 0,
+        updated_at,
+        rule_completeness(source),
+        -index,
+    )
+
+
+def normalized_source_url(source):
+    return re.split(r"[#＃]", clean_text(source.get("bookSourceUrl")), maxsplit=1)[0]
+
+
+def duplicate_keys(source):
+    keys = []
+    name = clean_text(source.get("bookSourceName"))
+    url = normalized_source_url(source)
+    if name:
+        keys.append(("name", name))
+    if url:
+        keys.append(("url", url))
+    return keys
+
+
+def dedupe_sources(sources):
+    candidates = [(index, source) for index, source in enumerate(sources) if isinstance(source, dict)]
+    key_to_indices = {}
+    for index, source in candidates:
+        for key in duplicate_keys(source):
+            key_to_indices.setdefault(key, set()).add(index)
+
+    parent = {index: index for index, _ in candidates}
+
+    def find(index):
+        while parent[index] != index:
+            parent[index] = parent[parent[index]]
+            index = parent[index]
+        return index
+
+    def union(left, right):
+        left_root = find(left)
+        right_root = find(right)
+        if left_root != right_root:
+            parent[right_root] = left_root
+
+    for indices in key_to_indices.values():
+        ordered = sorted(indices)
+        for index in ordered[1:]:
+            union(ordered[0], index)
+
+    groups = {}
+    for index, source in candidates:
+        groups.setdefault(find(index), []).append((index, source))
+
+    kept = []
+    for group in groups.values():
+        best_index, best_source = max(group, key=lambda item: score_source_for_dedup(item[1], item[0]))
+        kept.append((best_index, best_source))
+
+    return [source for _, source in sorted(kept, key=lambda item: item[0])]
+
+
 def runtime_template():
     return Path(__file__).with_name("legacy_runtime.js").read_text(encoding="utf-8")
 
@@ -217,8 +300,10 @@ def load_sources(input_path):
 
 
 def convert(input_path, output_dir):
-    sources = load_sources(input_path)
+    sources = dedupe_sources(load_sources(input_path))
     output_dir.mkdir(parents=True, exist_ok=True)
+    for stale_path in output_dir.glob("*.js"):
+        stale_path.unlink()
     used = set()
     written = []
     reports = []

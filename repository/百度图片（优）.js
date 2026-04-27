@@ -4,25 +4,25 @@
 // @url https://image.baidu.com
 // @enabled true
 // @tags 特殊,书源,小说,converted
-// @description error:org.mozilla.javascript.EvaluatorException: unterminated string literal (<Unknown source>#12) in <Unknown source> at line number 12
+// @description By关耳
 
 const LEGADO_SOURCE = {
-  "bookSourceComment": "error:org.mozilla.javascript.EvaluatorException: unterminated string literal (<Unknown source>#12) in <Unknown source> at line number 12\n",
+  "bookSourceComment": "By关耳",
   "bookSourceGroup": "特殊 书源",
   "bookSourceName": "百度图片（优）",
   "bookSourceType": 0,
-  "bookSourceUrl": "https://image.baidu.com#guaner",
+  "bookSourceUrl": "https://image.baidu.com#乃星",
   "customButton": false,
-  "customOrder": 349,
+  "customOrder": 350,
   "enabled": true,
   "enabledCookieJar": false,
   "enabledExplore": true,
   "eventListener": false,
-  "lastUpdateTime": 1759385371804,
-  "respondTime": 1723,
+  "lastUpdateTime": 1759385386358,
+  "respondTime": 1942,
   "ruleBookInfo": {},
   "ruleContent": {
-    "content": "@get:{id2}@js:\nimgurl=result;\nimg2=java.get('id');\nhtml='<img src=\"'+imgurl+'\">\\n图片地址1：'+imgurl+'\\n'+'<img src=\"'+img2+'\">\\n图片地址2：'+img2"
+    "content": "@get:{id2}@js:\nimgurl=result;\nhtml='<img src=\"'+imgurl+'\">\\n图片地址：'+imgurl"
   },
   "ruleExplore": {},
   "ruleSearch": {

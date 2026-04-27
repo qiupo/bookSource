@@ -1,7 +1,7 @@
 // @name 梧桐中文
-// @version 2025.10.01
+// @version 2026.02.26
 // @author converted
-// @url https://www.wtzw.com/
+// @url http://www.wtzw.com
 // @enabled true
 // @tags 正版小说,书源,小说,converted
 
@@ -9,58 +9,40 @@ const LEGADO_SOURCE = {
   "bookSourceGroup": "正版小说 书源",
   "bookSourceName": "梧桐中文",
   "bookSourceType": 0,
-  "bookSourceUrl": "https://www.wtzw.com/",
+  "bookSourceUrl": "http://www.wtzw.com",
   "customButton": false,
-  "customOrder": 421,
+  "customOrder": 422,
   "enabled": true,
   "enabledCookieJar": false,
   "enabledExplore": true,
   "eventListener": false,
-  "exploreUrl": "[{\"title\":\"都市生活\",\"url\":\"/shuku.html?category=3&p={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.4,\"layout_flexGrow\":1}},\n{\"title\":\"历史小说\",\"url\":\"/shuku.html?category=6&p={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.4,\"layout_flexGrow\":1}},\n{\"title\":\"历史传奇\",\"url\":\"/shuku.html?category=15&p={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.4,\"layout_flexGrow\":1}},\n{\"title\":\"青春校园\",\"url\":\"/shuku.html?category=18&p={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.4,\"layout_flexGrow\":1}}]",
-  "lastUpdateTime": 1759351838595,
-  "respondTime": 1419,
+  "lastUpdateTime": 1772088124667,
+  "respondTime": 1581,
   "ruleBookInfo": {
-    "author": ".sName@text",
-    "coverUrl": ".w_pic@img@src",
-    "intro": "🔖  {{@.w_txt li.4@textNodes}}{{'\\n'+'​'}}\n{{@.pWorkInformation@html}}##(^|[。！？]+[”」）】]?)##$1<br>",
-    "kind": ".w_txt li.1@textNodes&&.li_tit i@text&&.li_upDate@textNodes##\\s..:.*",
-    "lastChapter": ".li_upDate a.0@text",
-    "name": ".li_tit a@text",
-    "wordCount": ".w_txt li.2@textNodes"
+    "author": "class.sName@text",
+    "coverUrl": "class.w_pic@tag.img@src",
+    "intro": "class.pWorkInformation@text",
+    "lastChapter": "class.li_upDate@tag.a@text",
+    "name": "class.li_tit@tag.a@text"
   },
   "ruleContent": {
-    "content": ".article@html",
-    "imageStyle": "0"
+    "content": "class.article@html"
   },
-  "ruleExplore": {
-    "author": "span.1@text##\\s.*",
-    "bookList": ".w_picTxt_lr li",
-    "bookUrl": "a.1@href",
-    "coverUrl": "img@src",
-    "intro": "span.2@text",
-    "kind": "span.1@text",
-    "lastChapter": "span.3@text##.*\\s|更新",
-    "name": "a.1@text",
-    "wordCount": "span.3@text##\\s.*"
-  },
+  "ruleExplore": {},
   "ruleSearch": {
-    "author": "span.1@textNodes",
-    "bookList": ".w_picTxt_lr li",
-    "bookUrl": "a.1@href",
-    "coverUrl": "img@src",
-    "intro": "span.6@text",
-    "kind": "span.4:2@textNodes",
-    "lastChapter": "a.2@text##\\s..:.*",
-    "name": "a.1@text",
-    "wordCount": "span.3@textNodes"
+    "author": "tag.a.2@text",
+    "bookList": "class.searchList@li",
+    "bookUrl": "class.sTit@tag.a@href",
+    "coverUrl": "tag.img@src",
+    "lastChapter": "tag.a.3@text",
+    "name": "class.sTit@text"
   },
   "ruleToc": {
-    "chapterList": ".w_ulTxt li a",
-    "chapterName": "textNodes",
-    "chapterUrl": "href",
-    "isVip": "i@text"
+    "chapterList": "class.w_ulTxt w_ulTxt_3 clearfix@tag.li",
+    "chapterName": "tag.a@text",
+    "chapterUrl": "tag.a@href"
   },
-  "searchUrl": "/search-{{key}}.html?p={{page}}",
+  "searchUrl": "http://www.wtzw.com/search-{{key}}.html?null",
   "weight": 0
 };
 

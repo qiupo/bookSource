@@ -1,7 +1,7 @@
 // @name 爱推书君（优）
 // @version 2025.12.23
 // @author converted
-// @url https://pre-api.tuishujun.com/
+// @url https://pre-api.tuishujun.com
 // @enabled true
 // @tags 特殊,书源,小说,converted
 
@@ -9,16 +9,17 @@ const LEGADO_SOURCE = {
   "bookSourceGroup": "特殊 书源",
   "bookSourceName": "爱推书君（优）",
   "bookSourceType": 0,
-  "bookSourceUrl": "https://pre-api.tuishujun.com/",
+  "bookSourceUrl": "https://pre-api.tuishujun.com",
   "customButton": false,
-  "customOrder": 337,
+  "customOrder": 338,
   "enabled": true,
-  "enabledCookieJar": true,
+  "enabledCookieJar": false,
   "enabledExplore": true,
   "eventListener": false,
+  "exploreScreen": "",
   "exploreUrl": "@js:\nsort=[];\npush=(title,url,type1,type2)=>\n\tsort.push({\n\t\ttitle: title,\n\t\turl: url,\n\t\tstyle: {\n\t\t\t\tlayout_flexGrow: type1,\n\t\t\t\tlayout_flexBasisPercent: type2\n\t\t\t}\n\t});\n\n\nfl1=[[\"全部\",\"0\"],[\"玄幻\",\"3\"],[\"奇幻\",\"4\"],[\"武侠\",\"5\"],[\"仙侠\",\"6\"],[\"都市\",\"7\"],[\"军事\",\"8\"],[\"历史\",\"9\"],[\"游戏\",\"10\"],[\"体育\",\"11\"],[\"科幻\",\"12\"],[\"同人\",\"13\"],[\"悬疑\",\"14\"],[\"轻小说\",\"15\"],[\"诸天\",\"16\"],[\"综合\",\"17\"]];\n\t\tpush('🔥男频·新书榜🔥', null, 1, 1);\n\t\tfl1.map([title,id]=>{\n\t\t\t\turl= `https://pre-api.tuishujun.com/api/listBookRank?rank_type=new_book&first_type_id=1&second_type_id=${id}&page={{page}}&pageSize=10`;\t\t\t\t\n    push(title, url, 1, 0.2);\n    });\n\n\t\n\t\nbs=[[\"全部\",\"0\"],[\"玄幻\",\"3\"],[\"奇幻\",\"4\"],[\"武侠\",\"5\"],[\"仙侠\",\"6\"],[\"都市\",\"7\"],[\"军事\",\"8\"],[\"历史\",\"9\"],[\"游戏\",\"10\"],[\"体育\",\"11\"],[\"科幻\",\"12\"],[\"同人\",\"13\"],[\"悬疑\",\"14\"],[\"轻小说\",\"15\"],[\"诸天\",\"16\"],[\"综合\",\"17\"]];\n[\"全部\",\"起点\",\"晋江\",\"刺猬猫\",\"飞卢\",\"纵横\",\"有毒\",\"息壤\",\"17K\",\"豆瓣\",\"SF\",\"铁血\",\"番茄\"].map((title,id)=>{\n\t   id++;\n\t\tpush('🔥男频·'+title+'🔥', null, 1, 1);\n\t\tbs.map([title,cid]=>{\n\t\t\t\turl= `https://pre-api.tuishujun.com/api/listBookRepository?first_type_id=1&second_type_id=${cid}&source={{(${id}-1)}}&word_number_type=0&update_type=0&is_exclude_selected=0&is_can_read=0&is_filter_added_score=0&page={{page}}`;\t\t\t\t\n    push(title, url, 1, 0.2);\n    });\n\t\t});\n\t\t\n\nfl2=[[\"全部\",\"0\"],[\"古代言情\",\"18\"],[\"现代言情\",\"19\"],[\"幻想言情\",\"20\"],[\"未来言情\",\"21\"],[\"奇幻仙侠\",\"22\"],[\"游戏竞技\",\"23\"],[\"衍生言情\",\"24\"],[\"古代纯爱\",\"25\"],[\"现代纯爱\",\"26\"],[\"幻想纯爱\",\"27\"],[\"衍生纯爱\",\"28\"],[\"百合小说\",\"29\"],[\"女尊\",\"30\"],[\"无cp\",\"31\"],[\"悬疑\",\"32\"],[\"现实\",\"33\"],[\"魔幻\",\"34\"],[\"短篇\",\"35\"],[\"综合\",\"36\"]];\n\t\tpush('🔥女频·新书榜🔥', null, 1, 1);\n\t\tfl2.map([title,id]=>{\n\t\t\t\turl= `https://pre-api.tuishujun.com/api/listBookRank?rank_type=new_book&first_type_id=2&second_type_id=${id}&page={{page}}&pageSize=10`;\t\t\t\t\n    push(title, url, 1, 0.25);\n    });\n\n\n\nns=[[\"全部\",\"0\"],[\"古代言情\",\"18\"],[\"现代言情\",\"19\"],[\"幻想言情\",\"20\"],[\"未来言情\",\"21\"],[\"奇幻仙侠\",\"22\"],[\"游戏竞技\",\"23\"],[\"衍生言情\",\"24\"],[\"古代纯爱\",\"25\"],[\"现代纯爱\",\"26\"],[\"幻想纯爱\",\"27\"],[\"衍生纯爱\",\"28\"],[\"百合小说\",\"29\"],[\"女尊\",\"30\"],[\"无cp\",\"31\"],[\"悬疑\",\"32\"],[\"现实\",\"33\"],[\"魔幻\",\"34\"],[\"短篇\",\"35\"],[\"综合\",\"36\"]];\n[\"全部\",\"起点\",\"晋江\",\"刺猬猫\",\"飞卢\",\"纵横\",\"有毒\",\"息壤\",\"17K\",\"豆瓣\",\"SF\",\"铁血\",\"番茄\"].map((title,id)=>{\n\t   id++;\n\t\tpush('🔥女频·'+title+'🔥', null, 1, 1);\n\t\tns.map([title,cid]=>{\n\t\t\t\turl= `https://pre-api.tuishujun.com/api/listBookRepository?first_type_id=2&second_type_id=${cid}&source={{(${id}-1)}}&word_number_type=0&update_type=0&is_exclude_selected=0&is_can_read=0&is_filter_added_score=0&page={{page}}`;\t\t\t\t\n    push(title, url, 1, 0.25);\n    });\n\t\t});\n\n\nJSON.stringify(sort);",
-  "lastUpdateTime": 1766465432073,
-  "respondTime": 2366,
+  "lastUpdateTime": 1766465437397,
+  "respondTime": 2430,
   "ruleBookInfo": {
     "author": "@{{$.author_nickname}}",
     "coverUrl": "cover",
@@ -60,7 +61,7 @@ const LEGADO_SOURCE = {
     "chapterUrl": "url"
   },
   "searchUrl": "https://pre-api.tuishujun.com/api/searchBook?search_value={{key}}&sort_field=hot_value&page={{page}}&pageSize=50",
-  "weight": 0
+  "weight": 1
 };
 
 function createLegacyRuntime(source) {

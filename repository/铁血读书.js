@@ -1,48 +1,53 @@
 // @name 铁血读书
-// @version 2025.10.02
+// @version 2025.12.19
 // @author converted
-// @url https://book.tiexue.net
+// @url http://book.tiexue.net/
 // @enabled true
 // @tags 正版小说,书源,小说,converted
+// @description // Error: 搜索失效
 
 const LEGADO_SOURCE = {
+  "bookSourceComment": "// Error: 搜索失效",
   "bookSourceGroup": "正版小说 书源",
   "bookSourceName": "铁血读书",
   "bookSourceType": 0,
-  "bookSourceUrl": "https://book.tiexue.net",
+  "bookSourceUrl": "http://book.tiexue.net/",
   "customButton": false,
-  "customOrder": 406,
+  "customOrder": 407,
   "enabled": true,
-  "enabledCookieJar": true,
+  "enabledCookieJar": false,
   "enabledExplore": true,
   "eventListener": false,
-  "lastUpdateTime": 1759387083867,
-  "loginUrl": "https://m.book.tiexue.net/Login.aspx",
-  "respondTime": 1000,
+  "lastUpdateTime": 1766137587464,
+  "respondTime": 180398,
   "ruleBookInfo": {
-    "intro": ".bookPrdt@html##^##<br>",
-    "tocUrl": "@js:baseUrl.replace(/\\/?$/, '/list.html')"
+    "author": "class.xQing@tag.table@tag.tbody@tag.tr.0@tag.td.0@tag.p@tag.a@tag.u@text",
+    "coverUrl": "class.li_01@tag.a@tag.img@src",
+    "intro": "p.colorGray@text",
+    "kind": ".cel_02@.xQing@tr.0@td.1@a@u@text&&dd.colorGray2@text##更新于\\s",
+    "lastChapter": ".newChapter@h3@a@text",
+    "name": "class.normaltitle@tag.span@text",
+    "tocUrl": "class.newChapter borderY marTop@tag.ul@tag.li.1@tag.a@href",
+    "wordCount": ".cel_02@.xQing@tr.1@td.3@span.orange@text"
   },
   "ruleContent": {
-    "content": ".p_01@html@js:result || ' 付费章节，换源阅读！'"
+    "content": "class.p_01@tag.p@html"
   },
   "ruleExplore": {},
   "ruleSearch": {
-    "author": ".zuoZhe1 a@text",
-    "bookList": ".tianZhi_list dl:lt(3)",
-    "bookUrl": "h6 a@href",
-    "coverUrl": "a img@src",
-    "intro": ".cel02_row3@textNodes@js:result.trim()",
-    "kind": ".cel02_row2 span:not([class])@text",
-    "lastChapter": ".zhuJue@text",
-    "name": "h6 a@text"
+    "author": "class.zuoZhe1@tag.a@text",
+    "bookList": "class.tianZhi_list@tag.dl",
+    "bookUrl": "class.keyRight.0@tag.a.0@href",
+    "coverUrl": "tag.dt@tag.a@tag.img@src",
+    "kind": "class.keyWords colorTh@tag.a.0@text",
+    "name": "tag.h6@tag.a@text"
   },
   "ruleToc": {
-    "chapterList": ".list01 li p",
-    "chapterName": "@js:(result.outerHtml().includes('vip_icon') ? '🔒' : '') + result.select('a').text()",
-    "chapterUrl": "a@href"
+    "chapterList": "class.list01@tag.li@tag.p@tag.a",
+    "chapterName": "text",
+    "chapterUrl": "href"
   },
-  "searchUrl": "/SearchResults.aspx?PageSize=3&keywords={{key}}&noveltype=0,{\n  \"charset\": \"gb2312\"\n}",
+  "searchUrl": "http://book.tiexue.net/SearchResults.aspx?pageindex={{page}}&PageSize=20&keywords={{key}}&noveltype=0,{\n  \"charset\": \"escape\"\n}",
   "weight": 0
 };
 

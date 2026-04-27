@@ -1,7 +1,7 @@
 // @name 安轻小说
 // @version 2025.10.02
 // @author converted
-// @url https://book.sfacg.com
+// @url https://minipapi.sfacg.com
 // @enabled true
 // @tags 正版小说,书源,小说,converted
 
@@ -9,58 +9,55 @@ const LEGADO_SOURCE = {
   "bookSourceGroup": "正版小说 书源",
   "bookSourceName": "安轻小说",
   "bookSourceType": 0,
-  "bookSourceUrl": "https://book.sfacg.com#",
+  "bookSourceUrl": "https://minipapi.sfacg.com",
   "customButton": false,
-  "customOrder": 430,
+  "customOrder": 433,
   "enabled": true,
-  "enabledCookieJar": false,
+  "enabledCookieJar": true,
   "enabledExplore": true,
   "eventListener": false,
-  "exploreUrl": "[{\"title\":\"全部\",\"url\":\"/List/default.aspx?tid=-1&<,PageIndex={{page}}>\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.15}},\n{\"title\":\"魔幻\",\"url\":\"/List/default.aspx?tid=21&<,PageIndex={{page}}>\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.15}},\n{\"title\":\"玄幻\",\"url\":\"/List/default.aspx?tid=22&<,PageIndex={{page}}>\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.15}},\n{\"title\":\"古风\",\"url\":\"/List/default.aspx?tid=23&<,PageIndex={{page}}>\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.15}},\n{\"title\":\"科幻\",\"url\":\"/List/default.aspx?tid=24&<,PageIndex={{page}}>\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.15}},\n{\"title\":\"校园\",\"url\":\"/List/default.aspx?tid=25&<,PageIndex={{page}}>\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.15}},\n{\"title\":\"都市\",\"url\":\"/List/default.aspx?tid=26&<,PageIndex={{page}}>\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.15}},\n{\"title\":\"游戏\",\"url\":\"/List/default.aspx?tid=27&<,PageIndex={{page}}>\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.15}},\n{\"title\":\"同人\",\"url\":\"/List/default.aspx?tid=28&<,PageIndex={{page}}>\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.15}},\n{\"title\":\"悬疑\",\"url\":\"/List/default.aspx?tid=29&<,PageIndex={{page}}>\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.15}}]",
-  "header": "{\"user-agent\":\"okhttp/3.10.0.1\"}",
-  "lastUpdateTime": 1759386613703,
-  "loginUrl": "https://book.sfacg.com/",
-  "respondTime": 1287,
+  "exploreUrl": "魔幻::https://api.sfacg.com/novels/21/sysTags/novels?sort=latest&systagids=&isfree=both&isfinish=both&updatedays=-1&charcountbegin=0&charcountend=0&page={{page - 1}}&size=20&expand=typeName,tags,discount,discountExpireDate\n玄幻::https://api.sfacg.com/novels/22/sysTags/novels?sort=latest&systagids=&isfree=both&isfinish=both&updatedays=-1&charcountbegin=0&charcountend=0&page={{page - 1}}&size=20&expand=typeName,tags,discount,discountExpireDate\n古风::https://api.sfacg.com/novels/23/sysTags/novels?sort=latest&systagids=&isfree=both&isfinish=both&updatedays=-1&charcountbegin=0&charcountend=0&page={{page - 1}}&size=20&expand=typeName,tags,discount,discountExpireDate\n科幻::https://api.sfacg.com/novels/24/sysTags/novels?sort=latest&systagids=&isfree=both&isfinish=both&updatedays=-1&charcountbegin=0&charcountend=0&page={{page - 1}}&size=20&expand=typeName,tags,discount,discountExpireDate\n校园::https://api.sfacg.com/novels/25/sysTags/novels?sort=latest&systagids=&isfree=both&isfinish=both&updatedays=-1&charcountbegin=0&charcountend=0&page={{page - 1}}&size=20&expand=typeName,tags,discount,discountExpireDate\n都市::https://api.sfacg.com/novels/26/sysTags/novels?sort=latest&systagids=&isfree=both&isfinish=both&updatedays=-1&charcountbegin=0&charcountend=0&page={{page - 1}}&size=20&expand=typeName,tags,discount,discountExpireDate\n游戏::https://api.sfacg.com/novels/27/sysTags/novels?sort=latest&systagids=&isfree=both&isfinish=both&updatedays=-1&charcountbegin=0&charcountend=0&page={{page - 1}}&size=20&expand=typeName,tags,discount,discountExpireDate\n悬疑::https://api.sfacg.com/novels/28/sysTags/novels?sort=latest&systagids=&isfree=both&isfinish=both&updatedays=-1&charcountbegin=0&charcountend=0&page={{page - 1}}&size=20&expand=typeName,tags,discount,discountExpireDate",
+  "header": "{\n\"content-type\": \"application/json\",\n\"sf-minip-info\": \"minip_novel/1.0.70(android;10)/wxmp\",\n\"authorization\": \"Basic YW5kcm9pZHVzZXI6MWEjJDUxLXl0Njk7KkFjdkBxeHE=\"\n}",
+  "lastUpdateTime": 1759386994045,
+  "respondTime": 1374,
   "ruleBookInfo": {
-    "author": ".author-name@span@text",
-    "canReName": "1",
-    "coverUrl": ".summary-pic@img@src",
-    "intro": "<br>{{@@a.highlight@span.text@text##(^|[\\n])##🏷️}}\n{{'&lrm;'}}\n{{@@p.introduce@text##(^|[\\s]+)##<br>}}",
-    "kind": "h1.title@span.tag@text&&div.count-detail@div.text-row@span.text.0:1:3@text##类型：|.*字\\[|]|更新：",
-    "lastChapter": "h3.chapter-title@a.link@text",
-    "name": "h1.title@span.text@text",
-    "tocUrl": "text.点击阅读@href",
-    "wordCount": "div.count-detail@div.text-row@span.text.1@text##\\D"
+    "author": "$.data.authorName",
+    "coverUrl": "$.data.novelCover",
+    "intro": "$.data.expand.intro",
+    "kind": "$.data.typeName",
+    "lastChapter": "$.data.expand.latestChapter.title",
+    "name": "$.data.novelName",
+    "tocUrl": "https://minipapi.sfacg.com/pas/mpapi/novels/{{$.data.novelId}}/dirs",
+    "wordCount": "$.data.charCount"
   },
   "ruleContent": {
-    "content": "div.article-content[id='ChapterBody']@html"
+    "content": "$.data.expand.content"
   },
   "ruleExplore": {
-    "author": "a[id][target]@text",
-    "bookList": "ul.Comic_Pic_List",
-    "bookUrl": "strong@a@href",
-    "coverUrl": "li.Conjunction@img@src",
-    "intro": "li.1@ownText##.*\\d+字",
-    "kind": "span.font_red@text&&li.1@a.2@text&&li.1@ownText##.*：\\s/\\s/\\s|\\s/\\s\\d+字.*",
-    "name": "strong@a@text",
-    "wordCount": "li.1@ownText##.*\\d\\s/\\s|字.*"
+    "author": "$.authorName",
+    "bookList": "$.data",
+    "bookUrl": "https://minipapi.sfacg.com/pas/mpapi/novels/{{$.novelId}}?expand=latestchapter,chapterCount,typeName,intro,fav,ticket,pointCount,tags,sysTags,signlevel,discount,discountExpireDate,totalNeedFireMoney,originTotalNeedFireMoney",
+    "coverUrl": "$.novelCover",
+    "kind": "$.expand.typeName",
+    "name": "$.novelName",
+    "wordCount": "$.charCount"
   },
   "ruleSearch": {
-    "author": "li.1@ownText##综合信息：\\s|/\\d.*",
-    "bookList": "ul[style='width:100%']",
-    "bookUrl": "a.orange_link2@href",
-    "coverUrl": "li.Conjunction@img@src",
-    "intro": "li.1@ownText##.*\\d\\s|\\s",
-    "name": "a.orange_link2@text"
+    "author": "$.AuthorName",
+    "bookList": "$.Novels",
+    "bookUrl": "https://minipapi.sfacg.com/pas/mpapi/novels/{{$.NovelID}}?expand=latestchapter,chapterCount,typeName,intro,fav,ticket,pointCount,tags,sysTags,signlevel,discount,discountExpireDate,totalNeedFireMoney,originTotalNeedFireMoney",
+    "coverUrl": "https://rs.sfacg.com/web/novel/images/NovelCover/Big/{{$.NovelCover}}",
+    "kind": "$.TypeName",
+    "name": "$.NovelName"
   },
   "ruleToc": {
-    "chapterList": "div.wrap.s-list@h3.catalog-title, li",
-    "chapterName": "{{@@span.icn@text####🖼️}}{{@@h3.catalog-title@text||@@a@ownText}}",
-    "chapterUrl": "a@href",
-    "isVip": "span.icn_vip@text",
-    "isVolume": "h3.catalog-title@text"
+    "chapterList": "$.data.volumeList[*].chapterList[*]",
+    "chapterName": "$.title",
+    "chapterUrl": "https://minipapi.sfacg.com/pas/mpapi/Chaps/{{$.chapId}}?expand=content,needFireMoney,originNeedFireMoney,tsukkomi&autoOrder=false",
+    "isVip": "$.isVip",
+    "updateTime": "$.updateTime"
   },
-  "searchUrl": "http://s.sfacg.com/?Key={{key}}&S=1&SS=0",
+  "searchUrl": "https://m.sfacg.com/API/HTML5.ashx?op=search&keyword={{key}}",
   "weight": 0
 };
 

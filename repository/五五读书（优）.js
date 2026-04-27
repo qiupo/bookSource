@@ -1,5 +1,5 @@
 // @name 五五读书（优）
-// @version 2025.12.23
+// @version 2026.02.26
 // @author converted
 // @url https://www.changduzw.com
 // @enabled true
@@ -9,43 +9,52 @@ const LEGADO_SOURCE = {
   "bookSourceGroup": "小说 书源",
   "bookSourceName": "五五读书（优）",
   "bookSourceType": 0,
-  "bookSourceUrl": "https://www.changduzw.com#",
+  "bookSourceUrl": "https://www.changduzw.com",
   "customButton": false,
-  "customOrder": 143,
+  "customOrder": 159,
   "enabled": true,
   "enabledCookieJar": true,
   "enabledExplore": true,
   "eventListener": false,
-  "lastUpdateTime": 1766457803593,
-  "respondTime": 1450,
+  "exploreUrl": "总点击榜::/top/allvisit_{{page}}/\n月点击榜::/top/monthvisit_{{page}}/\n周点击榜::/top/weekvisit_{{page}}/\n日点击榜::/top/dayvisit_{{page}}/\n总收藏榜::/top/goodnum_{{page}}/\n总推荐榜::/top/weekvote_{{page}}/\n数字排行::/top/size_{{page}}/\n最近更新::/top/lastupdate_{{page}}/\n最新入库::/top/postdate_{{page}}/\n完本小说::/modules/article/articlelist.php/?fullflag=1&page={{page}}\n玄幻魔法::/fenlei/1_{{page}}/\n仙侠修真::/fenlei/2_{{page}}/\n都市言情::/fenlei/3_{{page}}/\n历史军事::/fenlei/4_{{page}}/\n网游竞技::/fenlei/5_{{page}}/\n科幻小说::/fenlei/6_{{page}}/\n恐怖灵异::/fenlei/7_{{page}}/\n其他小说::/fenlei/8_{{page}}/",
+  "lastUpdateTime": 1772085329971,
+  "respondTime": 2666,
   "ruleBookInfo": {
-    "author": "class.status@tag.p.1@text",
-    "coverUrl": "class.imgbox@tag.img@src",
-    "intro": "class.con@tag.p@text",
-    "kind": "class.status@tag.a.0@text",
-    "lastChapter": "class.red.1@text",
-    "name": "class.status@tag.h1@text",
-    "tocUrl": "text.点击阅读@href",
-    "wordCount": "class.status@tag.p.-3@text##总字数."
+    "author": ".status@.author@text",
+    "coverUrl": ".imgbox@img@data-src",
+    "intro": ".jianjie@text##(^|[。！？]+[”」）】]?)##$1<br>",
+    "kind": ".status@a.0@text&&.status@span.-1:0@text##小说",
+    "lastChapter": ".status@a.1@text##正文卷.|正文.|VIP卷.|默认卷.|卷_|VIP章节.|免费章节.|章节目录.|最新章节.|[\\(（【].*?[求更票谢乐发订合补加架字修Kk].*?[】）\\)]|K",
+    "name": ".status@h1@text",
+    "tocUrl": ".read@href"
   },
   "ruleContent": {
-    "content": "id.htmlContent@html"
+    "content": "id.htmlContent@html",
+    "replaceRegex": "##欢迎广大书友.*|.*55读书.*|.*520小说.*"
   },
-  "ruleExplore": {},
+  "ruleExplore": {
+    "author": ".sp_3@text",
+    "bookList": ".sk_cont@li!0",
+    "bookUrl": "a.1@href",
+    "coverUrl": "a.1@href##.+\\D((\\d+)\\d{3})\\D##/files/article/image/$2/$1/$1s.jpg###",
+    "kind": ".sp_1,.sp_6,.sp_4@text##\\[|\\]|小说",
+    "name": ".sp_2@text"
+  },
   "ruleSearch": {
     "author": "td.2@text",
-    "bookList": "body > div.warpper > div.o_all > div.o_content > div > table > tbody > tr!0",
-    "bookUrl": "td.0@a@href",
-    "kind": "class.even@text",
-    "lastChapter": "td.1@a@text",
-    "name": "td.0@a@text"
+    "bookList": "tbody@tr!0",
+    "bookUrl": "a.0@href",
+    "coverUrl": "a.0@href##.+\\D((\\d+)\\d{3})\\D##/files/article/image/$2/$1/$1s.jpg###",
+    "kind": "td.5:4@text",
+    "lastChapter": "a.1@text##正文卷.|正文.|VIP卷.|默认卷.|卷_|VIP章节.|免费章节.|章节目录.|最新章节.|[\\(（【].*?[求更票谢乐发订合补加架字修Kk].*?[】）\\)]",
+    "name": "a.0@text"
   },
   "ruleToc": {
-    "chapterList": "class.mulu_list@tag.a",
-    "chapterName": "text",
+    "chapterList": ".mulu_list@li@a",
+    "chapterName": "text##正文卷.|正文.|VIP卷.|默认卷.|卷_|VIP章节.|免费章节.|章节目录.|最新章节.|[\\(（【].*?[求更票谢乐发订合补加架字修Kk].*?[】）\\)]|K",
     "chapterUrl": "href"
   },
-  "searchUrl": "https://www.changduzw.com/modules/article/search.php,{\n'charset': 'utf-8',\n'method': 'POST',\n'body': 'searchkey={{key}}&type=submit'\n}",
+  "searchUrl": "/modules/article/search.php,{\n  \"method\": \"post\",\n  \"body\": \"searchkey={{key}}&searchtype=articlename&submit=\"\n}",
   "weight": 0
 };
 

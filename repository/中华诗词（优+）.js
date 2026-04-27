@@ -1,26 +1,30 @@
 // @name 中华诗词（优+）
-// @version 2025.10.04
+// @version 2025.12.23
 // @author converted
-// @url https://m.zhonghuashici.com
+// @url https://m.zhonghuashici.com/
 // @enabled true
 // @tags 小说,书源,converted
+// @description 2024.5.24
+// @description 古诗鉴赏
+// @description by墨殇
 
 const LEGADO_SOURCE = {
+  "bookSourceComment": "2024.5.24\n古诗鉴赏\nby墨殇",
   "bookSourceGroup": "小说 书源",
   "bookSourceName": "中华诗词（优+）",
   "bookSourceType": 0,
-  "bookSourceUrl": "https://m.zhonghuashici.com",
+  "bookSourceUrl": "https://m.zhonghuashici.com/",
   "bookUrlPattern": "https://m.zhonghuashici.com/show-\\d+-\\d+.html",
   "customButton": false,
-  "customOrder": 79,
+  "customOrder": 80,
   "enabled": true,
   "enabledCookieJar": true,
   "enabledExplore": true,
   "eventListener": false,
   "exploreUrl": "[{\"title\":\"首页\",\"url\":\"/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":1.0}},{\"title\":\"古诗\",\"url\":\"/list-1-{{page-1}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},{\"title\":\"宋词\",\"url\":\"/list-2-{{page-1}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},{\"title\":\"元曲\",\"url\":\"/list-3-{{page-1}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},{\"title\":\"文言文\",\"url\":\"/list-4-{{page-1}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},{\"title\":\"诗人\",\"url\":\"/list-5-{{page-1}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},{\"title\":\"典籍\",\"url\":\"/list-6-{{page-1}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},{\"title\":\"故事\",\"url\":\"/list-7-{{page-1}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}}]",
   "header": "{\n\t\"User-Agent\": \"Mozilla/5.0 (Linux; Android 11; Phh-Treble vanilla Build/RQ3A.211001.001;) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/90.0.4430.91 Safari/537.36\"\n\t}",
-  "lastUpdateTime": 1759589191935,
-  "respondTime": 2316,
+  "lastUpdateTime": 1766457037491,
+  "respondTime": 5141,
   "ruleBookInfo": {
     "author": "span.0@text##作者：",
     "kind": "span.1@text",

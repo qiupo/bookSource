@@ -1,7 +1,7 @@
 // @name 酸奶漫画
 // @version 2025.10.02
 // @author converted
-// @url https://m.1kkk.com/
+// @url https://m.1kkk.com
 // @type comic
 // @enabled true
 // @tags 正版漫画,书源,图片,converted
@@ -10,15 +10,15 @@ const LEGADO_SOURCE = {
   "bookSourceGroup": "正版漫画 书源",
   "bookSourceName": "酸奶漫画",
   "bookSourceType": 2,
-  "bookSourceUrl": "https://m.1kkk.com/",
+  "bookSourceUrl": "https://m.1kkk.com",
   "customButton": false,
-  "customOrder": 451,
+  "customOrder": 452,
   "enabled": true,
   "enabledCookieJar": true,
   "enabledExplore": true,
   "eventListener": false,
-  "lastUpdateTime": 1759431577449,
-  "respondTime": 3500,
+  "lastUpdateTime": 1759431728809,
+  "respondTime": 632,
   "ruleBookInfo": {
     "author": "p.detail-main-info-author@tag.a@text",
     "coverUrl": "img.detail-main-bg@src",
